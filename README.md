@@ -4,8 +4,8 @@ A curated index of extensions for [MarkEdit](https://github.com/MarkEdit-app/Mar
 
 ## What's here
 
-- [extensions/](/extensions/)\<id\>.json: one entry per extension (the source of truth).
-- [themes/](/themes/)\<id\>.json: one entry per theme (an extension that only restyles the editor).
+- [extensions/](/extensions/)\<id\>.json: one entry per extension (the source of truth). Extensions change the editor's behavior.
+- [themes/](/themes/)\<id\>.json: one entry per theme. Themes change the editor's styling.
 - [index.json](/index.json): the generated feed the app reads. Do not edit by hand.
 - [site/](/site/): the generated gallery, published to [GitHub Pages](https://markedit-app.github.io/extensions/). Do not edit by hand.
 - [schemas/](/schemas/): JSON Schemas for `extensions`, `themes`, and `index.json`.
