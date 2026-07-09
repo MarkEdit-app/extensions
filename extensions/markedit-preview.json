@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-preview",
+  "name": "MarkEdit Preview",
+  "description": "HTML preview.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-preview",
+  "versions": [
+    {
+      "version": "1.8.1",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-preview/v1.8.1/dist/markedit-preview.js",
+      "sha256": "1532295f78826ed78e161ffdc0c7fdcf307bf0ac4664fbf7eb50dc4c741be0c8"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-09T11:46:52.787Z",
+  "extensions": [
+    {
+      "id": "markedit-ai-writer",
+      "name": "MarkEdit AI Writer",
+      "description": "AI writer based on Foundation Models.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-ai-writer",
+      "latest": {
+        "version": "1.1.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-ai-writer/v1.1.0/dist/markedit-ai-writer.js",
+        "sha256": "94115461fdd053fceffd15033f26490a48ab214546dca43fc389d51367b87ec3"
+      }
+    },
+    {
+      "id": "markedit-authorship",
+      "name": "MarkEdit Authorship",
+      "description": "iA Writer-style AI authorship rainbow highlighting.",
+      "author": "cinkoman",
+      "homepage": "https://github.com/cinkoman/MarkEdit-authorship",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/cinkoman/MarkEdit-authorship/v1.0/ai-rainbow.js",
+        "sha256": "bb62bf5b8c69a5fbe7fe95d9b6e37d180781642d360821dfb28883a71c696633"
+      }
+    },
+    {
+      "id": "markedit-devtools",
+      "name": "MarkEdit DevTools",
+      "description": "Dev Tools.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-devtools",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-devtools/v1.0.0/dist/markedit-devtools.js",
+        "sha256": "424251e05ae17e6fd63096592b38733c0ecb6869af45e14a51e2f07785d0b51c"
+      }
+    },
+    {
+      "id": "markedit-direct-preview",
+      "name": "MarkEdit Direct Preview",
+      "description": "A setup helper for the preview extension.",
+      "author": "Squarelight-ai",
+      "homepage": "https://github.com/Squarelight-ai/markedit-direct-preview",
+      "latest": {
+        "version": "0.1.0",
+        "url": "https://github.com/Squarelight-ai/markedit-direct-preview/releases/download/v0.1.0/markedit-direct-preview.js",
+        "sha256": "b6a3f48cc121232f184e896edeb6aa715d67f64bfbc10d5c9606a65ac5241960"
+      }
+    },
+    {
+      "id": "markedit-enhanced-paste",
+      "name": "MarkEdit Enhanced Paste",
+      "description": "Additional paste functionality.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-enhanced-paste",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-enhanced-paste/v1.0.0/dist/markedit-enhanced-paste.js",
+        "sha256": "ed7a0919815c5434e000b0bcf227aaa4555f9dc59bd5fe07d908e837e3789c19"
+      }
+    },
+    {
+      "id": "markedit-highlight",
+      "name": "MarkEdit Highlight",
+      "description": "Text Highlight.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-highlight",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-highlight/v1.0.0/dist/markedit-highlight.js",
+        "sha256": "3c8d443dda9bc8dffe3ec08e16cebb484d3c5c771274c981b6747fceac950aca"
+      }
+    },
+    {
+      "id": "markedit-hitl-review",
+      "name": "MarkEdit HITL Review",
+      "description": "Structured Human-in-the-Loop document review with multi-reviewer attribution.",
+      "author": "beauzone",
+      "homepage": "https://github.com/beauzone/MarkEdit-hitl-review",
+      "latest": {
+        "version": "0.0.0",
+        "url": "https://raw.githubusercontent.com/beauzone/MarkEdit-hitl-review/main/hitl-review.js",
+        "sha256": "f1b13bc17e8c61b157a3a8436dde6ba019fcd28dddb64c0688e3bdfef2a965c4"
+      }
+    },
+    {
+      "id": "markedit-lang-vue",
+      "name": "MarkEdit Vue Language",
+      "description": "Vue Language Package.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-lang-vue",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-lang-vue/v1.0.0/dist/markedit-lang-vue.js",
+        "sha256": "96dd3c0dc70064b0e4ecab64a475b50b78585a6bcaff6f3fc0746a8f10704034"
+      }
+    },
+    {
+      "id": "markedit-mte",
+      "name": "MarkEdit Table Editor",
+      "description": "Markdown Table Editor.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-mte",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-mte/v1.0.0/dist/markedit-mte.js",
+        "sha256": "1b08ad0dac94a423915416a57ad45b95bc5f3d70d29b77b00cdb02e34ce01700"
+      }
+    },
+    {
+      "id": "markedit-prettier",
+      "name": "MarkEdit Prettier",
+      "description": "Prettier.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-prettier",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-prettier/v1.0.0/dist/markedit-prettier.js",
+        "sha256": "cce9cf0b8df017114d942a1baee250c7f2fa5b2cbcdea4238f4f32a2be4a0940"
+      }
+    },
+    {
+      "id": "markedit-preview",
+      "name": "MarkEdit Preview",
+      "description": "HTML preview.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-preview",
+      "latest": {
+        "version": "1.8.1",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-preview/v1.8.1/dist/markedit-preview.js",
+        "sha256": "1532295f78826ed78e161ffdc0c7fdcf307bf0ac4664fbf7eb50dc4c741be0c8"
+      }
+    },
+    {
+      "id": "markedit-proofreading",
+      "name": "MarkEdit Proofreading",
+      "description": "Grammar checker based on Harper.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-proofreading",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-proofreading/releases/download/v1.0.0/markedit-proofreading.js",
+        "sha256": "2a33c4c0be315c519c6c59748240fd17af843d67ebe0800beabedb19c25666f2"
+      }
+    },
+    {
+      "id": "markedit-reference-style-links",
+      "name": "MarkEdit Reference Style Links",
+      "description": "Insert reference style links easily.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-reference-style-links",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-reference-style-links/v1.0.0/dist/markedit-reference-style-links.js",
+        "sha256": "9231d97135d9157cbba16e1cd0b17d80a787c7aaf6a1b9e3861eda1baa766707"
+      }
+    },
+    {
+      "id": "markedit-vim",
+      "name": "MarkEdit Vim",
+      "description": "Vim Keybindings.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-vim",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-vim/v1.0.0/dist/markedit-vim.js",
+        "sha256": "6b2bd014c98d307d502a7a8857514c3f74c2457dde9907ac300d97cae1facdac"
+      }
+    },
+    {
+      "id": "markedit-wikilinks",
+      "name": "MarkEdit Wikilinks",
+      "description": "[[wikilinks]] for MarkEdit.",
+      "author": "nuc",
+      "homepage": "https://github.com/nuc/MarkEdit-wikilinks",
+      "latest": {
+        "version": "0.1.3",
+        "url": "https://raw.githubusercontent.com/nuc/MarkEdit-wikilinks/v0.1.3/dist/markedit-wikilinks.js",
+        "sha256": "1d82f4c55406bc8cb811e14dfcdd40db97405df1ef6d6f48458bdbcada64f7a7"
+      }
+    }
+  ]
+}

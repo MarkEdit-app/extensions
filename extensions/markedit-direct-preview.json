@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-direct-preview",
+  "name": "MarkEdit Direct Preview",
+  "description": "A setup helper for the preview extension.",
+  "author": "Squarelight-ai",
+  "homepage": "https://github.com/Squarelight-ai/markedit-direct-preview",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "url": "https://github.com/Squarelight-ai/markedit-direct-preview/releases/download/v0.1.0/markedit-direct-preview.js",
+      "sha256": "b6a3f48cc121232f184e896edeb6aa715d67f64bfbc10d5c9606a65ac5241960"
+    }
+  ]
+}

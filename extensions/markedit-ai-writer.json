@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-ai-writer",
+  "name": "MarkEdit AI Writer",
+  "description": "AI writer based on Foundation Models.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-ai-writer",
+  "versions": [
+    {
+      "version": "1.1.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-ai-writer/v1.1.0/dist/markedit-ai-writer.js",
+      "sha256": "94115461fdd053fceffd15033f26490a48ab214546dca43fc389d51367b87ec3"
+    }
+  ]
+}

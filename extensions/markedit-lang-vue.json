@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-lang-vue",
+  "name": "MarkEdit Vue Language",
+  "description": "Vue Language Package.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-lang-vue",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-lang-vue/v1.0.0/dist/markedit-lang-vue.js",
+      "sha256": "96dd3c0dc70064b0e4ecab64a475b50b78585a6bcaff6f3fc0746a8f10704034"
+    }
+  ]
+}

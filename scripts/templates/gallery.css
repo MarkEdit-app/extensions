@@ -1,0 +1,163 @@
+/* GitHub Primer palette — light defaults, dark via prefers-color-scheme. */
+:root {
+  color-scheme: light dark;
+  --bg: #f6f8fa;
+  --fg: #1f2328;
+  --muted: #59636e;
+  --line: #d1d9e0;
+  --card: #ffffff;
+  --accent: #0969da;
+  --btn: #f6f8fa;
+  --hover: #eef1f4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --line: #30363d;
+    --card: #161b22;
+    --accent: #4493f8;
+    --btn: #21262d;
+    --hover: #30363d;
+  }
+}
+
+/* Base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 16px/1.5 -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 48px 24px 8px;
+}
+
+header h1 {
+  margin: 0 0 6px;
+  font-size: 26px;
+  letter-spacing: -0.01em;
+}
+
+header p {
+  margin: 0;
+  color: var(--muted);
+}
+
+/* Card grid */
+main {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 24px;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--card);
+}
+
+.card h2 {
+  margin: 0 0 8px;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.ver {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.desc {
+  margin: 0 0 10px;
+  font-size: 14px;
+}
+
+.meta {
+  margin: 0 0 16px;
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+.meta code {
+  font-size: 11.5px;
+}
+
+/* Action buttons */
+.actions {
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--btn);
+  color: var(--fg);
+  font-size: 13px;
+  font-weight: 500;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.btn:hover {
+  background: var(--hover);
+  border-color: var(--muted);
+}
+
+/* Monochrome icons, tinted with the button's text color via mask. */
+.icon {
+  width: 13px;
+  height: 13px;
+  background: currentColor;
+  opacity: 0.6;
+  -webkit-mask: var(--icon) center / contain no-repeat;
+  mask: var(--icon) center / contain no-repeat;
+}
+
+.icon-install {
+  --icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M8 1.75a.75.75 0 0 1 .75.75v5.19l1.72-1.72a.75.75 0 1 1 1.06 1.06L8.53 10.28a.75.75 0 0 1-1.06 0L4.47 7.03a.75.75 0 0 1 1.06-1.06l1.72 1.72V2.5A.75.75 0 0 1 8 1.75Z'/><path d='M2.75 10.5a.75.75 0 0 1 .75.75v1c0 .14.11.25.25.25h8.5a.25.25 0 0 0 .25-.25v-1a.75.75 0 0 1 1.5 0v1A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-1a.75.75 0 0 1 .75-.75Z'/></svg>");
+}
+
+.icon-link {
+  --icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M6.75 3.5a.75.75 0 0 1 0 1.5H4.25a.75.75 0 0 0-.75.75v6.25c0 .414.336.75.75.75h6.25a.75.75 0 0 0 .75-.75V9.25a.75.75 0 0 1 1.5 0v2.75A2.25 2.25 0 0 1 10.5 14.25H4.25A2.25 2.25 0 0 1 2 12V5.75A2.25 2.25 0 0 1 4.25 3.5h2.5Z'/><path d='M9.5 2.5a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0V4.56L8.28 8.78a.75.75 0 0 1-1.06-1.06l4.22-4.22h-1.19a.75.75 0 0 1-.75-.75Z'/></svg>");
+}
+
+/* Footer */
+footer {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 8px 24px 48px;
+  font-size: 13px;
+  color: var(--muted);
+}

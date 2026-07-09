@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-proofreading",
+  "name": "MarkEdit Proofreading",
+  "description": "Grammar checker based on Harper.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-proofreading",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://github.com/MarkEdit-app/MarkEdit-proofreading/releases/download/v1.0.0/markedit-proofreading.js",
+      "sha256": "2a33c4c0be315c519c6c59748240fd17af843d67ebe0800beabedb19c25666f2"
+    }
+  ]
+}

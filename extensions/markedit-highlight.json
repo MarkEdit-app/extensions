@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-highlight",
+  "name": "MarkEdit Highlight",
+  "description": "Text Highlight.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-highlight",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-highlight/v1.0.0/dist/markedit-highlight.js",
+      "sha256": "3c8d443dda9bc8dffe3ec08e16cebb484d3c5c771274c981b6747fceac950aca"
+    }
+  ]
+}

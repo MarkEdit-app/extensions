@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-prettier",
+  "name": "MarkEdit Prettier",
+  "description": "Prettier.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-prettier",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-prettier/v1.0.0/dist/markedit-prettier.js",
+      "sha256": "cce9cf0b8df017114d942a1baee250c7f2fa5b2cbcdea4238f4f32a2be4a0940"
+    }
+  ]
+}

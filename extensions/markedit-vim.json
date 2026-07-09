@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-vim",
+  "name": "MarkEdit Vim",
+  "description": "Vim Keybindings.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-vim",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-vim/v1.0.0/dist/markedit-vim.js",
+      "sha256": "6b2bd014c98d307d502a7a8857514c3f74c2457dde9907ac300d97cae1facdac"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-mte",
+  "name": "MarkEdit Table Editor",
+  "description": "Markdown Table Editor.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-mte",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-mte/v1.0.0/dist/markedit-mte.js",
+      "sha256": "1b08ad0dac94a423915416a57ad45b95bc5f3d70d29b77b00cdb02e34ce01700"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/index.schema.json",
+  "title": "MarkEdit Extension Registry Index",
+  "description": "Generated feed the app and tools read. Do not edit by hand.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "generatedAt",
+    "extensions"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "extensions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": [
+          "id",
+          "name",
+          "description",
+          "author",
+          "homepage",
+          "latest"
+        ],
+        "properties": {
+          "latest": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "The newest build the app should install. Full history stays in extensions/<id>.json.",
+            "required": [
+              "version",
+              "url",
+              "sha256"
+            ],
+            "properties": {
+              "version": {
+                "type": "string",
+                "description": "Resolved newest version, e.g. \"1.2.0\"."
+              },
+              "url": {
+                "type": "string",
+                "description": "HTTPS URL of the injectable .js (the file the editor injects)."
+              },
+              "sha256": {
+                "type": "string",
+                "description": "SHA-256 of the file at url."
+              },
+              "minAppVersion": {
+                "type": "string",
+                "description": "Minimum MarkEdit version. Defaults to 1.0.0."
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

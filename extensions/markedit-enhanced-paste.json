@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-enhanced-paste",
+  "name": "MarkEdit Enhanced Paste",
+  "description": "Additional paste functionality.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-enhanced-paste",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-enhanced-paste/v1.0.0/dist/markedit-enhanced-paste.js",
+      "sha256": "ed7a0919815c5434e000b0bcf227aaa4555f9dc59bd5fe07d908e837e3789c19"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-hitl-review",
+  "name": "MarkEdit HITL Review",
+  "description": "Structured Human-in-the-Loop document review with multi-reviewer attribution.",
+  "author": "beauzone",
+  "homepage": "https://github.com/beauzone/MarkEdit-hitl-review",
+  "versions": [
+    {
+      "version": "0.0.0",
+      "url": "https://raw.githubusercontent.com/beauzone/MarkEdit-hitl-review/main/hitl-review.js",
+      "sha256": "f1b13bc17e8c61b157a3a8436dde6ba019fcd28dddb64c0688e3bdfef2a965c4"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-wikilinks",
+  "name": "MarkEdit Wikilinks",
+  "description": "[[wikilinks]] for MarkEdit.",
+  "author": "nuc",
+  "homepage": "https://github.com/nuc/MarkEdit-wikilinks",
+  "versions": [
+    {
+      "version": "0.1.3",
+      "url": "https://raw.githubusercontent.com/nuc/MarkEdit-wikilinks/v0.1.3/dist/markedit-wikilinks.js",
+      "sha256": "1d82f4c55406bc8cb811e14dfcdd40db97405df1ef6d6f48458bdbcada64f7a7"
+    }
+  ]
+}

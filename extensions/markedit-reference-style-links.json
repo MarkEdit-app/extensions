@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-reference-style-links",
+  "name": "MarkEdit Reference Style Links",
+  "description": "Insert reference style links easily.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-reference-style-links",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-reference-style-links/v1.0.0/dist/markedit-reference-style-links.js",
+      "sha256": "9231d97135d9157cbba16e1cd0b17d80a787c7aaf6a1b9e3861eda1baa766707"
+    }
+  ]
+}

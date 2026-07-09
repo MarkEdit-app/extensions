@@ -1,0 +1,13 @@
+{
+  "name": "markedit-extension-registry",
+  "private": true,
+  "type": "module",
+  "description": "Curated registry of MarkEdit extensions.",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-authorship",
+  "name": "MarkEdit Authorship",
+  "description": "iA Writer-style AI authorship rainbow highlighting.",
+  "author": "cinkoman",
+  "homepage": "https://github.com/cinkoman/MarkEdit-authorship",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/cinkoman/MarkEdit-authorship/v1.0/ai-rainbow.js",
+      "sha256": "bb62bf5b8c69a5fbe7fe95d9b6e37d180781642d360821dfb28883a71c696633"
+    }
+  ]
+}
