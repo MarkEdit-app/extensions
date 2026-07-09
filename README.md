@@ -4,10 +4,12 @@ A curated index of extensions for [MarkEdit](https://github.com/MarkEdit-app/Mar
 
 ## What's here
 
-- [entries/](/entries/)\<id\>.json — one entry per extension (the source of truth).
-- [index.json](/index.json) — the generated feed the app reads. Do not edit by hand; CI regenerates it.
-- [schemas/](/schemas/) — JSON Schemas for both files.
-- [site/](/site/) — the generated gallery, published to GitHub Pages.
+- [entries/](/entries/)\<id\>.json: one entry per extension (the source of truth).
+- [index.json](/index.json): the generated feed the app reads. Do not edit by hand.
+- [site/](/site/): the generated gallery, published to [GitHub Pages](https://markedit-app.github.io/extensions/). Do not edit by hand.
+- [schemas/](/schemas/): JSON Schemas for `entries` and `index.json`.
+
+In most cases, adding or updating an entry only requires changes under `entries/`.
 
 ## Entry format
 
@@ -51,14 +53,10 @@ CI validates the schema, `id`/filename match, and that each `sha256` matches the
 
 ```sh
 yarn install --frozen-lockfile
-yarn build                       # validate + fetch + hash-check, then write index.json and site/
+yarn build # validate + fetch + hash-check, then write index.json and site/
 CHECK_INTEGRITY=false yarn build # schema-only, no downloads
 ```
 
 ## Review criteria
 
-We review provenance and integrity, not quality: the source is identifiable, the `url` is HTTPS and reachable, and `sha256` matches.
-
-## License
-
-See [LICENSE](LICENSE).
+We review provenance and integrity: the source is identifiable, the `url` is HTTPS and reachable, and `sha256` matches. We also do a basic quality pass: the extension should do what it claims and must not be malicious, but we don't judge taste or completeness.
