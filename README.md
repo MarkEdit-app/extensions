@@ -4,7 +4,7 @@ A curated index of extensions for [MarkEdit](https://github.com/MarkEdit-app/Mar
 
 ## What's here
 
-- [extensions/](/extensions/)\<id\>.json — one entry per extension (the source of truth).
+- [entries/](/entries/)\<id\>.json — one entry per extension (the source of truth).
 - [index.json](/index.json) — the generated feed the app reads. Do not edit by hand; CI regenerates it.
 - [schemas/](/schemas/) — JSON Schemas for both files.
 - [site/](/site/) — the generated gallery, published to GitHub Pages.
@@ -36,7 +36,7 @@ A curated index of extensions for [MarkEdit](https://github.com/MarkEdit-app/Mar
 
 ## Contributing
 
-1. Add or update [extensions/](/extensions/)\<id\>.json.
+1. Add or update [entries/](/entries/)\<id\>.json.
 2. Compute the hash for each `url`:
 
    ```sh

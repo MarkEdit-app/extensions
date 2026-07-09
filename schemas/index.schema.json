@@ -35,7 +35,7 @@
           "latest": {
             "type": "object",
             "additionalProperties": false,
-            "description": "The newest build the app should install. Full history stays in extensions/<id>.json.",
+            "description": "The newest build the app should install. Full history stays in entries/<id>.json.",
             "required": [
               "version",
               "url",

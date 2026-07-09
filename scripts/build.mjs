@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-// Validates extensions/*.json, builds index.json, and renders site/index.html.
+// Validates entries/*.json, builds index.json, and renders site/index.html.
 // The gallery markup/styles live in ./templates/ (rendered by ./lib/gallery.mjs).
 // Set CHECK_INTEGRITY=false to skip network downloads (schema-only).
 
@@ -14,7 +14,7 @@ import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const extensionsDir = join(root, 'extensions');
+const entriesDir = join(root, 'entries');
 const schemasDir = join(root, 'schemas');
 const checkIntegrity = process.env.CHECK_INTEGRITY !== 'false';
 
@@ -28,7 +28,7 @@ const validateIndex = ajv.compile(readJSON(join(schemasDir, 'index.schema.json')
 const errors = [];
 const onError = (message) => errors.push(message);
 
-const files = readdirSync(extensionsDir).filter((name) => name.endsWith('.json')).sort();
+const files = readdirSync(entriesDir).filter((name) => name.endsWith('.json')).sort();
 const seenIds = new Set();
 const entries = [];
 const verifyTargets = [];
@@ -36,7 +36,7 @@ const verifyTargets = [];
 for (const file of files) {
   let data;
   try {
-    data = readJSON(join(extensionsDir, file));
+    data = readJSON(join(entriesDir, file));
   } catch (error) {
     onError(`${file}: invalid JSON - ${error.message}`);
     continue;
@@ -62,7 +62,7 @@ for (const file of files) {
   seenIds.add(data.id);
 
   // The registry vouches for every listed build, so verify them all; the index
-  // exposes only the newest one (full history stays in extensions/<id>.json).
+  // exposes only the newest one (full history stays in entries/<id>.json).
   const versions = [...data.versions].sort((a, b) => compareSemver(b.version, a.version));
   for (const version of versions) {
     verifyTargets.push({ id: data.id, version });
