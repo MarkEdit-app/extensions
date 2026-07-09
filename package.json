@@ -1,5 +1,5 @@
 {
-  "name": "markedit-extension-registry",
+  "name": "markedit-extensions",
   "private": true,
   "type": "module",
   "description": "Curated registry of MarkEdit extensions.",

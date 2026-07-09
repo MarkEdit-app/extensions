@@ -13,7 +13,7 @@ A curated index of extensions for [MarkEdit](https://github.com/MarkEdit-app/Mar
 
 ```json
 {
-  "$schema": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/extension.schema.json",
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-preview",
   "name": "MarkEdit Preview",
   "description": "A live preview pane for the current document.",

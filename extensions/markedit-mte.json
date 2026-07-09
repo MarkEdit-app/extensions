@@ -1,5 +1,5 @@
 {
-  "$schema": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/extension.schema.json",
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-mte",
   "name": "MarkEdit Table Editor",
   "description": "Markdown Table Editor.",

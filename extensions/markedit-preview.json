@@ -1,5 +1,5 @@
 {
-  "$schema": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/extension.schema.json",
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-preview",
   "name": "MarkEdit Preview",
   "description": "HTML preview.",

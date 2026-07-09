@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/extension.schema.json",
+  "$id": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "title": "MarkEdit Extension Registry Entry",
   "description": "One reviewed extension in the MarkEdit extension registry (extensions/<id>.json).",
   "type": "object",

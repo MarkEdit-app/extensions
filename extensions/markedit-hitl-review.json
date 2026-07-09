@@ -1,5 +1,5 @@
 {
-  "$schema": "https://github.com/MarkEdit-app/extension-registry/raw/refs/heads/main/schemas/extension.schema.json",
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-hitl-review",
   "name": "MarkEdit HITL Review",
   "description": "Structured Human-in-the-Loop document review with multi-reviewer attribution.",
