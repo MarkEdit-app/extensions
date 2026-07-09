@@ -25,6 +25,7 @@
         "additionalProperties": true,
         "required": [
           "id",
+          "category",
           "name",
           "description",
           "author",
@@ -32,10 +33,28 @@
           "latest"
         ],
         "properties": {
+          "category": {
+            "type": "string",
+            "enum": ["extension", "theme"],
+            "description": "Entry kind. Themes only customize the editor's appearance."
+          },
+          "colorScheme": {
+            "type": "string",
+            "enum": ["light", "dark", "both"],
+            "description": "Color scheme a theme supports. Present for themes."
+          },
+          "screenshots": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            },
+            "description": "Screenshot URLs. Present for themes."
+          },
           "latest": {
             "type": "object",
             "additionalProperties": false,
-            "description": "The newest build the app should install. Full history stays in entries/<id>.json.",
+            "description": "The newest build the app should install. Full history stays in the source entry.",
             "required": [
               "version",
               "url",
@@ -60,6 +79,16 @@
               }
             }
           }
+        },
+        "if": {
+          "properties": {
+            "category": {
+              "const": "theme"
+            }
+          }
+        },
+        "then": {
+          "required": ["colorScheme", "screenshots"]
         }
       }
     }

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/theme.schema.json",
+  "id": "markedit-theme-basic",
+  "name": "Basic",
+  "description": "Basic theme for MarkEdit.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-basic",
+  "colorScheme": "both",
+  "screenshots": [
+    "https://github.com/user-attachments/assets/f23bc7bf-49df-42fa-92c2-7452e8d0dec0",
+    "https://github.com/user-attachments/assets/45dc0def-1476-4a2b-9650-63eac51f2d8e"
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-basic/v1.0.0/dist/markedit-theme-basic.js",
+      "sha256": "36aa2857372dff13b5d6c2fd0f36f3fea9efb14b6742fa3e9d7a28cc966951ee"
+    }
+  ]
+}

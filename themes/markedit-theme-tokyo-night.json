@@ -1,0 +1,20 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/theme.schema.json",
+  "id": "markedit-theme-tokyo-night",
+  "name": "Tokyo Night",
+  "description": "Tokyo Night theme for MarkEdit.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-tokyo-night",
+  "colorScheme": "both",
+  "screenshots": [
+    "https://github.com/user-attachments/assets/314243e9-4dc4-4fdb-a540-bd4dd4fc0caa",
+    "https://github.com/user-attachments/assets/7df199aa-6cd5-4a81-9a7e-b88f2986e0c1"
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-tokyo-night/v1.0.0/dist/markedit-theme-tokyo-night.js",
+      "sha256": "82f4b0724c654d9aa5270f444a5e39cf887da3f7c1d18d45db69bd31c5496de6"
+    }
+  ]
+}

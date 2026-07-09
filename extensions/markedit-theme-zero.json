@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-theme-zero",
+  "name": "Zero",
+  "description": "Zero theme for MarkEdit.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-zero",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-zero/v1.0.0/dist/markedit-theme-zero.js",
+      "sha256": "f97a85c385c87ca6d05333df53df80a2761ed44ff8a1848ef7bbe6e5efcec0d7"
+    }
+  ]
+}

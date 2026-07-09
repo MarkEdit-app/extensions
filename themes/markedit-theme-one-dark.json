@@ -1,0 +1,19 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/theme.schema.json",
+  "id": "markedit-theme-one-dark",
+  "name": "One Dark",
+  "description": "One Dark theme for MarkEdit.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-one-dark",
+  "colorScheme": "dark",
+  "screenshots": [
+    "https://github.com/user-attachments/assets/52603145-d096-4bbb-b46f-d6b7826e7982"
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-one-dark/v1.0.0/dist/markedit-theme-one-dark.js",
+      "sha256": "0cd771f25cf73773332d38e6b5b9368bb24c2b77895c32ebecd0356e04511f02"
+    }
+  ]
+}

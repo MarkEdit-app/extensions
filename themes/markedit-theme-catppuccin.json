@@ -1,0 +1,20 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/theme.schema.json",
+  "id": "markedit-theme-catppuccin",
+  "name": "Catppuccin",
+  "description": "Catppuccin theme for MarkEdit.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-catppuccin",
+  "colorScheme": "both",
+  "screenshots": [
+    "https://github.com/user-attachments/assets/4106bb2b-c312-4213-aff3-40544be634cc",
+    "https://github.com/user-attachments/assets/4c836437-acc2-461f-8805-7d8bb36d4b90"
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-catppuccin/v1.0.0/dist/markedit-theme-catppuccin.js",
+      "sha256": "ae27ae2f81e5865028e8c1d7d1a87254a18097e78e9dfcda113ed6f7882614d6"
+    }
+  ]
+}

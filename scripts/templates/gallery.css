@@ -60,17 +60,69 @@ header p {
   color: var(--muted);
 }
 
+.jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.jump a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--fg);
+  font-size: 13px;
+  font-weight: 500;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.jump a:hover {
+  background: var(--hover);
+  border-color: var(--muted);
+}
+
+.nav-count {
+  font-size: 11px;
+  color: var(--muted);
+}
+
 /* Card grid */
 main {
   max-width: 920px;
   margin: 0 auto;
   padding: 24px;
+}
+
+.group {
+  scroll-margin-top: 16px;
+}
+
+.group + .group {
+  margin-top: 24px;
+}
+
+.group-title {
+  margin: 8px 0 10px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.grid {
   display: grid;
   gap: 14px;
   grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
 }
 
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   padding: 18px;
@@ -92,6 +144,86 @@ main {
   font-size: 12px;
   font-weight: 500;
   color: var(--muted);
+}
+
+.scheme {
+  margin-left: auto;
+  align-self: center;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--muted);
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 1px 8px;
+}
+
+.preview {
+  margin: 0 0 12px;
+}
+
+/* Radios drive the tab state; kept accessible but visually hidden. */
+.preview .tab-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Compact Light/Dark switch pinned to the card's top-right, opposite the name. */
+.tabs {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  z-index: 1;
+  display: inline-flex;
+  gap: 2px;
+  padding: 2px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--card);
+}
+
+.tabs label {
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
+  padding: 1px 8px;
+  border-radius: 5px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.tab-input.light:checked ~ .tabs label[for$="-light"],
+.tab-input.dark:checked ~ .tabs label[for$="-dark"] {
+  color: var(--fg);
+  background: var(--hover);
+}
+
+.tab-input:focus-visible ~ .tabs label {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.frames {
+  overflow: hidden;
+}
+
+.frame {
+  display: none;
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.preview.single .frame,
+.tab-input.light:checked ~ .frames .frame.light,
+.tab-input.dark:checked ~ .frames .frame.dark {
+  display: block;
 }
 
 .desc {

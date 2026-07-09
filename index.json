@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-09T13:36:25.480Z",
+  "generatedAt": "2026-07-09T14:45:46.548Z",
   "extensions": [
     {
       "id": "markedit-ai-writer",
@@ -8,6 +8,7 @@
       "description": "AI writer based on Foundation Models.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-ai-writer",
+      "category": "extension",
       "latest": {
         "version": "1.1.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-ai-writer/v1.1.0/dist/markedit-ai-writer.js",
@@ -20,6 +21,7 @@
       "description": "iA Writer-style AI authorship rainbow highlighting.",
       "author": "cinkoman",
       "homepage": "https://github.com/cinkoman/MarkEdit-authorship",
+      "category": "extension",
       "latest": {
         "version": "1.0.0",
         "url": "https://raw.githubusercontent.com/cinkoman/MarkEdit-authorship/v1.0/ai-rainbow.js",
@@ -32,6 +34,7 @@
       "description": "Dev Tools.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-devtools",
+      "category": "extension",
       "latest": {
         "version": "1.0.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-devtools/v1.0.0/dist/markedit-devtools.js",
@@ -44,6 +47,7 @@
       "description": "A setup helper for the preview extension.",
       "author": "Squarelight-ai",
       "homepage": "https://github.com/Squarelight-ai/markedit-direct-preview",
+      "category": "extension",
       "latest": {
         "version": "0.1.0",
         "url": "https://github.com/Squarelight-ai/markedit-direct-preview/releases/download/v0.1.0/markedit-direct-preview.js",
@@ -56,6 +60,7 @@
       "description": "Additional paste functionality.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-enhanced-paste",
+      "category": "extension",
       "latest": {
         "version": "1.0.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-enhanced-paste/v1.0.0/dist/markedit-enhanced-paste.js",
@@ -68,6 +73,7 @@
       "description": "Text Highlight.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-highlight",
+      "category": "extension",
       "latest": {
         "version": "1.0.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-highlight/v1.0.0/dist/markedit-highlight.js",
@@ -80,6 +86,7 @@
       "description": "Structured Human-in-the-Loop document review with multi-reviewer attribution.",
       "author": "beauzone",
       "homepage": "https://github.com/beauzone/MarkEdit-hitl-review",
+      "category": "extension",
       "latest": {
         "version": "0.0.0",
         "url": "https://raw.githubusercontent.com/beauzone/MarkEdit-hitl-review/main/hitl-review.js",
@@ -92,6 +99,7 @@
       "description": "Vue Language Package.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-lang-vue",
+      "category": "extension",
       "latest": {
         "version": "1.0.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-lang-vue/v1.0.0/dist/markedit-lang-vue.js",
@@ -104,6 +112,7 @@
       "description": "Markdown Table Editor.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-mte",
+      "category": "extension",
       "latest": {
         "version": "1.0.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-mte/v1.0.0/dist/markedit-mte.js",
@@ -116,6 +125,7 @@
       "description": "Prettier.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-prettier",
+      "category": "extension",
       "latest": {
         "version": "1.0.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-prettier/v1.0.0/dist/markedit-prettier.js",
@@ -128,6 +138,7 @@
       "description": "HTML preview.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-preview",
+      "category": "extension",
       "latest": {
         "version": "1.8.1",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-preview/v1.8.1/dist/markedit-preview.js",
@@ -140,6 +151,7 @@
       "description": "Grammar checker based on Harper.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-proofreading",
+      "category": "extension",
       "latest": {
         "version": "1.0.0",
         "url": "https://github.com/MarkEdit-app/MarkEdit-proofreading/releases/download/v1.0.0/markedit-proofreading.js",
@@ -152,10 +164,200 @@
       "description": "Insert reference style links easily.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-reference-style-links",
+      "category": "extension",
       "latest": {
         "version": "1.0.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-reference-style-links/v1.0.0/dist/markedit-reference-style-links.js",
         "sha256": "9231d97135d9157cbba16e1cd0b17d80a787c7aaf6a1b9e3861eda1baa766707"
+      }
+    },
+    {
+      "id": "markedit-theme-basic",
+      "name": "Basic",
+      "description": "Basic theme for MarkEdit.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-basic",
+      "colorScheme": "both",
+      "screenshots": [
+        "https://github.com/user-attachments/assets/f23bc7bf-49df-42fa-92c2-7452e8d0dec0",
+        "https://github.com/user-attachments/assets/45dc0def-1476-4a2b-9650-63eac51f2d8e"
+      ],
+      "category": "theme",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-basic/v1.0.0/dist/markedit-theme-basic.js",
+        "sha256": "36aa2857372dff13b5d6c2fd0f36f3fea9efb14b6742fa3e9d7a28cc966951ee"
+      }
+    },
+    {
+      "id": "markedit-theme-catppuccin",
+      "name": "Catppuccin",
+      "description": "Catppuccin theme for MarkEdit.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-catppuccin",
+      "colorScheme": "both",
+      "screenshots": [
+        "https://github.com/user-attachments/assets/4106bb2b-c312-4213-aff3-40544be634cc",
+        "https://github.com/user-attachments/assets/4c836437-acc2-461f-8805-7d8bb36d4b90"
+      ],
+      "category": "theme",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-catppuccin/v1.0.0/dist/markedit-theme-catppuccin.js",
+        "sha256": "ae27ae2f81e5865028e8c1d7d1a87254a18097e78e9dfcda113ed6f7882614d6"
+      }
+    },
+    {
+      "id": "markedit-theme-duotone",
+      "name": "DuoTone",
+      "description": "DuoTone theme for MarkEdit.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-duotone",
+      "colorScheme": "both",
+      "screenshots": [
+        "https://github.com/user-attachments/assets/23fadf2a-701a-4b78-81c4-c182ecb231d5",
+        "https://github.com/user-attachments/assets/b6a70da8-f8b7-4e96-801a-aecbfb82724b"
+      ],
+      "category": "theme",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-duotone/v1.0.0/dist/markedit-theme-duotone.js",
+        "sha256": "f1b1e8773292a87efd13ae5b291efcbda4daef87fa752279f22a1251a876875e"
+      }
+    },
+    {
+      "id": "markedit-theme-gruvbox",
+      "name": "Gruvbox",
+      "description": "Gruvbox theme for MarkEdit.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-gruvbox",
+      "colorScheme": "both",
+      "screenshots": [
+        "https://github.com/user-attachments/assets/a71bf7e7-dfc6-4523-a4d4-789204233eb7",
+        "https://github.com/user-attachments/assets/5943a526-9391-49f6-8e68-c75ba49f7210"
+      ],
+      "category": "theme",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-gruvbox/v1.0.0/dist/markedit-theme-gruvbox.js",
+        "sha256": "d2abe83583370c16d47d4cc27f61ec96fc65fce7c093b5913f72b2a1bcc8cdd4"
+      }
+    },
+    {
+      "id": "markedit-theme-noctis-lilac",
+      "name": "Noctis Lilac",
+      "description": "Noctis Lilac theme for MarkEdit.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-noctis-lilac",
+      "colorScheme": "light",
+      "screenshots": [
+        "https://github.com/user-attachments/assets/e55ed6b7-1779-49e9-a185-ba2b029f42ce"
+      ],
+      "category": "theme",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-noctis-lilac/v1.0.0/dist/markedit-theme-noctis-lilac.js",
+        "sha256": "2813adad175d5e1fa4eeefdea65fc458ab8605204c5598bc1f90f149d8be7e22"
+      }
+    },
+    {
+      "id": "markedit-theme-nord",
+      "name": "Nord",
+      "description": "Nord theme for MarkEdit.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-nord",
+      "colorScheme": "dark",
+      "screenshots": [
+        "https://github.com/user-attachments/assets/838ca6f1-27d9-4e63-a601-46453bdb23e6"
+      ],
+      "category": "theme",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-nord/v1.0.0/dist/markedit-theme-nord.js",
+        "sha256": "ab6ba9fb2bd78685db1e01d89186e8e721a59401fe0544b929b0fcec750590fa"
+      }
+    },
+    {
+      "id": "markedit-theme-one-dark",
+      "name": "One Dark",
+      "description": "One Dark theme for MarkEdit.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-one-dark",
+      "colorScheme": "dark",
+      "screenshots": [
+        "https://github.com/user-attachments/assets/52603145-d096-4bbb-b46f-d6b7826e7982"
+      ],
+      "category": "theme",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-one-dark/v1.0.0/dist/markedit-theme-one-dark.js",
+        "sha256": "0cd771f25cf73773332d38e6b5b9368bb24c2b77895c32ebecd0356e04511f02"
+      }
+    },
+    {
+      "id": "markedit-theme-quietlight",
+      "name": "Quiet Light",
+      "description": "Quiet Light theme for MarkEdit.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-quietlight",
+      "colorScheme": "light",
+      "screenshots": [
+        "https://github.com/user-attachments/assets/872f8d5c-30c3-4726-9801-90ad9e75508c"
+      ],
+      "category": "theme",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-quietlight/v1.0.0/dist/markedit-theme-quietlight.js",
+        "sha256": "f121285a5de1b5ffa281a9077aab287715bf88ec1cdc70bedf8f80a64a701f4f"
+      }
+    },
+    {
+      "id": "markedit-theme-tokyo-night",
+      "name": "Tokyo Night",
+      "description": "Tokyo Night theme for MarkEdit.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-tokyo-night",
+      "colorScheme": "both",
+      "screenshots": [
+        "https://github.com/user-attachments/assets/314243e9-4dc4-4fdb-a540-bd4dd4fc0caa",
+        "https://github.com/user-attachments/assets/7df199aa-6cd5-4a81-9a7e-b88f2986e0c1"
+      ],
+      "category": "theme",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-tokyo-night/v1.0.0/dist/markedit-theme-tokyo-night.js",
+        "sha256": "82f4b0724c654d9aa5270f444a5e39cf887da3f7c1d18d45db69bd31c5496de6"
+      }
+    },
+    {
+      "id": "markedit-theme-vscode",
+      "name": "VS Code",
+      "description": "VS Code theme for MarkEdit.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-vscode",
+      "colorScheme": "both",
+      "screenshots": [
+        "https://github.com/user-attachments/assets/fddcb291-75d0-461c-8dbd-b9230bcc524e",
+        "https://github.com/user-attachments/assets/fd0d5de6-db2c-4399-ab88-750b87c5d673"
+      ],
+      "category": "theme",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-vscode/v1.0.0/dist/markedit-theme-vscode.js",
+        "sha256": "35fa546038d8c41544c7260ca7e99cb21450df4b540bfbdc96712d34c987f2bc"
+      }
+    },
+    {
+      "id": "markedit-theme-zero",
+      "name": "Zero",
+      "description": "Zero theme for MarkEdit.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-zero",
+      "category": "extension",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-zero/v1.0.0/dist/markedit-theme-zero.js",
+        "sha256": "f97a85c385c87ca6d05333df53df80a2761ed44ff8a1848ef7bbe6e5efcec0d7"
       }
     },
     {
@@ -164,6 +366,7 @@
       "description": "Vim Keybindings.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-vim",
+      "category": "extension",
       "latest": {
         "version": "1.0.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-vim/v1.0.0/dist/markedit-vim.js",
@@ -176,6 +379,7 @@
       "description": "[[wikilinks]] for MarkEdit.",
       "author": "nuc",
       "homepage": "https://github.com/nuc/MarkEdit-wikilinks",
+      "category": "extension",
       "latest": {
         "version": "0.1.3",
         "url": "https://raw.githubusercontent.com/nuc/MarkEdit-wikilinks/v0.1.3/dist/markedit-wikilinks.js",

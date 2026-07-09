@@ -1,0 +1,20 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/theme.schema.json",
+  "id": "markedit-theme-duotone",
+  "name": "DuoTone",
+  "description": "DuoTone theme for MarkEdit.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-duotone",
+  "colorScheme": "both",
+  "screenshots": [
+    "https://github.com/user-attachments/assets/23fadf2a-701a-4b78-81c4-c182ecb231d5",
+    "https://github.com/user-attachments/assets/b6a70da8-f8b7-4e96-801a-aecbfb82724b"
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-duotone/v1.0.0/dist/markedit-theme-duotone.js",
+      "sha256": "f1b1e8773292a87efd13ae5b291efcbda4daef87fa752279f22a1251a876875e"
+    }
+  ]
+}

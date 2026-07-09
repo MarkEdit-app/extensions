@@ -1,0 +1,19 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/theme.schema.json",
+  "id": "markedit-theme-nord",
+  "name": "Nord",
+  "description": "Nord theme for MarkEdit.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-nord",
+  "colorScheme": "dark",
+  "screenshots": [
+    "https://github.com/user-attachments/assets/838ca6f1-27d9-4e63-a601-46453bdb23e6"
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-nord/v1.0.0/dist/markedit-theme-nord.js",
+      "sha256": "ab6ba9fb2bd78685db1e01d89186e8e721a59401fe0544b929b0fcec750590fa"
+    }
+  ]
+}

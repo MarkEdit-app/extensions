@@ -1,0 +1,20 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/theme.schema.json",
+  "id": "markedit-theme-vscode",
+  "name": "VS Code",
+  "description": "VS Code theme for MarkEdit.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-vscode",
+  "colorScheme": "both",
+  "screenshots": [
+    "https://github.com/user-attachments/assets/fddcb291-75d0-461c-8dbd-b9230bcc524e",
+    "https://github.com/user-attachments/assets/fd0d5de6-db2c-4399-ab88-750b87c5d673"
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-vscode/v1.0.0/dist/markedit-theme-vscode.js",
+      "sha256": "35fa546038d8c41544c7260ca7e99cb21450df4b540bfbdc96712d34c987f2bc"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/theme.schema.json",
+  "title": "MarkEdit Theme Registry Entry",
+  "description": "One reviewed theme in the MarkEdit extension registry (themes/<id>.json). Themes only customize the editor's appearance.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "description",
+    "author",
+    "homepage",
+    "colorScheme",
+    "screenshots",
+    "versions"
+  ],
+  "definitions": {
+    "version": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version",
+        "url",
+        "sha256"
+      ],
+      "properties": {
+        "version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?:-[0-9A-Za-z-.]+)?(?:\\+[0-9A-Za-z-.]+)?$",
+          "description": "Semantic version, e.g. \"1.2.0\"."
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://",
+          "description": "HTTPS URL of the injectable .js, e.g. the built dist/<id>.js committed at a release tag."
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-fA-F0-9]{64}$",
+          "description": "SHA-256 of the file at url (the exact bytes the editor injects)."
+        },
+        "minAppVersion": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?:-[0-9A-Za-z-.]+)?(?:\\+[0-9A-Za-z-.]+)?$",
+          "description": "Minimum MarkEdit version. Defaults to 1.0.0."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Short release notes."
+        }
+      }
+    }
+  },
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "JSON Schema reference for editor tooling."
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Unique identifier; kebab-case; must equal the filename."
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name."
+    },
+    "description": {
+      "type": "string",
+      "description": "One-line summary."
+    },
+    "author": {
+      "type": "string",
+      "description": "Author name or handle."
+    },
+    "homepage": {
+      "type": "string",
+      "format": "uri",
+      "description": "Project homepage."
+    },
+    "colorScheme": {
+      "type": "string",
+      "enum": ["light", "dark", "both"],
+      "description": "Color scheme the theme supports."
+    },
+    "screenshots": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https://"
+      },
+      "description": "HTTPS screenshot URLs shown in the gallery and Extension Manager."
+    },
+    "versions": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Short list, newest resolved as \"latest\".",
+      "items": {
+        "$ref": "#/definitions/version"
+      }
+    }
+  }
+}

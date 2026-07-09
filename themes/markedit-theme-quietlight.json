@@ -1,0 +1,19 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/theme.schema.json",
+  "id": "markedit-theme-quietlight",
+  "name": "Quiet Light",
+  "description": "Quiet Light theme for MarkEdit.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-quietlight",
+  "colorScheme": "light",
+  "screenshots": [
+    "https://github.com/user-attachments/assets/872f8d5c-30c3-4726-9801-90ad9e75508c"
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-quietlight/v1.0.0/dist/markedit-theme-quietlight.js",
+      "sha256": "f121285a5de1b5ffa281a9077aab287715bf88ec1cdc70bedf8f80a64a701f4f"
+    }
+  ]
+}

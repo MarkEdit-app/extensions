@@ -1,0 +1,19 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/theme.schema.json",
+  "id": "markedit-theme-noctis-lilac",
+  "name": "Noctis Lilac",
+  "description": "Noctis Lilac theme for MarkEdit.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-noctis-lilac",
+  "colorScheme": "light",
+  "screenshots": [
+    "https://github.com/user-attachments/assets/e55ed6b7-1779-49e9-a185-ba2b029f42ce"
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-noctis-lilac/v1.0.0/dist/markedit-theme-noctis-lilac.js",
+      "sha256": "2813adad175d5e1fa4eeefdea65fc458ab8605204c5598bc1f90f149d8be7e22"
+    }
+  ]
+}
