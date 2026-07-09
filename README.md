@@ -4,10 +4,10 @@ A curated index of extensions for [MarkEdit](https://github.com/MarkEdit-app/Mar
 
 ## What's here
 
-- `extensions/<id>.json` — one entry per extension (the source of truth).
-- `index.json` — the generated feed the app reads. Do not edit by hand; CI regenerates it.
-- `schemas/` — JSON Schemas for both files.
-- `site/` — the generated gallery, published to GitHub Pages.
+- [extensions/](/extensions/)\<id\>.json — one entry per extension (the source of truth).
+- [index.json](/index.json) — the generated feed the app reads. Do not edit by hand; CI regenerates it.
+- [schemas/](/schemas/) — JSON Schemas for both files.
+- [site/](/site/) — the generated gallery, published to GitHub Pages.
 
 ## Entry format
 
@@ -36,7 +36,7 @@ A curated index of extensions for [MarkEdit](https://github.com/MarkEdit-app/Mar
 
 ## Contributing
 
-1. Add or update `extensions/<id>.json`.
+1. Add or update [extensions/](/extensions/)\<id\>.json.
 2. Compute the hash for each `url`:
 
    ```sh
@@ -45,7 +45,7 @@ A curated index of extensions for [MarkEdit](https://github.com/MarkEdit-app/Mar
 
 3. Open a pull request.
 
-CI validates the schema, `id`/filename match, and that each `sha256` matches the fetched bytes. On merge, `index.json` and the gallery are regenerated.
+CI validates the schema, `id`/filename match, and that each `sha256` matches the fetched bytes. On merge, [index.json](/index.json) and the [site](/site/index.html) are regenerated.
 
 ### Building locally
 
@@ -57,7 +57,7 @@ CHECK_INTEGRITY=false yarn build # schema-only, no downloads
 
 ## Review criteria
 
-We review provenance and integrity, not quality: the source is identifiable, the `url` is HTTPS and reachable, and `sha256` matches. Community and org-owned (`MarkEdit-app`) entries are both welcome.
+We review provenance and integrity, not quality: the source is identifiable, the `url` is HTTPS and reachable, and `sha256` matches.
 
 ## License
 
