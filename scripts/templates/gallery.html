@@ -72,7 +72,10 @@
 
     // On non-Mac visitors, the markedit:// deep link won't work; point them to the app instead
     (() => {
-      if (/Mac/i.test(navigator.userAgent)) {
+      // iPhone/iPad user agents also contain "Mac OS X", so match "Macintosh"
+      // and exclude touch devices (iPadOS reports Macintosh but has touch points).
+      const isMac = /Macintosh/.test(navigator.userAgent) && navigator.maxTouchPoints <= 1;
+      if (isMac) {
         return;
       }
 
