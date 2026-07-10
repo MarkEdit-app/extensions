@@ -1,6 +1,5 @@
-// Renders site/index.html from the static templates in ../templates/
-// (gallery.html shell, gallery.css, card.html). This module only substitutes
-// {{PLACEHOLDER}} tokens; edit the markup and styles in those files directly.
+// Renders site/index.html from the static templates in ../templates/.
+// This module only substitutes {{PLACEHOLDER}} tokens; edit the markup there.
 
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -10,7 +9,6 @@ const templatesDir = join(dirname(fileURLToPath(import.meta.url)), '..', 'templa
 const readTemplate = (name) => readFileSync(join(templatesDir, name), 'utf8');
 
 const SHELL = readTemplate('gallery.html');
-const STYLES = readTemplate('gallery.css');
 const CARD = readTemplate('card.html');
 const HTML_ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' };
 
@@ -123,7 +121,6 @@ export function renderGallery(index) {
   const populated = groups.filter(({ items }) => items.length > 0);
 
   return fillTemplate(SHELL, {
-    STYLES,
     NAV: renderNav(populated),
     CARDS: groups.map(({ section, items }) => renderSection(section, items)).join(''),
     COUNT: String(index.extensions.length),

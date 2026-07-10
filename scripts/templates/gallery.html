@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MarkEdit Extensions</title>
-  <style> {{STYLES}} </style>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <header>
@@ -31,43 +31,88 @@
       }
     })();
 
-    // Fast, smooth in-page navigation for the section jump links
+    // Fast, smooth in-page navigation
     (() => {
-      const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
-      const easeInOutQuad = (t) => (t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2);
-      const duration = 280;
+      const clearHighlight = () => {
+        const target = document.querySelector('.card.current-target');
+        target?.classList.remove('current-target');
+      };
 
-      document.querySelectorAll('.jump a[href^="#"]').forEach((link) => {
-        link.addEventListener('click', (event) => {
-          const target = document.querySelector(link.getAttribute('href'));
-          if (!target) {
-            return;
-          }
+      const addHighlight = (target) => {
+        clearHighlight();
+        if (!target?.classList.contains('card')) {
+          return;
+        }
 
-          event.preventDefault();
-          history.replaceState(null, '', link.getAttribute('href'));
+        void target.offsetWidth;
+        target.classList.add('current-target');
+      };
 
-          const destination = target.getBoundingClientRect().top + window.scrollY - 16;
-          if (reduceMotion) {
-            window.scrollTo(0, destination);
-            return;
-          }
+      let scrollAnimationFrame;
+      const stopScrolling = () => {
+        cancelAnimationFrame(scrollAnimationFrame);
+        scrollAnimationFrame = undefined;
+      };
 
-          const start = window.scrollY;
-          const change = destination - start;
-          const startTime = performance.now();
+      const scrollToTarget = (target) => {
+        stopScrolling();
+        const current = window.scrollY;
+        const destination = target.getBoundingClientRect().top + current - 14;
 
-          const step = (now) => {
-            const progress = Math.min(1, (now - startTime) / duration);
-            window.scrollTo(0, start + change * easeInOutQuad(progress));
-            if (progress < 1) {
-              requestAnimationFrame(step);
-            }
-          };
+        if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
+          window.scrollTo(0, destination);
+          return;
+        }
 
-          requestAnimationFrame(step);
-        });
+        const delta = destination - current;
+        const startTime = performance.now();
+
+        const animate = (time) => {
+          const progress = Math.min(1, (time - startTime) / 280);
+          window.scrollTo(0, current + delta * (progress < 0.5 ? 2 * progress * progress : 1 - Math.pow(-2 * progress + 2, 2) / 2));
+          scrollAnimationFrame = progress < 1 ? requestAnimationFrame(animate) : undefined;
+        };
+
+        scrollAnimationFrame = requestAnimationFrame(animate);
+      };
+
+      const getHashTarget = (hash) => document.getElementById(hash.slice(1));
+      addEventListener('popstate', () => {
+        stopScrolling();
+        addHighlight(getHashTarget(location.hash));
       });
+
+      document.addEventListener('animationend', (event) => {
+        if (event.animationName === 'target-highlight' && event.target instanceof Element) {
+          event.target.classList.remove('current-target');
+        }
+      });
+
+      document.addEventListener('click', (event) => {
+        const link = event.target instanceof Element
+          ? event.target.closest('.jump a[href^="#"], .permalink[href^="#"]')
+          : null;
+        if (!link) {
+          return;
+        }
+
+        const hash = link.getAttribute('href');
+        const target = getHashTarget(hash);
+        if (!target) {
+          return;
+        }
+
+        event.preventDefault();
+        event.stopPropagation();
+        if (location.hash !== hash) {
+          history.pushState(null, '', hash);
+        }
+
+        addHighlight(target);
+        scrollToTarget(target);
+      });
+
+      addHighlight(getHashTarget(location.hash));
     })();
 
     // On non-Mac visitors, the markedit:// deep link won't work; point them to the app instead

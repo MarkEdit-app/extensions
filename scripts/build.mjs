@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-// Validates extensions/*.json and themes/*.json, builds index.json, and renders site/index.html.
-// The gallery markup/styles live in ./templates/ (rendered by ./lib/gallery.mjs).
+// Validates extensions/*.json and themes/*.json, builds index.json, and renders site/.
+// The gallery markup/styles live in ./templates/.
 // Set CHECK_INTEGRITY=false to skip network downloads (schema-only).
 
-import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
+import { copyFileSync, readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { dirname, join, basename } from 'node:path';
@@ -141,10 +141,11 @@ if (!validateIndex(index)) {
 writeFileSync(join(root, 'index.json'), `${JSON.stringify(index, null, 2)}\n`);
 mkdirSync(join(root, 'site'), { recursive: true });
 writeFileSync(join(root, 'site', 'index.html'), renderGallery(index));
+copyFileSync(join(root, 'scripts', 'templates', 'gallery.css'), join(root, 'site', 'index.css'));
 
 const extensionCount = entries.filter((entry) => entry.category === 'extension').length;
 const themeCount = entries.length - extensionCount;
-console.log(`Built index.json and site/index.html (${extensionCount} extensions, ${themeCount} themes).`);
+console.log(`Built index.json and site/ (${extensionCount} extensions, ${themeCount} themes).`);
 
 /**
  * Compares two semantic versions by their numeric release parts (major, minor, patch),

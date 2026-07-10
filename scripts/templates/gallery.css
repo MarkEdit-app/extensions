@@ -98,7 +98,7 @@ main {
 }
 
 .group {
-  scroll-margin-top: 16px;
+  scroll-margin-top: 14px;
 }
 
 .group + .group {
@@ -124,10 +124,33 @@ main {
   position: relative;
   display: flex;
   flex-direction: column;
+  scroll-margin-top: 14px;
   padding: 18px;
   border: 1px solid var(--line);
   border-radius: 12px;
   background: var(--card);
+}
+
+.card.current-target {
+  animation: target-highlight 1.6s ease-out;
+}
+
+@keyframes target-highlight {
+  0%, 35% {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 1px var(--accent);
+  }
+
+  100% {
+    border-color: var(--line);
+    box-shadow: 0 0 0 0 transparent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card.current-target {
+    animation-timing-function: steps(1, end);
+  }
 }
 
 .card h2 {
@@ -143,6 +166,15 @@ main {
   font-size: 12px;
   font-weight: 500;
   color: var(--muted);
+}
+
+.permalink {
+  color: inherit;
+}
+
+.permalink:hover,
+.permalink:focus-visible {
+  text-decoration: underline;
 }
 
 .scheme {
