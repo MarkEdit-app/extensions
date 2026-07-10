@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 // Validates extensions/*.json and themes/*.json, builds index.json, and renders site/.
-// The gallery markup/styles live in ./templates/.
+// Gallery templates and static assets live in ./templates/ and ./assets/.
 // Set CHECK_INTEGRITY=false to skip network downloads (schema-only).
 
 import { copyFileSync, readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
@@ -15,6 +15,7 @@ import addFormats from 'ajv-formats';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const schemasDir = join(root, 'schemas');
+const assetsDir = join(root, 'scripts', 'assets');
 const checkIntegrity = process.env.CHECK_INTEGRITY !== 'false';
 
 const ajv = new Ajv({ allErrors: true, strict: false });
@@ -141,7 +142,9 @@ if (!validateIndex(index)) {
 writeFileSync(join(root, 'index.json'), `${JSON.stringify(index, null, 2)}\n`);
 mkdirSync(join(root, 'site'), { recursive: true });
 writeFileSync(join(root, 'site', 'index.html'), renderGallery(index));
-copyFileSync(join(root, 'scripts', 'templates', 'gallery.css'), join(root, 'site', 'index.css'));
+for (const name of ['index.css', 'index.js']) {
+  copyFileSync(join(assetsDir, name), join(root, 'site', name));
+}
 
 const extensionCount = entries.filter((entry) => entry.category === 'extension').length;
 const themeCount = entries.length - extensionCount;
