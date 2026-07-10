@@ -31,6 +31,60 @@
       }
     })();
 
+    // Fast, smooth in-page navigation for the section jump links
+    (() => {
+      const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const easeInOutQuad = (t) => (t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2);
+      const duration = 280;
+
+      document.querySelectorAll('.jump a[href^="#"]').forEach((link) => {
+        link.addEventListener('click', (event) => {
+          const target = document.querySelector(link.getAttribute('href'));
+          if (!target) {
+            return;
+          }
+
+          event.preventDefault();
+          history.replaceState(null, '', link.getAttribute('href'));
+
+          const destination = target.getBoundingClientRect().top + window.scrollY - 16;
+          if (reduceMotion) {
+            window.scrollTo(0, destination);
+            return;
+          }
+
+          const start = window.scrollY;
+          const change = destination - start;
+          const startTime = performance.now();
+
+          const step = (now) => {
+            const progress = Math.min(1, (now - startTime) / duration);
+            window.scrollTo(0, start + change * easeInOutQuad(progress));
+            if (progress < 1) {
+              requestAnimationFrame(step);
+            }
+          };
+
+          requestAnimationFrame(step);
+        });
+      });
+    })();
+
+    // On non-Mac visitors, the markedit:// deep link won't work; point them to the app instead
+    (() => {
+      if (/Mac/i.test(navigator.userAgent)) {
+        return;
+      }
+
+      document.querySelectorAll('.btn.install').forEach((button) => {
+        button.href = 'https://github.com/MarkEdit-app/MarkEdit';
+        const label = button.querySelector('.install-label');
+        if (label) {
+          label.textContent = 'Get MarkEdit';
+        }
+      });
+    })();
+
     // Follow the browser color scheme for Light/Dark previews until the user picks one
     (() => {
       const query = matchMedia('(prefers-color-scheme: dark)');

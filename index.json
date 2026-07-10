@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-09T14:51:25.145Z",
+  "generatedAt": "2026-07-10T00:15:19.287Z",
   "extensions": [
     {
       "id": "markedit-ai-writer",
@@ -349,7 +349,7 @@
     },
     {
       "id": "markedit-theme-zero",
-      "name": "Zero",
+      "name": "MarkEdit Theme Zero",
       "description": "Zero theme for MarkEdit.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-zero",

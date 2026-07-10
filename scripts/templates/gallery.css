@@ -160,7 +160,7 @@ main {
 }
 
 .preview {
-  margin: 0 0 12px;
+  margin: 6px 0 14px;
 }
 
 /* Radios drive the tab state; kept accessible but visually hidden. */
