@@ -88,6 +88,10 @@ for (const { category, dir, validate } of sources) {
       latest.minAppVersion = newest.minAppVersion;
     }
 
+    if (newest.notes !== undefined) {
+      latest.notes = newest.notes;
+    }
+
     // category is derived from the folder, not stored in the source file.
     const { $schema, versions: _history, ...fields } = data;
     entries.push({ ...fields, category, latest });
@@ -124,13 +128,13 @@ if (errors.length > 0) {
 }
 
 entries.sort((a, b) => a.id.localeCompare(b.id));
-const index = {
+const indexPath = join(root, 'index.json');
+const indexData = {
   schemaVersion: 1,
-  generatedAt: new Date().toISOString(),
   extensions: entries
 };
 
-if (!validateIndex(index)) {
+if (!validateIndex(indexData)) {
   console.error('Generated index.json failed schema:');
   for (const error of validateIndex.errors) {
     console.error(`  - ${error.instancePath || '/'} ${error.message}`);
@@ -139,9 +143,9 @@ if (!validateIndex(index)) {
   process.exit(1);
 }
 
-writeFileSync(join(root, 'index.json'), `${JSON.stringify(index, null, 2)}\n`);
+writeFileSync(indexPath, `${JSON.stringify(indexData, null, 2)}\n`);
 mkdirSync(join(root, 'site'), { recursive: true });
-writeFileSync(join(root, 'site', 'index.html'), renderGallery(index));
+writeFileSync(join(root, 'site', 'index.html'), renderGallery({ ...indexData, generatedAt: new Date().toISOString() }));
 for (const name of ['index.css', 'index.js']) {
   copyFileSync(join(assetsDir, name), join(root, 'site', name));
 }
