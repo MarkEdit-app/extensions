@@ -14,9 +14,25 @@ const HTML_ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' };
 
 const SCHEME_LABELS = { light: 'Light', dark: 'Dark', both: 'Light & Dark' };
 
+// GitHub-style alerts (https://docs.github.com/get-started/writing-on-github). Octicon paths.
+const ALERTS = {
+  note: {
+    label: 'Note',
+    icon: '<path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>',
+  },
+  tip: {
+    label: 'Tip',
+    icon: '<path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"/>',
+  },
+};
+
+// The general guidance shown once below the header; body is trusted HTML (contains a link).
+const NOTE_BODY = 'Every extension is built on the <a href="https://github.com/MarkEdit-app/MarkEdit/wiki/Customization#markedit-api">MarkEdit API</a>. After installing one, restart the app to apply the changes.';
+
 const SECTIONS = [
-  { id: 'extensions', label: 'Extensions', isMatch: (entry) => entry.category !== 'theme' },
-  { id: 'themes', label: 'Themes', isMatch: (entry) => entry.category === 'theme' },
+  { id: 'extensions', label: 'Extensions', hint: 'Plugins that customize the editor\'s behavior', isMatch: (entry) => entry.category !== 'theme' },
+  // tip is trusted HTML (author-controlled), rendered without escaping.
+  { id: 'themes', label: 'Themes', hint: 'Plugins that override the app\'s appearance', tip: 'Themes aren\'t meant to be added in the app settings; they override the currently selected app theme instead.</p><p>To customize colors, see the <a href="https://github.com/MarkEdit-app/MarkEdit-theming/wiki#customization">MarkEdit-theming wiki</a> for details.', isMatch: (entry) => entry.category === 'theme' },
 ];
 
 function escapeHTML(value) {
@@ -38,6 +54,13 @@ function fillTemplate(template, values) {
   return template.replace(/\{\{(\w+)\}\}/g, (_, key) => values[key] ?? '');
 }
 
+// Render a GitHub-style alert; bodyHtml is trusted (caller escapes untrusted text).
+function renderAlert(kind, bodyHtml) {
+  const { label, icon } = ALERTS[kind];
+  const title = `<p class="alert-title"><svg class="alert-icon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">${icon}</svg>${label}</p>`;
+  return `<div class="alert alert-${kind}">${title}<p>${bodyHtml}</p></div>`;
+}
+
 // A single-scheme theme shows a plain badge; "both" is conveyed by the preview tabs.
 function renderScheme(extension) {
   if (extension.colorScheme === undefined || extension.colorScheme === 'both') {
@@ -57,7 +80,7 @@ function renderPreview(extension) {
   }
 
   const alt = escapeHTML(extension.name);
-  const frame = (url, variant) => `<img class="frame ${variant}" src="${escapeHTML(url)}" alt="${alt} ${variant} screenshot" loading="lazy">`;
+  const frame = (url, variant) => `<img class="frame ${variant}" src="${escapeHTML(url)}" alt="${alt} ${variant} screenshot" loading="lazy" decoding="async">`;
 
   if (extension.colorScheme === 'both' && screenshots.length >= 2) {
     const name = escapeHTML(`${extension.id}-scheme`);
@@ -92,13 +115,15 @@ function renderCard(extension) {
   });
 }
 
-function renderSection({ id, label }, items) {
+function renderSection({ id, label, hint, tip }, items) {
   if (items.length === 0) {
     return '';
   }
 
   const cards = items.map(renderCard).join('');
-  return `<section id="${id}" class="group"><h2 class="group-title">${escapeHTML(label)}</h2><div class="grid">${cards}</div></section>`;
+  const note = hint ? ` <span class="group-note">(${escapeHTML(hint)})</span>` : '';
+  const footer = tip ? renderAlert('tip', tip) : '';
+  return `<section id="${id}" class="group"><h2 class="group-title">${escapeHTML(label)}${note}</h2><div class="grid">${cards}</div>${footer}</section>`;
 }
 
 function renderNav(populated) {
@@ -122,8 +147,8 @@ export function renderGallery(index) {
 
   return fillTemplate(SHELL, {
     NAV: renderNav(populated),
+    NOTE: renderAlert('note', NOTE_BODY),
     CARDS: groups.map(({ section, items }) => renderSection(section, items)).join(''),
-    COUNT: String(index.extensions.length),
     GENERATED_ISO: escapeHTML(index.generatedAt),
     GENERATED_UTC: escapeHTML(formatDate(index.generatedAt)),
   });
