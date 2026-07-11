@@ -34,7 +34,6 @@ body {
   background: var(--bg);
   color: var(--fg);
   font: 16px/1.5 -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
-  -webkit-font-smoothing: antialiased;
 }
 
 a {
