@@ -1,7 +1,7 @@
 /* GitHub Primer palette — light defaults, dark via prefers-color-scheme. */
 :root {
   color-scheme: light dark;
-  --bg: #f6f8fa;
+  --bg: #ffffff;
   --fg: #1f2328;
   --muted: #59636e;
   --line: #d1d9e0;
@@ -9,6 +9,7 @@
   --accent: #0969da;
   --btn: #f6f8fa;
   --hover: #eff2f5;
+  --shadow: 0 1px 2px 0 #1f232814, 0 1px 3px 0 #1f232810;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,6 +22,7 @@
     --accent: #4493f8;
     --btn: #21262d;
     --hover: #30363d;
+    --shadow: 0 1px 2px 0 #010409b3, 0 1px 4px 0 #010409b3;
   }
 }
 
@@ -216,6 +218,7 @@ main {
   border: 1px solid var(--line);
   border-radius: 12px;
   background: var(--card);
+  box-shadow: var(--shadow);
 }
 
 .card.current-target {
