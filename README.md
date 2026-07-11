@@ -7,8 +7,8 @@ A curated index of extensions for [MarkEdit](https://github.com/MarkEdit-app/Mar
 - [extensions/](/extensions/)\<id\>.json: one entry per extension (the source of truth). Extensions change the editor's behavior.
 - [themes/](/themes/)\<id\>.json: one entry per theme. Themes change the editor's styling.
 - [index.json](/index.json): the generated feed the app reads. Do not edit by hand.
-- [site/](/site/): the generated gallery, published to [GitHub Pages](https://markedit-app.github.io/extensions/). Do not edit by hand.
 - [schemas/](/schemas/): JSON Schemas for `extensions`, `themes`, and `index.json`.
+- **site/**: the generated gallery, published to [GitHub Pages](https://markedit-app.github.io/extensions/). Generated, not committed.
 
 The folder an entry lives in determines its kind, so an entry's `category` (`extension` or `theme`) is derived from the folder, not stored in the file. In most cases, adding or updating an entry only requires changes under `extensions/` or `themes/`.
 
@@ -33,9 +33,11 @@ The folder an entry lives in determines its kind, so an entry's `category` (`ext
 ```
 
 - `id` is kebab-case and must equal the filename.
-- `versions` lists the newest build first; older entries are kept as compatibility fallbacks.
+- `versions` lists builds newest-first; the newest becomes `latest` in `index.json`. Older entries are kept as verified history (every listed build is hash-checked), not served to the app.
 - `url` points at the `.js` file committed at a release tag (an immutable ref, served raw from GitHub).
 - `sha256` pins the exact bytes at `url`.
+- `minAppVersion` (optional) is the lowest MarkEdit version a build supports; it defaults to `1.0.0` and is carried into `latest`.
+- `notes` (optional) is a short release note for the build, carried into `latest`.
 
 ### Themes
 
@@ -78,7 +80,7 @@ A theme is an extension that only restyles the editor, via the [MarkEdit-theming
 
 3. Open a pull request.
 
-CI validates the schema, `id`/filename match, and that each `sha256` matches the fetched bytes. On merge, [index.json](/index.json) and the [site](/site/index.html) are regenerated.
+CI validates the schema, `id`/filename match, and that each `sha256` matches the fetched bytes. On merge, [index.json](/index.json) and the [site](https://markedit-app.github.io/extensions/) are regenerated.
 
 ### Building locally
 

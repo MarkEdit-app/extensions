@@ -155,19 +155,80 @@ const themeCount = entries.length - extensionCount;
 console.log(`Built index.json and site/ (${extensionCount} extensions, ${themeCount} themes).`);
 
 /**
- * Compares two semantic versions by their numeric release parts (major, minor, patch),
- * ignoring pre-release and build identifiers.
+ * Compares two semantic versions by precedence (SemVer §11): numeric release parts
+ * first, then pre-release (a build with a pre-release ranks below its release).
+ * Build metadata is ignored.
  */
 function compareSemver(a, b) {
-  const partsA = a.split(/[.+-]/).map((part) => parseInt(part, 10));
-  const partsB = b.split(/[.+-]/).map((part) => parseInt(part, 10));
+  const parse = (version) => {
+    const core = version.replace(/\+.*$/, '');
+    const dash = core.indexOf('-');
+    const release = dash === -1 ? core : core.slice(0, dash);
+    return {
+      nums: release.split('.').map((part) => parseInt(part, 10) || 0),
+      prerelease: dash === -1 ? '' : core.slice(dash + 1),
+    };
+  };
+
+  const left = parse(a);
+  const right = parse(b);
 
   for (let index = 0; index < 3; index++) {
-    const valueA = partsA[index] || 0;
-    const valueB = partsB[index] || 0;
+    const valueA = left.nums[index] || 0;
+    const valueB = right.nums[index] || 0;
     if (valueA !== valueB) {
       return valueA - valueB;
     }
+  }
+
+  // Same release: a build without a pre-release outranks any pre-release.
+  if (left.prerelease === right.prerelease) {
+    return 0;
+  }
+
+  if (left.prerelease === '' || right.prerelease === '') {
+    return left.prerelease === '' ? 1 : -1;
+  }
+
+  return comparePrerelease(left.prerelease, right.prerelease);
+}
+
+/**
+ * Compares two pre-release strings by dot-separated identifiers (SemVer §11.4):
+ * numeric identifiers compare numerically and rank below alphanumeric ones, and a
+ * shorter set of identifiers ranks lower when all preceding ones are equal.
+ */
+function comparePrerelease(a, b) {
+  const idsA = a.split('.');
+  const idsB = b.split('.');
+  const length = Math.max(idsA.length, idsB.length);
+
+  for (let index = 0; index < length; index++) {
+    const idA = idsA[index];
+    const idB = idsB[index];
+    if (idA === idB) {
+      continue;
+    }
+
+    if (idA === undefined) {
+      return -1;
+    }
+
+    if (idB === undefined) {
+      return 1;
+    }
+
+    const numericA = /^[0-9]+$/.test(idA);
+    const numericB = /^[0-9]+$/.test(idB);
+    if (numericA && numericB) {
+      return parseInt(idA, 10) - parseInt(idB, 10);
+    }
+
+    if (numericA !== numericB) {
+      return numericA ? -1 : 1;
+    }
+
+    return idA < idB ? -1 : 1;
   }
 
   return 0;

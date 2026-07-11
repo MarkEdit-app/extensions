@@ -21,6 +21,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v5
         with:
           node-version: 22
@@ -32,8 +34,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add index.json
-          git diff --staged --quiet || git commit -m "chore: rebuild index.json [skip ci]"
-          git push
+          if git diff --staged --quiet; then
+            echo "index.json unchanged"
+          else
+            git commit -m "chore: rebuild index.json [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
       - uses: actions/upload-pages-artifact@v4
         with:
           path: site
