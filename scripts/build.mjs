@@ -4,7 +4,7 @@
 // Gallery templates and static assets live in ./templates/ and ./assets/.
 // Set CHECK_INTEGRITY=false to skip network downloads (schema-only).
 
-import { copyFileSync, readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
+import { cpSync, readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { dirname, join, basename } from 'node:path';
@@ -146,9 +146,7 @@ if (!validateIndex(indexData)) {
 writeFileSync(indexPath, `${JSON.stringify(indexData, null, 2)}\n`);
 mkdirSync(join(root, 'site'), { recursive: true });
 writeFileSync(join(root, 'site', 'index.html'), renderGallery({ ...indexData, generatedAt: new Date().toISOString() }));
-for (const name of ['index.css', 'index.js']) {
-  copyFileSync(join(assetsDir, name), join(root, 'site', name));
-}
+cpSync(assetsDir, join(root, 'site'), { recursive: true });
 
 const extensionCount = entries.filter((entry) => entry.category === 'extension').length;
 const themeCount = entries.length - extensionCount;
