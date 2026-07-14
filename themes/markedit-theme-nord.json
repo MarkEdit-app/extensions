@@ -6,8 +6,8 @@
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-nord",
   "colorScheme": "dark",
-  "screenshots": [
-    "https://github.com/user-attachments/assets/838ca6f1-27d9-4e63-a601-46453bdb23e6"
+  "colorPatterns": [
+    "#2e3440,#d8dee9,#5e81ac,#8fbcbb,#a3be8c,#4c566a"
   ],
   "versions": [
     {

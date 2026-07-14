@@ -6,9 +6,9 @@
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-vscode",
   "colorScheme": "both",
-  "screenshots": [
-    "https://github.com/user-attachments/assets/fddcb291-75d0-461c-8dbd-b9230bcc524e",
-    "https://github.com/user-attachments/assets/fd0d5de6-db2c-4399-ab88-750b87c5d673"
+  "colorPatterns": [
+    "#ffffff,#383a42,#0070c1,#0000ff,#a31515,#008000",
+    "#1e1e1e,#d4d4d4,#9cdcfe,#569cd6,#ce9178,#6a9955"
   ],
   "versions": [
     {

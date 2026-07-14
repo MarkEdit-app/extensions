@@ -60,15 +60,15 @@
             "enum": ["light", "dark", "both"],
             "description": "Color scheme a theme supports. Present for themes."
           },
-          "screenshots": {
+          "colorPatterns": {
             "type": "array",
             "minItems": 1,
+            "maxItems": 2,
             "items": {
               "type": "string",
-              "format": "uri",
-              "pattern": "^https://"
+              "pattern": "^#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{6})(?:\\s*,\\s*#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{6})){0,5}$"
             },
-            "description": "Screenshot URLs. Present for themes."
+            "description": "Illustrated preview palette(s). Comma-separated hex, up to 6 fixed slots: background, text, accent, keyword, string, comment. Two entries for colorScheme \"both\" (light, dark); one otherwise. Present for themes."
           },
           "latest": {
             "type": "object",
@@ -116,7 +116,7 @@
           }
         },
         "then": {
-          "required": ["colorScheme", "screenshots"]
+          "required": ["colorScheme", "colorPatterns"]
         }
       }
     }

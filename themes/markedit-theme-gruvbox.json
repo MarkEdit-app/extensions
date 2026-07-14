@@ -6,9 +6,9 @@
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-gruvbox",
   "colorScheme": "both",
-  "screenshots": [
-    "https://github.com/user-attachments/assets/a71bf7e7-dfc6-4523-a4d4-789204233eb7",
-    "https://github.com/user-attachments/assets/5943a526-9391-49f6-8e68-c75ba49f7210"
+  "colorPatterns": [
+    "#fbf1c7,#3c3836,#79740e,#9d0006,#076678,#928374",
+    "#282828,#ebdbb2,#b8bb26,#fb4934,#076678,#928374"
   ],
   "versions": [
     {

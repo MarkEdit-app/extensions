@@ -6,9 +6,9 @@
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-duotone",
   "colorScheme": "both",
-  "screenshots": [
-    "https://github.com/user-attachments/assets/23fadf2a-701a-4b78-81c4-c182ecb231d5",
-    "https://github.com/user-attachments/assets/b6a70da8-f8b7-4e96-801a-aecbfb82724b"
+  "colorPatterns": [
+    "#faf8f5,#b29762,#2d2006,#063289,#1659df,#b6ad9a",
+    "#2a2734,#6c6783,#eeebff,#ffcc99,#ffb870,#cdcbd3"
   ],
   "versions": [
     {
