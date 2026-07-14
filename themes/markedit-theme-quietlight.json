@@ -6,8 +6,8 @@
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-quietlight",
   "colorScheme": "light",
-  "screenshots": [
-    "https://github.com/user-attachments/assets/872f8d5c-30c3-4726-9801-90ad9e75508c"
+  "colorPatterns": [
+    "#f5f5f5,#333333,#aa3731,#4b69c6,#448c27,#aaaaaa"
   ],
   "versions": [
     {

@@ -9,7 +9,6 @@
   --accent: #0969da;
   --btn: #f6f8fa;
   --hover: #eff2f5;
-  --placeholder: #f6f8fa;
   --shadow: 0 1px 1px 0 #1f23280a, 0 1px 2px 0 #1f232808;
 }
 
@@ -23,7 +22,6 @@
     --accent: #4493f8;
     --btn: #21262d;
     --hover: #30363d;
-    --placeholder: #424a53;
     --shadow: 0 1px 1px 0 #01040999, 0 1px 3px 0 #01040999;
   }
 }
@@ -360,16 +358,16 @@ main {
 }
 
 .frames {
-  border-radius: 6px;
-  background: var(--placeholder);
+  width: 120px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .frame {
   display: none;
   width: 100%;
   height: auto;
-  aspect-ratio: 688 / 168;
-  object-fit: cover;
   vertical-align: top;
 }
 

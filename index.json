@@ -177,9 +177,9 @@
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-basic",
       "colorScheme": "both",
-      "screenshots": [
-        "https://github.com/user-attachments/assets/f23bc7bf-49df-42fa-92c2-7452e8d0dec0",
-        "https://github.com/user-attachments/assets/45dc0def-1476-4a2b-9650-63eac51f2d8e"
+      "colorPatterns": [
+        "#ffffff,#2e3440,#5e81ac,#8fbcbb,#d08770,#434c5e",
+        "#2e3235,#dddddd,#5e81ac,#8fbcbb,#6fb3d2,#808080"
       ],
       "category": "theme",
       "latest": {
@@ -195,9 +195,9 @@
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-catppuccin",
       "colorScheme": "both",
-      "screenshots": [
-        "https://github.com/user-attachments/assets/4106bb2b-c312-4213-aff3-40544be634cc",
-        "https://github.com/user-attachments/assets/4c836437-acc2-461f-8805-7d8bb36d4b90"
+      "colorPatterns": [
+        "#eff1f5,#4c4f69,#1e66f5,#8839ef,#40a02b,#7c7f93",
+        "#1e1e2e,#cdd6f4,#89b4fa,#cba6f7,#a6e3a1,#9399b2"
       ],
       "category": "theme",
       "latest": {
@@ -213,9 +213,9 @@
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-duotone",
       "colorScheme": "both",
-      "screenshots": [
-        "https://github.com/user-attachments/assets/23fadf2a-701a-4b78-81c4-c182ecb231d5",
-        "https://github.com/user-attachments/assets/b6a70da8-f8b7-4e96-801a-aecbfb82724b"
+      "colorPatterns": [
+        "#faf8f5,#b29762,#2d2006,#063289,#1659df,#b6ad9a",
+        "#2a2734,#6c6783,#eeebff,#ffcc99,#ffb870,#cdcbd3"
       ],
       "category": "theme",
       "latest": {
@@ -231,9 +231,9 @@
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-gruvbox",
       "colorScheme": "both",
-      "screenshots": [
-        "https://github.com/user-attachments/assets/a71bf7e7-dfc6-4523-a4d4-789204233eb7",
-        "https://github.com/user-attachments/assets/5943a526-9391-49f6-8e68-c75ba49f7210"
+      "colorPatterns": [
+        "#fbf1c7,#3c3836,#79740e,#9d0006,#076678,#928374",
+        "#282828,#ebdbb2,#b8bb26,#fb4934,#076678,#928374"
       ],
       "category": "theme",
       "latest": {
@@ -249,8 +249,8 @@
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-noctis-lilac",
       "colorScheme": "light",
-      "screenshots": [
-        "https://github.com/user-attachments/assets/e55ed6b7-1779-49e9-a185-ba2b029f42ce"
+      "colorPatterns": [
+        "#f2f1f8,#0c006b,#fa8900,#ff5792,#00b368,#9995b7"
       ],
       "category": "theme",
       "latest": {
@@ -266,8 +266,8 @@
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-nord",
       "colorScheme": "dark",
-      "screenshots": [
-        "https://github.com/user-attachments/assets/838ca6f1-27d9-4e63-a601-46453bdb23e6"
+      "colorPatterns": [
+        "#2e3440,#d8dee9,#5e81ac,#8fbcbb,#a3be8c,#4c566a"
       ],
       "category": "theme",
       "latest": {
@@ -283,8 +283,8 @@
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-one-dark",
       "colorScheme": "dark",
-      "screenshots": [
-        "https://github.com/user-attachments/assets/52603145-d096-4bbb-b46f-d6b7826e7982"
+      "colorPatterns": [
+        "#282c34,#abb2bf,#e06c75,#c678dd,#98c379,#7d8799"
       ],
       "category": "theme",
       "latest": {
@@ -300,8 +300,8 @@
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-quietlight",
       "colorScheme": "light",
-      "screenshots": [
-        "https://github.com/user-attachments/assets/872f8d5c-30c3-4726-9801-90ad9e75508c"
+      "colorPatterns": [
+        "#f5f5f5,#333333,#aa3731,#4b69c6,#448c27,#aaaaaa"
       ],
       "category": "theme",
       "latest": {
@@ -317,9 +317,9 @@
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-tokyo-night",
       "colorScheme": "both",
-      "screenshots": [
-        "https://github.com/user-attachments/assets/314243e9-4dc4-4fdb-a540-bd4dd4fc0caa",
-        "https://github.com/user-attachments/assets/7df199aa-6cd5-4a81-9a7e-b88f2986e0c1"
+      "colorPatterns": [
+        "#e1e2e7,#3760bf,#b15c00,#007197,#587539,#848cb5",
+        "#1a1b26,#787c99,#89ddff,#bb9af7,#9ece6a,#444b6a"
       ],
       "category": "theme",
       "latest": {
@@ -335,9 +335,9 @@
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-vscode",
       "colorScheme": "both",
-      "screenshots": [
-        "https://github.com/user-attachments/assets/fddcb291-75d0-461c-8dbd-b9230bcc524e",
-        "https://github.com/user-attachments/assets/fd0d5de6-db2c-4399-ab88-750b87c5d673"
+      "colorPatterns": [
+        "#ffffff,#383a42,#0070c1,#0000ff,#a31515,#008000",
+        "#1e1e1e,#d4d4d4,#9cdcfe,#569cd6,#ce9178,#6a9955"
       ],
       "category": "theme",
       "latest": {

@@ -11,7 +11,6 @@ const readTemplate = (name) => readFileSync(join(templatesDir, name), 'utf8');
 const SHELL = readTemplate('gallery.html');
 const CARD = readTemplate('card.html');
 const HTML_ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' };
-
 const SCHEME_LABELS = { light: 'Light', dark: 'Dark', both: 'Light & Dark' };
 
 // GitHub-style alerts (https://docs.github.com/get-started/writing-on-github). Octicon paths.
@@ -73,16 +72,76 @@ function renderScheme(extension) {
 
 // Themes that support both schemes get a Light/Dark tab switcher (CSS-only, no scroll);
 // single-scheme themes show one frame. Extensions have no preview.
+//
+// Each colorPatterns entry is a comma-separated list of up to 6 hex colors with these
+// fixed slots, rendered as a self-contained SVG mock-up of an editor:
+const PATTERN_SLOTS = ['background', 'text', 'accent', 'keyword', 'string', 'comment'];
+
+// Illustrated rows mimic a tidy code snippet, with each role in a consistent position so
+// same colors group visually: a muted comment line, an accent "heading", then indented
+// code with strings trailing on the right. Each token is [widthPx, slot].
+const PREVIEW_ROWS = [
+  { indent: 0, tokens: [[64, 'comment'], [158, 'comment']] },
+  { indent: 0, tokens: [[168, 'accent']] },
+  { indent: 0, tokens: [[46, 'keyword'], [150, 'text']] },
+  { indent: 22, tokens: [[110, 'text'], [74, 'string']] },
+  { indent: 22, tokens: [[60, 'keyword'], [96, 'string']] },
+];
+
+// Resolves the fixed slots from one comma-separated entry, falling back gracefully
+// when a theme provides fewer than 6 colors.
+function parsePattern(pattern) {
+  const colors = pattern.split(',').map((value) => value.trim()).filter(Boolean);
+  const slot = (name) => {
+    const index = PATTERN_SLOTS.indexOf(name);
+    return colors[index] ?? colors[2] ?? colors[1] ?? colors[0] ?? '#888888';
+  };
+
+  return { background: colors[0] ?? '#ffffff', slot };
+}
+
+// Renders one palette as an SVG editor illustration.
+function renderSwatch(pattern, variant, alt) {
+  const { background, slot } = parsePattern(pattern);
+  const padX = 24;
+  const baseY = 30;
+  const rowGap = 30;
+  const gap = 8;
+  const barHeight = 16;
+  let maxRight = 0;
+
+  const rows = PREVIEW_ROWS.map((row, index) => {
+    const y = baseY + index * rowGap - barHeight / 2;
+    let x = padX + row.indent;
+    return row.tokens.map(([width, name]) => {
+      const rect = `<rect x="${x}" y="${y}" width="${width}" height="${barHeight}" rx="${barHeight / 2}" fill="${escapeHTML(slot(name))}"/>`;
+      x += width + gap;
+      maxRight = Math.max(maxRight, x - gap);
+      return rect;
+    }).join('');
+  }).join('');
+
+  // Pad all sides consistently: right matches left (padX), bottom matches top.
+  const topPad = baseY - barHeight / 2;
+  const vbWidth = maxRight + padX;
+  const vbHeight = baseY + (PREVIEW_ROWS.length - 1) * rowGap + barHeight / 2 + topPad;
+
+  return [
+    `<svg class="frame ${variant}" viewBox="0 0 ${vbWidth} ${vbHeight}" role="img" aria-label="${alt} ${variant} preview" preserveAspectRatio="xMidYMid slice">`,
+    `<rect width="${vbWidth}" height="${vbHeight}" fill="${escapeHTML(background)}"/>`,
+    rows,
+    '</svg>',
+  ].join('');
+}
+
 function renderPreview(extension) {
-  const screenshots = extension.screenshots ?? [];
-  if (screenshots.length === 0) {
+  const patterns = extension.colorPatterns ?? [];
+  if (patterns.length === 0) {
     return '';
   }
 
   const alt = escapeHTML(extension.name);
-  const frame = (url, variant) => `<img class="frame ${variant}" src="${escapeHTML(url)}" alt="${alt} ${variant} screenshot" loading="lazy" decoding="async">`;
-
-  if (extension.colorScheme === 'both' && screenshots.length >= 2) {
+  if (extension.colorScheme === 'both' && patterns.length >= 2) {
     const name = escapeHTML(`${extension.id}-scheme`);
     return [
       '<div class="preview">',
@@ -92,13 +151,13 @@ function renderPreview(extension) {
       `<label for="${escapeHTML(extension.id)}-light">Light</label>`,
       `<label for="${escapeHTML(extension.id)}-dark">Dark</label>`,
       '</div>',
-      `<div class="frames">${frame(screenshots[0], 'light')}${frame(screenshots[1], 'dark')}</div>`,
+      `<div class="frames">${renderSwatch(patterns[0], 'light', alt)}${renderSwatch(patterns[1], 'dark', alt)}</div>`,
       '</div>',
     ].join('');
   }
 
   const variant = extension.colorScheme === 'dark' ? 'dark' : 'light';
-  return `<div class="preview single"><div class="frames">${frame(screenshots[0], variant)}</div></div>`;
+  return `<div class="preview single"><div class="frames">${renderSwatch(patterns[0], variant, alt)}</div></div>`;
 }
 
 function renderCard(extension) {
@@ -143,8 +202,8 @@ export function renderGallery(index) {
     section,
     items: index.extensions.filter(section.isMatch),
   }));
-  const populated = groups.filter(({ items }) => items.length > 0);
 
+  const populated = groups.filter(({ items }) => items.length > 0);
   return fillTemplate(SHELL, {
     NAV: renderNav(populated),
     NOTE: renderAlert('note', NOTE_BODY),
