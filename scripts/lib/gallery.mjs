@@ -162,6 +162,7 @@ function renderPreview(extension) {
 
 function renderCard(extension) {
   return fillTemplate(CARD, {
+    ICON: `<span class="icon icon-name ${extension.category === 'theme' ? 'icon-theme' : 'icon-extension'}" aria-hidden="true"></span>`,
     NAME: escapeHTML(extension.name),
     VERSION: escapeHTML(extension.latest.version),
     SCHEME: renderScheme(extension),
