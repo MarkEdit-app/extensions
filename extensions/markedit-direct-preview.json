@@ -2,7 +2,7 @@
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-direct-preview",
   "name": "MarkEdit Direct Preview",
-  "description": "A setup helper for the preview extension.",
+  "description": "A setup helper for the MarkEdit Preview extension.",
   "author": "Squarelight-ai",
   "homepage": "https://github.com/Squarelight-ai/markedit-direct-preview",
   "versions": [

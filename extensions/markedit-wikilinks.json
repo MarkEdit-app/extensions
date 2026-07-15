@@ -2,7 +2,7 @@
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-wikilinks",
   "name": "MarkEdit Wikilinks",
-  "description": "[[wikilinks]] for MarkEdit.",
+  "description": "Add [[wikilinks]] syntax to MarkEdit.",
   "author": "nuc",
   "homepage": "https://github.com/nuc/MarkEdit-wikilinks",
   "versions": [
