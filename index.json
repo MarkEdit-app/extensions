@@ -4,7 +4,7 @@
     {
       "id": "markedit-ai-writer",
       "name": "MarkEdit AI Writer",
-      "description": "AI writer based on Foundation Models.",
+      "description": "AI writer for MarkEdit, based on Apple's Foundation Models.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-ai-writer",
       "category": "extension",
@@ -30,7 +30,7 @@
     {
       "id": "markedit-devtools",
       "name": "MarkEdit DevTools",
-      "description": "Dev Tools.",
+      "description": "Dev Tools for MarkEdit.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-devtools",
       "category": "extension",
@@ -43,7 +43,7 @@
     {
       "id": "markedit-direct-preview",
       "name": "MarkEdit Direct Preview",
-      "description": "A setup helper for the preview extension.",
+      "description": "A setup helper for the MarkEdit Preview extension.",
       "author": "Squarelight-ai",
       "homepage": "https://github.com/Squarelight-ai/markedit-direct-preview",
       "category": "extension",
@@ -56,7 +56,7 @@
     {
       "id": "markedit-enhanced-paste",
       "name": "MarkEdit Enhanced Paste",
-      "description": "Additional paste functionality.",
+      "description": "Enhance paste functionality for MarkEdit.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-enhanced-paste",
       "category": "extension",
@@ -69,7 +69,7 @@
     {
       "id": "markedit-highlight",
       "name": "MarkEdit Highlight",
-      "description": "Text Highlight.",
+      "description": "Add ==highlight== syntax to MarkEdit.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-highlight",
       "category": "extension",
@@ -95,7 +95,7 @@
     {
       "id": "markedit-lang-vue",
       "name": "MarkEdit Vue Language",
-      "description": "Vue Language Package.",
+      "description": "Vue language package for MarkEdit.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-lang-vue",
       "category": "extension",
@@ -108,7 +108,7 @@
     {
       "id": "markedit-mte",
       "name": "MarkEdit Table Editor",
-      "description": "Markdown Table Editor.",
+      "description": "Markdown Table Editor for MarkEdit.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-mte",
       "category": "extension",
@@ -121,7 +121,7 @@
     {
       "id": "markedit-prettier",
       "name": "MarkEdit Prettier",
-      "description": "Prettier.",
+      "description": "Prettier integration for MarkEdit.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-prettier",
       "category": "extension",
@@ -134,7 +134,7 @@
     {
       "id": "markedit-preview",
       "name": "MarkEdit Preview",
-      "description": "HTML preview.",
+      "description": "Markdown preview for MarkEdit.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-preview",
       "category": "extension",
@@ -147,7 +147,7 @@
     {
       "id": "markedit-proofreading",
       "name": "MarkEdit Proofreading",
-      "description": "Grammar checker based on Harper.",
+      "description": "MarkEdit grammar checker based on Harper.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-proofreading",
       "category": "extension",
@@ -160,7 +160,7 @@
     {
       "id": "markedit-reference-style-links",
       "name": "MarkEdit Reference Style Links",
-      "description": "Insert reference style links easily.",
+      "description": "Insert reference style links easily in MarkEdit.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-reference-style-links",
       "category": "extension",
@@ -362,7 +362,7 @@
     {
       "id": "markedit-vim",
       "name": "MarkEdit Vim",
-      "description": "Vim Keybindings.",
+      "description": "Vim Keybindings for MarkEdit.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-vim",
       "category": "extension",
@@ -375,7 +375,7 @@
     {
       "id": "markedit-wikilinks",
       "name": "MarkEdit Wikilinks",
-      "description": "[[wikilinks]] for MarkEdit.",
+      "description": "Add [[wikilinks]] syntax to MarkEdit.",
       "author": "nuc",
       "homepage": "https://github.com/nuc/MarkEdit-wikilinks",
       "category": "extension",
