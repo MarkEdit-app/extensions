@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-rendered-math",
+  "name": "MarkEdit Rendered Math",
+  "description": "Render math inline using mathjax",
+  "author": "lewallen",
+  "homepage": "https://github.com/lewallen/markedit-rendered-math",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/lewallen/markedit-rendered-math/refs/tags/1.0.0/markedit-rendered-math.js",
+      "sha256": "87eb4063a5f2f08b4e073118690199417034d6964b83bcb3dba4e21ce33a8c8a"
+    }
+  ]
+}
