@@ -61,9 +61,10 @@
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-enhanced-paste",
       "category": "extension",
       "latest": {
-        "version": "1.0.0",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-enhanced-paste/v1.0.0/dist/markedit-enhanced-paste.js",
-        "sha256": "ed7a0919815c5434e000b0bcf227aaa4555f9dc59bd5fe07d908e837e3789c19"
+        "version": "1.1.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-enhanced-paste/v1.1.0/dist/markedit-enhanced-paste.js",
+        "sha256": "495b1a9f6b23fec4e47c08c98079d27e3ed951386a7cc2b3ff9cae08637638a5",
+        "notes": "Wrap image paths in angle brackets."
       }
     },
     {
