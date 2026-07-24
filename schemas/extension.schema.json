@@ -78,6 +78,10 @@
       "format": "uri",
       "description": "Project homepage."
     },
+    "featured": {
+      "type": "boolean",
+      "description": "Curated recommendation; featured entries are surfaced first in Discover."
+    },
     "versions": {
       "type": "array",
       "minItems": 1,

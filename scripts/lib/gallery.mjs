@@ -201,7 +201,10 @@ function renderNav(populated) {
 export function renderGallery(index) {
   const groups = SECTIONS.map((section) => ({
     section,
-    items: index.extensions.filter(section.isMatch),
+    items: index.extensions.filter(section.isMatch).sort((lhs, rhs) => {
+      // Featured entries float to the top, then sort alphabetically
+      return ((rhs.featured === true) - (lhs.featured === true)) || lhs.id.localeCompare(rhs.id);
+    }),
   }));
 
   const populated = groups.filter(({ items }) => items.length > 0);

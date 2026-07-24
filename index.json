@@ -7,6 +7,7 @@
       "description": "AI writer for MarkEdit, based on Apple's Foundation Models.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-ai-writer",
+      "featured": true,
       "category": "extension",
       "latest": {
         "version": "1.1.0",
@@ -59,6 +60,7 @@
       "description": "Enhance paste functionality for MarkEdit.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-enhanced-paste",
+      "featured": true,
       "category": "extension",
       "latest": {
         "version": "1.1.0",
@@ -138,6 +140,7 @@
       "description": "Markdown preview for MarkEdit.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-preview",
+      "featured": true,
       "category": "extension",
       "latest": {
         "version": "1.8.1",
