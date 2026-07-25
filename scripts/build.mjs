@@ -88,7 +88,7 @@ for (const { category, dir, validate } of sources) {
       latest.minAppVersion = newest.minAppVersion;
     }
 
-    if (newest.notes !== undefined) {
+    if (newest.notes != null) {
       latest.notes = newest.notes;
     }
 

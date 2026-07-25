@@ -45,8 +45,9 @@
           "description": "Minimum MarkEdit version. Defaults to 1.0.0."
         },
         "notes": {
-          "type": "string",
-          "description": "Short release notes."
+          "type": ["string", "null"],
+          "pattern": "\\S",
+          "description": "Short release notes; null or a non-empty string, never blank."
         }
       }
     }
@@ -63,20 +64,24 @@
     },
     "name": {
       "type": "string",
-      "description": "Human-readable name."
+      "pattern": "\\S",
+      "description": "Human-readable name; must not be blank."
     },
     "description": {
       "type": "string",
-      "description": "One-line summary."
+      "pattern": "\\S",
+      "description": "One-line summary; must not be blank."
     },
     "author": {
       "type": "string",
-      "description": "Author name or handle."
+      "pattern": "\\S",
+      "description": "Author name or handle; must not be blank."
     },
     "homepage": {
       "type": "string",
       "format": "uri",
-      "description": "Project homepage."
+      "pattern": "^https://",
+      "description": "Project homepage; must be an https URL."
     },
     "featured": {
       "type": "boolean",
