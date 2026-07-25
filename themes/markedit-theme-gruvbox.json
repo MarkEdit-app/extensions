@@ -5,6 +5,7 @@
   "description": "Gruvbox theme for MarkEdit.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-gruvbox",
+  "featured": true,
   "colorScheme": "both",
   "colorPatterns": [
     "#fbf1c7,#3c3836,#79740e,#9d0006,#076678,#928374",

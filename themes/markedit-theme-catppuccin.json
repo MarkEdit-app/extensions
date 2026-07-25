@@ -5,6 +5,7 @@
   "description": "Catppuccin theme for MarkEdit.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-catppuccin",
+  "featured": true,
   "colorScheme": "both",
   "colorPatterns": [
     "#eff1f5,#4c4f69,#1e66f5,#8839ef,#40a02b,#7c7f93",
