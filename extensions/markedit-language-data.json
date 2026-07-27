@@ -1,0 +1,16 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-language-data",
+  "name": "MarkEdit Language Data",
+  "description": "Code block highlighting for MarkEdit.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-language-data",
+  "featured": true,
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-language-data/v1.0.0/dist/markedit-language-data.js",
+      "sha256": "16459c9c5b940b5f7baf0c61b7d06b9810fff64c2c478452020a668f2bacfe89"
+    }
+  ]
+}
