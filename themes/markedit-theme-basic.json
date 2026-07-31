@@ -12,6 +12,11 @@
   ],
   "versions": [
     {
+      "version": "1.1.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-basic/v1.1.0/dist/markedit-theme-basic.js",
+      "sha256": "fcc16b6c5aab8cbb82934ea023fa064d409e7950fbd9d24c3086f14d21836c53"
+    },
+    {
       "version": "1.0.0",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-basic/v1.0.0/dist/markedit-theme-basic.js",
       "sha256": "36aa2857372dff13b5d6c2fd0f36f3fea9efb14b6742fa3e9d7a28cc966951ee"

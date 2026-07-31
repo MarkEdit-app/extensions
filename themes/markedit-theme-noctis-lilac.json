@@ -11,6 +11,11 @@
   ],
   "versions": [
     {
+      "version": "1.1.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-noctis-lilac/v1.1.0/dist/markedit-theme-noctis-lilac.js",
+      "sha256": "684fe5830f715820f125dc06f851cde2ef7eacb58c1de3cd5e0bd5030a9d576f"
+    },
+    {
       "version": "1.0.0",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-noctis-lilac/v1.0.0/dist/markedit-theme-noctis-lilac.js",
       "sha256": "2813adad175d5e1fa4eeefdea65fc458ab8605204c5598bc1f90f149d8be7e22"

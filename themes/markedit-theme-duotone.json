@@ -12,6 +12,11 @@
   ],
   "versions": [
     {
+      "version": "1.1.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-duotone/v1.1.0/dist/markedit-theme-duotone.js",
+      "sha256": "74c777e5873edfee6d2e526289d1ce0876078d8fb943e8420fc43357f134d9e3"
+    },
+    {
       "version": "1.0.0",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-duotone/v1.0.0/dist/markedit-theme-duotone.js",
       "sha256": "f1b1e8773292a87efd13ae5b291efcbda4daef87fa752279f22a1251a876875e"

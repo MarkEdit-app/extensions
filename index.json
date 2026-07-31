@@ -202,9 +202,9 @@
       ],
       "category": "theme",
       "latest": {
-        "version": "1.0.0",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-basic/v1.0.0/dist/markedit-theme-basic.js",
-        "sha256": "36aa2857372dff13b5d6c2fd0f36f3fea9efb14b6742fa3e9d7a28cc966951ee"
+        "version": "1.1.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-basic/v1.1.0/dist/markedit-theme-basic.js",
+        "sha256": "fcc16b6c5aab8cbb82934ea023fa064d409e7950fbd9d24c3086f14d21836c53"
       }
     },
     {
@@ -221,9 +221,9 @@
       ],
       "category": "theme",
       "latest": {
-        "version": "1.0.0",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-catppuccin/v1.0.0/dist/markedit-theme-catppuccin.js",
-        "sha256": "ae27ae2f81e5865028e8c1d7d1a87254a18097e78e9dfcda113ed6f7882614d6"
+        "version": "1.1.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-catppuccin/v1.1.0/dist/markedit-theme-catppuccin.js",
+        "sha256": "684d828ca10f74a500a1ad1b8b500331ae63d4a0e4a0d4059108bdb2655f5630"
       }
     },
     {
@@ -239,9 +239,9 @@
       ],
       "category": "theme",
       "latest": {
-        "version": "1.0.0",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-duotone/v1.0.0/dist/markedit-theme-duotone.js",
-        "sha256": "f1b1e8773292a87efd13ae5b291efcbda4daef87fa752279f22a1251a876875e"
+        "version": "1.1.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-duotone/v1.1.0/dist/markedit-theme-duotone.js",
+        "sha256": "74c777e5873edfee6d2e526289d1ce0876078d8fb943e8420fc43357f134d9e3"
       }
     },
     {
@@ -258,9 +258,9 @@
       ],
       "category": "theme",
       "latest": {
-        "version": "1.0.0",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-gruvbox/v1.0.0/dist/markedit-theme-gruvbox.js",
-        "sha256": "d2abe83583370c16d47d4cc27f61ec96fc65fce7c093b5913f72b2a1bcc8cdd4"
+        "version": "1.1.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-gruvbox/v1.1.0/dist/markedit-theme-gruvbox.js",
+        "sha256": "a4ec67d8828caa049b9a9ea6016d8307a1c81ade0ad82eb3dbb16ccb15e2769a"
       }
     },
     {
@@ -275,9 +275,9 @@
       ],
       "category": "theme",
       "latest": {
-        "version": "1.0.0",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-noctis-lilac/v1.0.0/dist/markedit-theme-noctis-lilac.js",
-        "sha256": "2813adad175d5e1fa4eeefdea65fc458ab8605204c5598bc1f90f149d8be7e22"
+        "version": "1.1.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-noctis-lilac/v1.1.0/dist/markedit-theme-noctis-lilac.js",
+        "sha256": "684fe5830f715820f125dc06f851cde2ef7eacb58c1de3cd5e0bd5030a9d576f"
       }
     },
     {
@@ -292,9 +292,9 @@
       ],
       "category": "theme",
       "latest": {
-        "version": "1.0.0",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-nord/v1.0.0/dist/markedit-theme-nord.js",
-        "sha256": "ab6ba9fb2bd78685db1e01d89186e8e721a59401fe0544b929b0fcec750590fa"
+        "version": "1.1.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-nord/v1.1.0/dist/markedit-theme-nord.js",
+        "sha256": "6030e533a0bcce69b49c4862d38dfc93e3e58d5f10c52ebb92f0916997543f52"
       }
     },
     {
@@ -309,9 +309,9 @@
       ],
       "category": "theme",
       "latest": {
-        "version": "1.0.0",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-one-dark/v1.0.0/dist/markedit-theme-one-dark.js",
-        "sha256": "0cd771f25cf73773332d38e6b5b9368bb24c2b77895c32ebecd0356e04511f02"
+        "version": "1.1.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-one-dark/v1.1.0/dist/markedit-theme-one-dark.js",
+        "sha256": "54dcad1c6a1594592efeaeb6c2a0e95eaf09a3333238de911a88972e0279e6bf"
       }
     },
     {
@@ -326,9 +326,9 @@
       ],
       "category": "theme",
       "latest": {
-        "version": "1.0.0",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-quietlight/v1.0.0/dist/markedit-theme-quietlight.js",
-        "sha256": "f121285a5de1b5ffa281a9077aab287715bf88ec1cdc70bedf8f80a64a701f4f"
+        "version": "1.1.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-quietlight/v1.1.0/dist/markedit-theme-quietlight.js",
+        "sha256": "2ce3a603f31f268945e71493bbb1a65abe7783d59c3a0a3d994a538919b0633e"
       }
     },
     {
@@ -344,9 +344,9 @@
       ],
       "category": "theme",
       "latest": {
-        "version": "1.0.0",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-tokyo-night/v1.0.0/dist/markedit-theme-tokyo-night.js",
-        "sha256": "82f4b0724c654d9aa5270f444a5e39cf887da3f7c1d18d45db69bd31c5496de6"
+        "version": "1.1.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-tokyo-night/v1.1.0/dist/markedit-theme-tokyo-night.js",
+        "sha256": "329ca79666cc6dddf5ef7c9def49919758d4f280c6bb968033dd105c3a5220bc"
       }
     },
     {
