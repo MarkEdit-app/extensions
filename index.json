@@ -91,7 +91,7 @@
       "category": "extension",
       "latest": {
         "version": "0.0.0",
-        "url": "https://raw.githubusercontent.com/beauzone/MarkEdit-hitl-review/main/hitl-review.js",
+        "url": "https://raw.githubusercontent.com/beauzone/MarkEdit-hitl-review/f160e53e96de2ba3461ddebfffd2bf9618003244/hitl-review.js",
         "sha256": "f1b13bc17e8c61b157a3a8436dde6ba019fcd28dddb64c0688e3bdfef2a965c4"
       }
     },
