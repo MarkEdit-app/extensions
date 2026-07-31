@@ -33,7 +33,7 @@ The folder an entry lives in determines its kind, so an entry's `category` (`ext
 ```
 
 - `id` is kebab-case and must equal the filename.
-- `versions` lists builds newest-first; the newest becomes `latest` in `index.json`. Older entries are kept as verified history (every listed build is hash-checked), not served to the app.
+- `versions` lists builds newest-first; the newest becomes `latest` in `index.json`. Only the newest 5 are kept, every listed build is hash-checked.
 - `url` points at the `.js` file committed at a release tag (an immutable ref, served raw from GitHub).
 - `sha256` pins the exact bytes at `url`.
 - `minAppVersion` (optional) is the lowest MarkEdit version a build supports; it defaults to `1.0.0` and is carried into `latest`.

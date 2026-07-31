@@ -17,6 +17,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const schemasDir = join(root, 'schemas');
 const assetsDir = join(root, 'scripts', 'assets');
 const checkIntegrity = process.env.CHECK_INTEGRITY !== 'false';
+const maxVersions = 5;
 
 const ajv = new Ajv({ allErrors: true, strict: false });
 addFormats(ajv);
@@ -70,9 +71,16 @@ for (const { category, dir, validate } of sources) {
 
     seenIds.add(data.id);
 
-    // The registry vouches for every listed build, so verify them all; the index
-    // exposes only the newest one (full history stays in the source entry).
+    // Keep the history short, releases older than the newest few are dropped from the source file.
     const versions = [...data.versions].sort((a, b) => compareSemver(b.version, a.version));
+    if (versions.length > maxVersions) {
+      versions.length = maxVersions;
+      data.versions = versions;
+      writeFileSync(join(dir, file), `${JSON.stringify(data, null, 2)}\n`);
+    }
+
+    // The registry vouches for every listed build, so verify them all; the index
+    // exposes only the newest one (the rest stays in the source entry).
     for (const version of versions) {
       verifyTargets.push({ id: data.id, version });
     }
