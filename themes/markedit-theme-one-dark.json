@@ -1,8 +1,8 @@
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/theme.schema.json",
   "id": "markedit-theme-one-dark",
-  "name": "One Dark",
-  "description": "One Dark theme for MarkEdit.",
+  "name": "One Dark Theme",
+  "description": "The iconic dark theme from Atom.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-one-dark",
   "colorScheme": "dark",

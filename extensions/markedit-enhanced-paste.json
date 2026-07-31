@@ -1,8 +1,8 @@
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-enhanced-paste",
-  "name": "MarkEdit Enhanced Paste",
-  "description": "Enhance paste functionality for MarkEdit.",
+  "name": "Enhanced Paste",
+  "description": "Converts pasted HTML and other content to Markdown.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-enhanced-paste",
   "featured": true,

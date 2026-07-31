@@ -1,8 +1,8 @@
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-prettier",
-  "name": "MarkEdit Prettier",
-  "description": "Prettier integration for MarkEdit.",
+  "name": "Prettier Formatter",
+  "description": "Formats Markdown documents with a consistent style.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-prettier",
   "versions": [

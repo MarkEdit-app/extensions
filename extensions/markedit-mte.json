@@ -1,8 +1,8 @@
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-mte",
-  "name": "MarkEdit Table Editor",
-  "description": "Markdown Table Editor for MarkEdit.",
+  "name": "Table Editor",
+  "description": "Formats and navigates Markdown tables while you type.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-mte",
   "versions": [

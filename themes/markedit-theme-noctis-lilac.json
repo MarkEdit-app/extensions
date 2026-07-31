@@ -1,8 +1,8 @@
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/theme.schema.json",
   "id": "markedit-theme-noctis-lilac",
-  "name": "Noctis Lilac",
-  "description": "Noctis Lilac theme for MarkEdit.",
+  "name": "Noctis Lilac Theme",
+  "description": "A light theme with a lilac background, from the Noctis family.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-noctis-lilac",
   "colorScheme": "light",

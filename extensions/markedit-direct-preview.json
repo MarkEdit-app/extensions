@@ -1,8 +1,8 @@
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-direct-preview",
-  "name": "MarkEdit Direct Preview",
-  "description": "A setup helper for the MarkEdit Preview extension.",
+  "name": "Direct Preview",
+  "description": "Adds a one-click Edit and Preview toggle to Preview Mode.",
   "author": "Squarelight-ai",
   "homepage": "https://github.com/Squarelight-ai/markedit-direct-preview",
   "versions": [

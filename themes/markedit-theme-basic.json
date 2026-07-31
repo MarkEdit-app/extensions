@@ -1,8 +1,8 @@
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/theme.schema.json",
   "id": "markedit-theme-basic",
-  "name": "Basic",
-  "description": "Basic theme for MarkEdit.",
+  "name": "Basic Theme",
+  "description": "Minimal colors with soft accents.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-basic",
   "colorScheme": "both",

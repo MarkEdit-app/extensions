@@ -1,8 +1,8 @@
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/theme.schema.json",
   "id": "markedit-theme-duotone",
-  "name": "DuoTone",
-  "description": "DuoTone theme for MarkEdit.",
+  "name": "DuoTone Theme",
+  "description": "Only two hues, with emphasis on what matters.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-duotone",
   "colorScheme": "both",

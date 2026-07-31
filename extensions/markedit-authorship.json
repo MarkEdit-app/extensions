@@ -1,8 +1,8 @@
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-authorship",
-  "name": "MarkEdit Authorship",
-  "description": "iA Writer-style AI authorship rainbow highlighting.",
+  "name": "AI Authorship",
+  "description": "Marks AI-written text with a rainbow gradient, iA Writer style.",
   "author": "cinkoman",
   "homepage": "https://github.com/cinkoman/MarkEdit-authorship",
   "versions": [

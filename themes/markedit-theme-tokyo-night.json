@@ -1,8 +1,8 @@
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/theme.schema.json",
   "id": "markedit-theme-tokyo-night",
-  "name": "Tokyo Night",
-  "description": "Tokyo Night theme for MarkEdit.",
+  "name": "Tokyo Night Theme",
+  "description": "Celebrates the lights of downtown Tokyo at night.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-tokyo-night",
   "colorScheme": "both",

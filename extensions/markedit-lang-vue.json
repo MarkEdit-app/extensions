@@ -1,8 +1,8 @@
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-lang-vue",
-  "name": "MarkEdit Vue Language",
-  "description": "Vue language package for MarkEdit.",
+  "name": "Vue Language Support",
+  "description": "Syntax highlighting for Vue code blocks.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-lang-vue",
   "versions": [

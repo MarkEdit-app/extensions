@@ -1,8 +1,8 @@
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-highlight",
-  "name": "MarkEdit Highlight",
-  "description": "Add ==highlight== syntax to MarkEdit.",
+  "name": "Text Highlight",
+  "description": "Adds ==highlight== syntax for marking text.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-highlight",
   "versions": [

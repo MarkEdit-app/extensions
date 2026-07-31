@@ -1,8 +1,8 @@
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/theme.schema.json",
   "id": "markedit-theme-catppuccin",
-  "name": "Catppuccin",
-  "description": "Catppuccin theme for MarkEdit.",
+  "name": "Catppuccin Theme",
+  "description": "Soothing pastel colors from the Catppuccin community.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-catppuccin",
   "featured": true,

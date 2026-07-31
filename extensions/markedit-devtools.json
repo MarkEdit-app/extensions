@@ -1,8 +1,8 @@
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-devtools",
-  "name": "MarkEdit DevTools",
-  "description": "Dev Tools for MarkEdit.",
+  "name": "Dev Tools",
+  "description": "Base64, UUID, hashing, and other developer utilities.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-devtools",
   "versions": [

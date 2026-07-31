@@ -1,8 +1,8 @@
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-theme-zero",
-  "name": "MarkEdit Theme Zero",
-  "description": "Zero theme for MarkEdit.",
+  "name": "Theme Zero",
+  "description": "A blank theme to start building your own colors.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-zero",
   "versions": [
