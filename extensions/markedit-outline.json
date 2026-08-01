@@ -2,7 +2,7 @@
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-outline",
   "name": "Outline Sidebar",
-  "description": "A persistent table-of-contents sidebar for MarkEdit.",
+  "description": "A table-of-contents / outline sidebar for MarkEdit, usable in both edit and preview modes.",
   "author": "Nigelw",
   "homepage": "https://github.com/Nigelw/MarkEdit-outline-sidebar",
   "versions": [
