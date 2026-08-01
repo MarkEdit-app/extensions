@@ -1,0 +1,16 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-outline",
+  "name": "Outline Sidebar",
+  "description": "A persistent table-of-contents sidebar for MarkEdit.",
+  "author": "Nigelw",
+  "homepage": "https://github.com/Nigelw/MarkEdit-outline-sidebar",
+  "versions": [
+    {
+      "version": "1.3.0",
+      "url": "https://raw.githubusercontent.com/Nigelw/MarkEdit-outline-sidebar/v1.3.0/dist/markedit-outline.js",
+      "sha256": "0e3c6321fb493eb5e6f3b9aa389d61934eec27334cb314cd0d8ac40edd86ebff",
+      "notes": "Internal updater removed in favor of centralized updates through MarkEdit’s Extension Manager."
+    }
+  ]
+}
