@@ -1,0 +1,16 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-bidirectional-preview-sync",
+  "name": "Bidirectional Preview Sync",
+  "description": "Keeps the scroll position of MarkEdit's editor and preview panes synced in both directions.",
+  "author": "Nigelw",
+  "homepage": "https://github.com/Nigelw/MarkEdit-bidirectional-preview-sync",
+  "versions": [
+    {
+      "version": "1.1.2",
+      "url": "https://raw.githubusercontent.com/Nigelw/MarkEdit-bidirectional-preview-sync/v1.1.2/dist/markedit-bidirectional-preview-sync.js",
+      "sha256": "4f82d282254c9949db1d8d52f36290474f1bfb5660c9339c2f75f132553c3658",
+      "notes": "Updates are now managed centrally by MarkEdit's Extension Manager."
+    }
+  ]
+}
