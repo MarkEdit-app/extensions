@@ -1,0 +1,16 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-outline",
+  "name": "Outline Sidebar",
+  "description": "A table-of-contents / outline sidebar for MarkEdit, usable in both edit and preview modes.",
+  "author": "Nigelw",
+  "homepage": "https://github.com/Nigelw/MarkEdit-outline-sidebar",
+  "versions": [
+    {
+      "version": "1.3.1",
+      "url": "https://raw.githubusercontent.com/Nigelw/MarkEdit-outline-sidebar/v1.3.1/dist/markedit-outline.js",
+      "sha256": "201a22860740237e70a2a71769fde207c49bd89509dd4e7102dd1f7bf0e78a27",
+      "notes": "Long outline titles now use middle truncation; tooltips appear only for truncated titles."
+    }
+  ]
+}
