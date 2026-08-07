@@ -1,6 +1,6 @@
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
-  "id": "native-text-shortcuts",
+  "id": "markedit-native-text-shortcuts",
   "name": "Native Text Shortcuts",
   "description": "Makes MarkEdit’s Option+Arrow Key text navigation behave like native macOS text fields.",
   "author": "Nigelw",
