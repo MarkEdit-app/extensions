@@ -158,9 +158,9 @@
       "featured": true,
       "category": "extension",
       "latest": {
-        "version": "1.8.1",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-preview/v1.8.1/dist/markedit-preview.js",
-        "sha256": "1532295f78826ed78e161ffdc0c7fdcf307bf0ac4664fbf7eb50dc4c741be0c8"
+        "version": "1.9.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-preview/v1.9.0/dist/markedit-preview.js",
+        "sha256": "2cca98ee432ea0f7f3a33fb65b329ab83d0e7f3e3573d1863bb780167becd530"
       }
     },
     {
