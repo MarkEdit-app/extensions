@@ -3,7 +3,7 @@
   "id": "markedit-bidirectional-preview-sync",
   "name": "Bidirectional Preview Sync",
   "description": "Keeps the scroll position of MarkEdit's editor and preview panes synced in both directions.",
-  "author": "Nigel Warren",
+  "author": "Nigelw",
   "homepage": "https://github.com/Nigelw/MarkEdit-bidirectional-preview-sync",
   "versions": [
     {
