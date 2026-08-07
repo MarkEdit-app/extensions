@@ -1,0 +1,53 @@
+name: Update Official Releases
+
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: update-official-releases
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: yarn
+      - run: yarn install --frozen-lockfile
+      - run: yarn update:official
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - run: yarn build
+      - uses: actions/create-github-app-token@v2
+        id: app-token
+        with:
+          app-id: ${{ vars.REGISTRY_BOT_APP_ID }}
+          private-key: ${{ secrets.REGISTRY_BOT_PRIVATE_KEY }}
+      - uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          base: main
+          branch: automation/official-releases
+          delete-branch: true
+          sign-commits: true
+          commit-message: 'chore: update official extension releases'
+          title: 'Update official extension releases'
+          body: |
+            Updates official extensions from their latest GitHub releases.
+
+            Review release notes and raise `minAppVersion` when required. CI verifies every downloaded file against its recorded SHA-256.
+          add-paths: |
+            extensions/*.json
+            themes/*.json

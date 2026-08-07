@@ -9,6 +9,7 @@ import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { dirname, join, basename } from 'node:path';
 import { renderGallery } from './lib/gallery.mjs';
+import { compare as compareSemver, valid as validSemver } from 'semver';
 
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
@@ -18,6 +19,7 @@ const schemasDir = join(root, 'schemas');
 const assetsDir = join(root, 'scripts', 'assets');
 const checkIntegrity = process.env.CHECK_INTEGRITY !== 'false';
 const maxVersions = 5;
+const requestTimeout = 30_000;
 
 const ajv = new Ajv({ allErrors: true, strict: false });
 addFormats(ajv);
@@ -57,6 +59,23 @@ for (const { category, dir, validate } of sources) {
         onError(`${file}: ${error.instancePath || '/'} ${error.message}`);
       }
 
+      continue;
+    }
+
+    const invalidVersions = data.versions.filter(({ version }) => validSemver(version) === null);
+    for (const { version } of invalidVersions) {
+      onError(`${file}: invalid semantic version "${version}"`);
+    }
+
+    const invalidMinimums = data.versions.filter(({ minAppVersion }) =>
+      minAppVersion !== undefined && validSemver(minAppVersion) === null
+    );
+
+    for (const { minAppVersion } of invalidMinimums) {
+      onError(`${file}: invalid minimum app version "${minAppVersion}"`);
+    }
+
+    if (invalidVersions.length > 0 || invalidMinimums.length > 0) {
       continue;
     }
 
@@ -109,7 +128,11 @@ for (const { category, dir, validate } of sources) {
 if (checkIntegrity) {
   for (const { id, version } of verifyTargets) {
     try {
-      const response = await fetch(version.url, { redirect: 'follow' });
+      const response = await fetch(version.url, {
+        redirect: 'follow',
+        signal: AbortSignal.timeout(requestTimeout),
+      });
+
       if (!response.ok) {
         onError(`${id}@${version.version}: ${version.url} returned ${response.status}`);
         continue;
@@ -159,83 +182,3 @@ cpSync(assetsDir, join(root, 'site'), { recursive: true });
 const extensionCount = entries.filter((entry) => entry.category === 'extension').length;
 const themeCount = entries.length - extensionCount;
 console.log(`Built index.json and site/ (${extensionCount} extensions, ${themeCount} themes).`);
-
-/**
- * Compares two semantic versions by precedence (SemVer §11): numeric release parts
- * first, then pre-release (a build with a pre-release ranks below its release).
- * Build metadata is ignored.
- */
-function compareSemver(a, b) {
-  const parse = (version) => {
-    const core = version.replace(/\+.*$/, '');
-    const dash = core.indexOf('-');
-    const release = dash === -1 ? core : core.slice(0, dash);
-    return {
-      nums: release.split('.').map((part) => parseInt(part, 10) || 0),
-      prerelease: dash === -1 ? '' : core.slice(dash + 1),
-    };
-  };
-
-  const left = parse(a);
-  const right = parse(b);
-
-  for (let index = 0; index < 3; index++) {
-    const valueA = left.nums[index] || 0;
-    const valueB = right.nums[index] || 0;
-    if (valueA !== valueB) {
-      return valueA - valueB;
-    }
-  }
-
-  // Same release: a build without a pre-release outranks any pre-release.
-  if (left.prerelease === right.prerelease) {
-    return 0;
-  }
-
-  if (left.prerelease === '' || right.prerelease === '') {
-    return left.prerelease === '' ? 1 : -1;
-  }
-
-  return comparePrerelease(left.prerelease, right.prerelease);
-}
-
-/**
- * Compares two pre-release strings by dot-separated identifiers (SemVer §11.4):
- * numeric identifiers compare numerically and rank below alphanumeric ones, and a
- * shorter set of identifiers ranks lower when all preceding ones are equal.
- */
-function comparePrerelease(a, b) {
-  const idsA = a.split('.');
-  const idsB = b.split('.');
-  const length = Math.max(idsA.length, idsB.length);
-
-  for (let index = 0; index < length; index++) {
-    const idA = idsA[index];
-    const idB = idsB[index];
-    if (idA === idB) {
-      continue;
-    }
-
-    if (idA === undefined) {
-      return -1;
-    }
-
-    if (idB === undefined) {
-      return 1;
-    }
-
-    const numericA = /^[0-9]+$/.test(idA);
-    const numericB = /^[0-9]+$/.test(idB);
-    if (numericA && numericB) {
-      return parseInt(idA, 10) - parseInt(idB, 10);
-    }
-
-    if (numericA !== numericB) {
-      return numericA ? -1 : 1;
-    }
-
-    return idA < idB ? -1 : 1;
-  }
-
-  return 0;
-}
