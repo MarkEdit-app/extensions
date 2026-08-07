@@ -1,6 +1,6 @@
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
-  "id": "markedit-outline",
+  "id": "markedit-outline-sidebar",
   "name": "Outline Sidebar",
   "description": "A table-of-contents / outline sidebar for MarkEdit, usable in both edit and preview modes.",
   "author": "Nigelw",
