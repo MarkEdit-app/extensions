@@ -1,0 +1,16 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-native-text-shortcuts",
+  "name": "Native Text Shortcuts",
+  "description": "Makes MarkEdit’s Option+Arrow Key text navigation behave like native macOS text fields.",
+  "author": "Nigelw",
+  "homepage": "https://github.com/Nigelw/MarkEdit-native-text-shortcuts",
+  "versions": [
+    {
+      "version": "1.1.2",
+      "url": "https://raw.githubusercontent.com/Nigelw/MarkEdit-native-text-shortcuts/v1.1.2/markedit-native-text-shortcuts.js",
+      "sha256": "835b3bc5a5d2326a24a2686b4026a8169b7694bbd09b1ec82df891edd60bcabd",
+      "notes": "Updates are managed centrally by MarkEdit's Extension Manager."
+    }
+  ]
+}
