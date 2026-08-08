@@ -13,7 +13,8 @@
     {
       "version": "1.1.0",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-one-dark/v1.1.0/dist/markedit-theme-one-dark.js",
-      "sha256": "54dcad1c6a1594592efeaeb6c2a0e95eaf09a3333238de911a88972e0279e6bf"
+      "sha256": "54dcad1c6a1594592efeaeb6c2a0e95eaf09a3333238de911a88972e0279e6bf",
+      "notes": "Upgrade markedit-theming to latest."
     },
     {
       "version": "1.0.0",

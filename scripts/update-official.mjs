@@ -5,6 +5,7 @@ import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { basename, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { compare as compareSemver, valid as validSemver } from 'semver';
+import { releaseNotes } from './github-release.mjs';
 import { updateRawReleaseURL } from './release-url.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -57,8 +58,12 @@ for (const directory of sources) {
       next.minAppVersion = current.minAppVersion;
     }
 
-    entry.versions.unshift(next);
+    const notes = releaseNotes(release);
+    if (notes !== undefined) {
+      next.notes = notes;
+    }
 
+    entry.versions.unshift(next);
     if (!dryRun) {
       writeFileSync(filePath, `${JSON.stringify(entry, null, 2)}\n`);
     }

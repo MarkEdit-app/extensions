@@ -10,7 +10,8 @@
     {
       "version": "1.9.0",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-preview/v1.9.0/dist/markedit-preview.js",
-      "sha256": "2cca98ee432ea0f7f3a33fb65b329ab83d0e7f3e3573d1863bb780167becd530"
+      "sha256": "2cca98ee432ea0f7f3a33fb65b329ab83d0e7f3e3573d1863bb780167becd530",
+      "notes": "Bug fixes and get ready for the new MarkEdit release."
     },
     {
       "version": "1.8.1",

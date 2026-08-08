@@ -13,7 +13,8 @@
     {
       "version": "1.1.0",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-quietlight/v1.1.0/dist/markedit-theme-quietlight.js",
-      "sha256": "2ce3a603f31f268945e71493bbb1a65abe7783d59c3a0a3d994a538919b0633e"
+      "sha256": "2ce3a603f31f268945e71493bbb1a65abe7783d59c3a0a3d994a538919b0633e",
+      "notes": "Upgrade markedit-theming to latest."
     },
     {
       "version": "1.0.0",
