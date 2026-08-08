@@ -137,6 +137,20 @@
       }
     },
     {
+      "id": "markedit-outline-sidebar",
+      "name": "Outline Sidebar",
+      "description": "A table-of-contents / outline sidebar for MarkEdit, usable in both edit and preview modes.",
+      "author": "Nigelw",
+      "homepage": "https://github.com/Nigelw/MarkEdit-outline-sidebar",
+      "category": "extension",
+      "latest": {
+        "version": "1.3.2",
+        "url": "https://raw.githubusercontent.com/Nigelw/MarkEdit-outline-sidebar/v1.3.2/dist/markedit-outline.js",
+        "sha256": "87bc28d9b4efdba929235bdb2dd9b6be89a42c4e715b0db9f66bd29f74a8676b",
+        "notes": "The outline now refreshes when an open document is updated outside MarkEdit."
+      }
+    },
+    {
       "id": "markedit-prettier",
       "name": "Prettier Formatter",
       "description": "Formats Markdown documents with a consistent style.",
