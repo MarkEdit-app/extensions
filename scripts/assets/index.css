@@ -284,6 +284,23 @@ main {
   color: var(--muted);
 }
 
+.featured {
+  align-self: center;
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  color: var(--muted);
+  cursor: default;
+}
+
+.featured svg {
+  display: block;
+  fill: currentColor;
+}
+
 .permalink {
   color: inherit;
   text-decoration: none;
