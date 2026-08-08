@@ -15,7 +15,8 @@
     {
       "version": "1.1.0",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-catppuccin/v1.1.0/dist/markedit-theme-catppuccin.js",
-      "sha256": "684d828ca10f74a500a1ad1b8b500331ae63d4a0e4a0d4059108bdb2655f5630"
+      "sha256": "684d828ca10f74a500a1ad1b8b500331ae63d4a0e4a0d4059108bdb2655f5630",
+      "notes": "Upgrade markedit-theming to latest."
     },
     {
       "version": "1.0.0",

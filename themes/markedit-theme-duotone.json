@@ -14,7 +14,8 @@
     {
       "version": "1.1.0",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-duotone/v1.1.0/dist/markedit-theme-duotone.js",
-      "sha256": "74c777e5873edfee6d2e526289d1ce0876078d8fb943e8420fc43357f134d9e3"
+      "sha256": "74c777e5873edfee6d2e526289d1ce0876078d8fb943e8420fc43357f134d9e3",
+      "notes": "Upgrade markedit-theming to latest."
     },
     {
       "version": "1.0.0",

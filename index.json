@@ -12,7 +12,8 @@
       "latest": {
         "version": "1.1.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-ai-writer/v1.1.0/dist/markedit-ai-writer.js",
-        "sha256": "94115461fdd053fceffd15033f26490a48ab214546dca43fc389d51367b87ec3"
+        "sha256": "94115461fdd053fceffd15033f26490a48ab214546dca43fc389d51367b87ec3",
+        "notes": "General bug fixes and performance improvements."
       }
     },
     {
@@ -202,7 +203,8 @@
       "latest": {
         "version": "1.9.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-preview/v1.9.0/dist/markedit-preview.js",
-        "sha256": "2cca98ee432ea0f7f3a33fb65b329ab83d0e7f3e3573d1863bb780167becd530"
+        "sha256": "2cca98ee432ea0f7f3a33fb65b329ab83d0e7f3e3573d1863bb780167becd530",
+        "notes": "Bug fixes and get ready for the new MarkEdit release."
       }
     },
     {
@@ -259,7 +261,8 @@
       "latest": {
         "version": "1.1.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-basic/v1.1.0/dist/markedit-theme-basic.js",
-        "sha256": "fcc16b6c5aab8cbb82934ea023fa064d409e7950fbd9d24c3086f14d21836c53"
+        "sha256": "fcc16b6c5aab8cbb82934ea023fa064d409e7950fbd9d24c3086f14d21836c53",
+        "notes": "Upgrade markedit-theming to latest."
       }
     },
     {
@@ -278,7 +281,8 @@
       "latest": {
         "version": "1.1.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-catppuccin/v1.1.0/dist/markedit-theme-catppuccin.js",
-        "sha256": "684d828ca10f74a500a1ad1b8b500331ae63d4a0e4a0d4059108bdb2655f5630"
+        "sha256": "684d828ca10f74a500a1ad1b8b500331ae63d4a0e4a0d4059108bdb2655f5630",
+        "notes": "Upgrade markedit-theming to latest."
       }
     },
     {
@@ -296,7 +300,8 @@
       "latest": {
         "version": "1.1.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-duotone/v1.1.0/dist/markedit-theme-duotone.js",
-        "sha256": "74c777e5873edfee6d2e526289d1ce0876078d8fb943e8420fc43357f134d9e3"
+        "sha256": "74c777e5873edfee6d2e526289d1ce0876078d8fb943e8420fc43357f134d9e3",
+        "notes": "Upgrade markedit-theming to latest."
       }
     },
     {
@@ -315,7 +320,8 @@
       "latest": {
         "version": "1.1.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-gruvbox/v1.1.0/dist/markedit-theme-gruvbox.js",
-        "sha256": "a4ec67d8828caa049b9a9ea6016d8307a1c81ade0ad82eb3dbb16ccb15e2769a"
+        "sha256": "a4ec67d8828caa049b9a9ea6016d8307a1c81ade0ad82eb3dbb16ccb15e2769a",
+        "notes": "Upgrade markedit-theming to latest."
       }
     },
     {
@@ -332,7 +338,8 @@
       "latest": {
         "version": "1.1.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-noctis-lilac/v1.1.0/dist/markedit-theme-noctis-lilac.js",
-        "sha256": "684fe5830f715820f125dc06f851cde2ef7eacb58c1de3cd5e0bd5030a9d576f"
+        "sha256": "684fe5830f715820f125dc06f851cde2ef7eacb58c1de3cd5e0bd5030a9d576f",
+        "notes": "Upgrade markedit-theming to latest."
       }
     },
     {
@@ -349,7 +356,8 @@
       "latest": {
         "version": "1.1.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-nord/v1.1.0/dist/markedit-theme-nord.js",
-        "sha256": "6030e533a0bcce69b49c4862d38dfc93e3e58d5f10c52ebb92f0916997543f52"
+        "sha256": "6030e533a0bcce69b49c4862d38dfc93e3e58d5f10c52ebb92f0916997543f52",
+        "notes": "Upgrade markedit-theming to latest."
       }
     },
     {
@@ -366,7 +374,8 @@
       "latest": {
         "version": "1.1.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-one-dark/v1.1.0/dist/markedit-theme-one-dark.js",
-        "sha256": "54dcad1c6a1594592efeaeb6c2a0e95eaf09a3333238de911a88972e0279e6bf"
+        "sha256": "54dcad1c6a1594592efeaeb6c2a0e95eaf09a3333238de911a88972e0279e6bf",
+        "notes": "Upgrade markedit-theming to latest."
       }
     },
     {
@@ -383,7 +392,8 @@
       "latest": {
         "version": "1.1.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-quietlight/v1.1.0/dist/markedit-theme-quietlight.js",
-        "sha256": "2ce3a603f31f268945e71493bbb1a65abe7783d59c3a0a3d994a538919b0633e"
+        "sha256": "2ce3a603f31f268945e71493bbb1a65abe7783d59c3a0a3d994a538919b0633e",
+        "notes": "Upgrade markedit-theming to latest."
       }
     },
     {
@@ -401,7 +411,8 @@
       "latest": {
         "version": "1.1.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-tokyo-night/v1.1.0/dist/markedit-theme-tokyo-night.js",
-        "sha256": "329ca79666cc6dddf5ef7c9def49919758d4f280c6bb968033dd105c3a5220bc"
+        "sha256": "329ca79666cc6dddf5ef7c9def49919758d4f280c6bb968033dd105c3a5220bc",
+        "notes": "Upgrade markedit-theming to latest."
       }
     },
     {
@@ -433,7 +444,8 @@
       "latest": {
         "version": "1.1.0",
         "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-zero/v1.1.0/dist/markedit-theme-zero.js",
-        "sha256": "70b6d8eda20c3a4bfa7527f8052d7fb3ebcdab8b45261065527861a5efafb4b3"
+        "sha256": "70b6d8eda20c3a4bfa7527f8052d7fb3ebcdab8b45261065527861a5efafb4b3",
+        "notes": "Upgrade markedit-theming to latest."
       }
     },
     {
