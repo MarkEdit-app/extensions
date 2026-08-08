@@ -11,12 +11,6 @@
       "url": "https://raw.githubusercontent.com/Nigelw/MarkEdit-outline-sidebar/v1.3.2/dist/markedit-outline.js",
       "sha256": "87bc28d9b4efdba929235bdb2dd9b6be89a42c4e715b0db9f66bd29f74a8676b",
       "notes": "The outline now refreshes when an open document is updated outside MarkEdit."
-    },
-    {
-      "version": "1.3.1",
-      "url": "https://raw.githubusercontent.com/Nigelw/MarkEdit-outline-sidebar/v1.3.1/dist/markedit-outline.js",
-      "sha256": "201a22860740237e70a2a71769fde207c49bd89509dd4e7102dd1f7bf0e78a27",
-      "notes": "Long outline titles now use middle truncation; tooltips appear only for truncated titles."
     }
   ]
 }
