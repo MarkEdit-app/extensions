@@ -5,6 +5,7 @@
   "description": "Curated registry of MarkEdit extensions.",
   "scripts": {
     "build": "node scripts/build.mjs",
+    "test": "node --test",
     "update:official": "node scripts/update-official.mjs"
   },
   "devDependencies": {

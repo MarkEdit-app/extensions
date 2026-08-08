@@ -5,6 +5,7 @@ import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { basename, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { compare as compareSemver, valid as validSemver } from 'semver';
+import { updateRawReleaseURL } from './release-url.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const organization = 'MarkEdit-app';
@@ -127,10 +128,9 @@ function releaseURL(entry, currentRelease, repository, release) {
     throw new Error(`${entry.id}: release URL does not match its official repository`);
   }
 
-  if (currentURL.hostname === 'raw.githubusercontent.com' && parts.length >= 4) {
-    parts[2] = release.tag_name;
-    currentURL.pathname = `/${parts.join('/')}`;
-    return currentURL.toString();
+  const rawReleaseURL = updateRawReleaseURL(currentURL, release.tag_name);
+  if (rawReleaseURL !== undefined) {
+    return rawReleaseURL;
   }
 
   if (currentURL.hostname === 'github.com' && parts[2] === 'releases' && parts[3] === 'download') {
