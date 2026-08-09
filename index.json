@@ -126,7 +126,7 @@
     {
       "id": "markedit-language-data",
       "name": "Language Data",
-      "description": "Full HTML support, plus highlighting for many more code block languages.",
+      "description": "Inline HTML support and code block highlighting for programming languages.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-language-data",
       "featured": true,
@@ -195,7 +195,7 @@
     {
       "id": "markedit-preview",
       "name": "Preview Mode",
-      "description": "Live HTML preview, side-by-side or overlay.",
+      "description": "Preview Markdown as HTML side by side or in an overlay, with Quick Look support.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-preview",
       "featured": true,
