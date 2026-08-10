@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-quick-emoji",
+  "name": "Quick Emoji",
+  "description": "Converts emoticons into emoji as you type.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-quick-emoji",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-quick-emoji/v1.0.0/dist/markedit-quick-emoji.js",
+      "sha256": "a7520d347ee8ffc5ced4767402a3d58205b13f06aa3cfd4e0fd2b5707119b146"
+    }
+  ]
+}
