@@ -8,6 +8,12 @@
   "featured": true,
   "versions": [
     {
+      "version": "1.2.0",
+      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-enhanced-paste/v1.2.0/dist/markedit-enhanced-paste.js",
+      "sha256": "157a9f149ed023d5be2e729ddb6e482a7e86dae40409ae760ffab264152a9df2",
+      "notes": "Add automatic link title fetch."
+    },
+    {
       "version": "1.1.0",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-enhanced-paste/v1.1.0/dist/markedit-enhanced-paste.js",
       "sha256": "495b1a9f6b23fec4e47c08c98079d27e3ed951386a7cc2b3ff9cae08637638a5",
