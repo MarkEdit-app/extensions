@@ -126,6 +126,19 @@
       }
     },
     {
+      "id": "markedit-mindmap",
+      "name": "Mind Map",
+      "description": "Interactive mind maps for Markdown documents.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-mindmap",
+      "category": "extension",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-mindmap/v1.0.0/dist/markedit-mindmap.js",
+        "sha256": "48246f5a2e56f582078b02bd3a1a32b3fe6f6349a27b2e6c78d581f37c4e36cb"
+      }
+    },
+    {
       "id": "markedit-mte",
       "name": "Table Editor",
       "description": "Formats and navigates Markdown tables while you type.",
