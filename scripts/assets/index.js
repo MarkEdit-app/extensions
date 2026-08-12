@@ -1,10 +1,26 @@
-// Re-render the timestamp in the viewer's own locale and timezone
+const formatLocalDate = (isoString, options) => {
+  const date = new Date(isoString);
+  return Number.isNaN(date.getTime())
+    ? undefined
+    : date.toLocaleString(undefined, options);
+};
+
+// Re-render timestamps in the viewer's own locale and timezone
 (() => {
   const element = document.getElementById('genDate');
-  const date = element && new Date(element.dateTime);
-  if (date && !Number.isNaN(date.getTime())) {
-    element.textContent = date.toLocaleString(undefined, { dateStyle: 'long', timeStyle: 'short' });
+  const formattedDate = element && formatLocalDate(element.dateTime, { dateStyle: 'long', timeStyle: 'short' });
+  if (formattedDate) {
+    element.textContent = formattedDate;
   }
+
+  document.querySelectorAll('.ver[data-date]').forEach((version) => {
+    const formattedVersionDate = formatLocalDate(version.dataset.date, { dateStyle: 'medium' });
+    if (formattedVersionDate) {
+      version.title = version.dataset.notes
+        ? `${formattedVersionDate}: ${version.dataset.notes}`
+        : formattedVersionDate;
+    }
+  });
 })();
 
 // Fast, smooth in-page navigation

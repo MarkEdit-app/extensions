@@ -8,8 +8,10 @@
   "versions": [
     {
       "version": "1.0.0",
+      "date": "2026-07-09T11:00:00Z",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-reference-style-links/v1.0.0/dist/markedit-reference-style-links.js",
-      "sha256": "9231d97135d9157cbba16e1cd0b17d80a787c7aaf6a1b9e3861eda1baa766707"
+      "sha256": "9231d97135d9157cbba16e1cd0b17d80a787c7aaf6a1b9e3861eda1baa766707",
+      "notes": "Initial release."
     }
   ]
 }

@@ -9,6 +9,7 @@ import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { dirname, join, basename } from 'node:path';
 import { renderGallery } from './lib/gallery.mjs';
+import { normalizeRegistryVersion, registryDate, stampRegistryMetadata } from './registry-date.mjs';
 import { compare as compareSemver, valid as validSemver } from 'semver';
 
 import Ajv from 'ajv';
@@ -18,6 +19,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const schemasDir = join(root, 'schemas');
 const assetsDir = join(root, 'scripts', 'assets');
 const checkIntegrity = process.env.CHECK_INTEGRITY !== 'false';
+const checkInDate = process.env.STAMP_DATES === 'true' ? registryDate() : undefined;
 const maxVersions = 5;
 const requestTimeout = 30_000;
 
@@ -91,10 +93,20 @@ for (const { category, dir, validate } of sources) {
     seenIds.add(data.id);
 
     // Keep the history short, releases older than the newest few are dropped from the source file.
-    const versions = [...data.versions].sort((a, b) => compareSemver(b.version, a.version));
+    let versions = [...data.versions].sort((a, b) => compareSemver(b.version, a.version));
+    let sourceChanged = checkInDate !== undefined && stampRegistryMetadata(versions, checkInDate);
     if (versions.length > maxVersions) {
       versions.length = maxVersions;
+      sourceChanged = true;
+    }
+
+    versions = versions.map(normalizeRegistryVersion);
+    if (JSON.stringify(data.versions) !== JSON.stringify(versions)) {
       data.versions = versions;
+      sourceChanged = true;
+    }
+
+    if (sourceChanged) {
       writeFileSync(join(dir, file), `${JSON.stringify(data, null, 2)}\n`);
     }
 
@@ -105,11 +117,14 @@ for (const { category, dir, validate } of sources) {
     }
 
     const newest = versions[0];
-    const latest = {
-      version: newest.version,
-      url: newest.url,
-      sha256: newest.sha256,
-    };
+    const latest = { version: newest.version };
+
+    if (newest.date !== undefined) {
+      latest.date = newest.date;
+    }
+
+    latest.url = newest.url;
+    latest.sha256 = newest.sha256;
 
     if (newest.minAppVersion !== undefined) {
       latest.minAppVersion = newest.minAppVersion;

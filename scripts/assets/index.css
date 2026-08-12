@@ -282,6 +282,11 @@ main {
   font-size: 12px;
   font-weight: 500;
   color: var(--muted);
+  cursor: default;
+}
+
+.ver:hover {
+  color: var(--fg);
 }
 
 .featured {

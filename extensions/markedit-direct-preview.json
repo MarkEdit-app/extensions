@@ -8,8 +8,10 @@
   "versions": [
     {
       "version": "0.1.0",
+      "date": "2026-07-09T11:00:00Z",
       "url": "https://github.com/Squarelight-ai/markedit-direct-preview/releases/download/v0.1.0/markedit-direct-preview.js",
-      "sha256": "b6a3f48cc121232f184e896edeb6aa715d67f64bfbc10d5c9606a65ac5241960"
+      "sha256": "b6a3f48cc121232f184e896edeb6aa715d67f64bfbc10d5c9606a65ac5241960",
+      "notes": "Initial release."
     }
   ]
 }

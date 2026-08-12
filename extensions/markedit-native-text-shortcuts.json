@@ -8,6 +8,7 @@
   "versions": [
     {
       "version": "1.1.2",
+      "date": "2026-08-08T01:00:00Z",
       "url": "https://raw.githubusercontent.com/Nigelw/MarkEdit-native-text-shortcuts/v1.1.2/markedit-native-text-shortcuts.js",
       "sha256": "835b3bc5a5d2326a24a2686b4026a8169b7694bbd09b1ec82df891edd60bcabd",
       "notes": "Updates are managed centrally by MarkEdit's Extension Manager."

@@ -8,14 +8,17 @@
   "versions": [
     {
       "version": "1.1.0",
+      "date": "2026-08-07T11:00:00Z",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-zero/v1.1.0/dist/markedit-theme-zero.js",
       "sha256": "70b6d8eda20c3a4bfa7527f8052d7fb3ebcdab8b45261065527861a5efafb4b3",
       "notes": "Upgrade markedit-theming to latest."
     },
     {
       "version": "1.0.0",
+      "date": "2026-07-09T14:00:00Z",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-zero/v1.0.0/dist/markedit-theme-zero.js",
-      "sha256": "f97a85c385c87ca6d05333df53df80a2761ed44ff8a1848ef7bbe6e5efcec0d7"
+      "sha256": "f97a85c385c87ca6d05333df53df80a2761ed44ff8a1848ef7bbe6e5efcec0d7",
+      "notes": "Initial release."
     }
   ]
 }

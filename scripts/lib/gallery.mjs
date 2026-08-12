@@ -38,10 +38,9 @@ function escapeHTML(value) {
   return String(value).replace(/[&<>"]/g, (character) => HTML_ESCAPES[character]);
 }
 
-function formatDate(isoString) {
+function formatDate(isoString, options = { dateStyle: 'long', timeStyle: 'short' }) {
   const formatted = new Date(isoString).toLocaleString('en-US', {
-    dateStyle: 'long',
-    timeStyle: 'short',
+    ...options,
     timeZone: 'UTC',
   });
 
@@ -68,6 +67,22 @@ function renderScheme(extension) {
 
   const label = SCHEME_LABELS[extension.colorScheme];
   return label === undefined ? '' : `<span class="scheme">${escapeHTML(label)}</span>`;
+}
+
+function renderVersionTooltip(extension) {
+  const { date, notes } = extension.latest;
+  if (date === undefined && notes === undefined) {
+    return '';
+  }
+
+  if (date === undefined) {
+    return ` title="${escapeHTML(notes)}"`;
+  }
+
+  const formattedDate = formatDate(date, { dateStyle: 'medium' });
+  const title = notes === undefined ? formattedDate : `${formattedDate}: ${notes}`;
+  const notesAttribute = notes === undefined ? '' : ` data-notes="${escapeHTML(notes)}"`;
+  return ` title="${escapeHTML(title)}" data-date="${escapeHTML(date)}"${notesAttribute}`;
 }
 
 function renderFeatured(extension) {
@@ -173,6 +188,7 @@ function renderCard(extension) {
     ICON: `<span class="icon icon-name ${extension.category === 'theme' ? 'icon-theme' : 'icon-extension'}" aria-hidden="true"></span>`,
     NAME: escapeHTML(extension.name),
     VERSION: escapeHTML(extension.latest.version),
+    VERSION_TOOLTIP: renderVersionTooltip(extension),
     FEATURED: renderFeatured(extension),
     SCHEME: renderScheme(extension),
     PREVIEW: renderPreview(extension),

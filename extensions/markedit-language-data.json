@@ -9,14 +9,17 @@
   "versions": [
     {
       "version": "1.1.0",
+      "date": "2026-07-30T15:00:00Z",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-language-data/v1.1.0/dist/markedit-language-data.js",
       "sha256": "c3a0448531dc2f039db745e03ec8caecad8d04aed9159222234b75e7f4855f43",
       "notes": "Integrate full html language support."
     },
     {
       "version": "1.0.0",
+      "date": "2026-07-27T06:00:00Z",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-language-data/v1.0.0/dist/markedit-language-data.js",
-      "sha256": "16459c9c5b940b5f7baf0c61b7d06b9810fff64c2c478452020a668f2bacfe89"
+      "sha256": "16459c9c5b940b5f7baf0c61b7d06b9810fff64c2c478452020a668f2bacfe89",
+      "notes": "Initial release."
     }
   ]
 }

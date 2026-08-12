@@ -8,8 +8,10 @@
   "versions": [
     {
       "version": "1.0.0",
+      "date": "2026-07-09T11:00:00Z",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-devtools/v1.0.0/dist/markedit-devtools.js",
-      "sha256": "424251e05ae17e6fd63096592b38733c0ecb6869af45e14a51e2f07785d0b51c"
+      "sha256": "424251e05ae17e6fd63096592b38733c0ecb6869af45e14a51e2f07785d0b51c",
+      "notes": "Initial release."
     }
   ]
 }

@@ -8,6 +8,7 @@
   "versions": [
     {
       "version": "1.1.0",
+      "date": "2026-08-12T02:00:00Z",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-prettier/v1.1.0/dist/markedit-prettier.js",
       "sha256": "43a52c7e12e3dcc4c598a45181b7f6badc676fed6dd506b7513b6f6965655cd4",
       "minAppVersion": "1.24.0",
@@ -15,8 +16,10 @@
     },
     {
       "version": "1.0.0",
+      "date": "2026-07-09T11:00:00Z",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-prettier/v1.0.0/dist/markedit-prettier.js",
-      "sha256": "cce9cf0b8df017114d942a1baee250c7f2fa5b2cbcdea4238f4f32a2be4a0940"
+      "sha256": "cce9cf0b8df017114d942a1baee250c7f2fa5b2cbcdea4238f4f32a2be4a0940",
+      "notes": "Initial release."
     }
   ]
 }
