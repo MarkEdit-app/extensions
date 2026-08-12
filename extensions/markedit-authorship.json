@@ -8,8 +8,10 @@
   "versions": [
     {
       "version": "1.0.0",
+      "date": "2026-07-09T11:00:00Z",
       "url": "https://raw.githubusercontent.com/cinkoman/MarkEdit-authorship/v1.0/ai-rainbow.js",
-      "sha256": "bb62bf5b8c69a5fbe7fe95d9b6e37d180781642d360821dfb28883a71c696633"
+      "sha256": "bb62bf5b8c69a5fbe7fe95d9b6e37d180781642d360821dfb28883a71c696633",
+      "notes": "Initial release."
     }
   ]
 }

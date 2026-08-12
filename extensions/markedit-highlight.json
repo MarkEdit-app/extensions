@@ -8,8 +8,10 @@
   "versions": [
     {
       "version": "1.0.0",
+      "date": "2026-07-09T11:00:00Z",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-highlight/v1.0.0/dist/markedit-highlight.js",
-      "sha256": "3c8d443dda9bc8dffe3ec08e16cebb484d3c5c771274c981b6747fceac950aca"
+      "sha256": "3c8d443dda9bc8dffe3ec08e16cebb484d3c5c771274c981b6747fceac950aca",
+      "notes": "Initial release."
     }
   ]
 }

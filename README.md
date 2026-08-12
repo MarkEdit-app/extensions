@@ -25,8 +25,10 @@ The folder an entry lives in determines its kind, so an entry's `category` (`ext
   "versions": [
     {
       "version": "1.8.1",
+      "date": "2026-07-09T11:00:00Z",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-preview/v1.8.1/dist/markedit-preview.js",
-      "sha256": "1532295f78826ed78e161ffdc0c7fdcf307bf0ac4664fbf7eb50dc4c741be0c8"
+      "sha256": "1532295f78826ed78e161ffdc0c7fdcf307bf0ac4664fbf7eb50dc4c741be0c8",
+      "notes": "Initial release."
     }
   ]
 }
@@ -34,10 +36,11 @@ The folder an entry lives in determines its kind, so an entry's `category` (`ext
 
 - `id` is kebab-case and must equal the filename.
 - `versions` lists builds newest-first; the newest becomes `latest` in `index.json`. Only the newest 5 are kept, every listed build is hash-checked.
+- `date` is the UTC hour when the version was checked into the registry, carried into `latest`. The publish workflow adds it after merge.
 - `url` points at the `.js` file committed at a release tag (an immutable ref, served raw from GitHub).
 - `sha256` pins the exact bytes at `url`.
 - `minAppVersion` (optional) is the lowest MarkEdit version a build supports; it defaults to `1.0.0` and is carried into `latest`.
-- `notes` (optional) is a short release note for the build, carried into `latest`.
+- `notes` (optional) is a short release note carried into `latest`; it defaults to `Initial release.` for a first submission.
 
 ### Themes
 
@@ -62,8 +65,10 @@ A theme is an extension that only restyles the editor, via the [MarkEdit-theming
   "versions": [
     {
       "version": "1.0.0",
+      "date": "2026-07-09T14:00:00Z",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-catppuccin/v1.0.0/dist/markedit-theme-catppuccin.js",
-      "sha256": "ae27ae2f81e5865028e8c1d7d1a87254a18097e78e9dfcda113ed6f7882614d6"
+      "sha256": "ae27ae2f81e5865028e8c1d7d1a87254a18097e78e9dfcda113ed6f7882614d6",
+      "notes": "Initial release."
     }
   ]
 }

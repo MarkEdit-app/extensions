@@ -9,6 +9,7 @@
   "versions": [
     {
       "version": "1.1.0",
+      "date": "2026-07-09T11:00:00Z",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-ai-writer/v1.1.0/dist/markedit-ai-writer.js",
       "sha256": "94115461fdd053fceffd15033f26490a48ab214546dca43fc389d51367b87ec3",
       "notes": "General bug fixes and performance improvements."
