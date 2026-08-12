@@ -187,9 +187,11 @@
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-prettier",
       "category": "extension",
       "latest": {
-        "version": "1.0.0",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-prettier/v1.0.0/dist/markedit-prettier.js",
-        "sha256": "cce9cf0b8df017114d942a1baee250c7f2fa5b2cbcdea4238f4f32a2be4a0940"
+        "version": "1.1.0",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-prettier/v1.1.0/dist/markedit-prettier.js",
+        "sha256": "43a52c7e12e3dcc4c598a45181b7f6badc676fed6dd506b7513b6f6965655cd4",
+        "minAppVersion": "1.24.0",
+        "notes": "Add configurable formatting options."
       }
     },
     {
