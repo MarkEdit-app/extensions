@@ -248,18 +248,18 @@ main {
 }
 
 .card.current-target {
-  animation: target-highlight 1.6s ease-out;
+  animation: target-highlight 2s ease-in-out;
 }
 
 @keyframes target-highlight {
-  0%, 35% {
-    border-color: var(--accent);
-    box-shadow: 0 0 0 1px var(--accent);
+  0%, 100% {
+    border-color: var(--line);
+    box-shadow: 0 0 0 0 transparent, var(--shadow);
   }
 
-  100% {
-    border-color: var(--line);
-    box-shadow: 0 0 0 0 transparent;
+  25%, 75% {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 1px var(--accent), var(--shadow);
   }
 }
 
