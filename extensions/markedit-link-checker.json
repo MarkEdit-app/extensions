@@ -1,0 +1,16 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-link-checker",
+  "name": "Link Checker",
+  "description": "Find broken links, anchors, and file references in the current document.",
+  "author": "akurach",
+  "homepage": "https://github.com/akurach/markedit-link-checker",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "url": "https://raw.githubusercontent.com/akurach/markedit-link-checker/v0.1.0/dist/markedit-link-checker.js",
+      "sha256": "45b34e12658964acbbaa045474d21808568910dcf0ddf8f252c66a41012cf18d",
+      "notes": "Initial release."
+    }
+  ]
+}
