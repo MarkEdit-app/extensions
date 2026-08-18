@@ -89,6 +89,12 @@
       "pattern": "^https://",
       "description": "Project homepage; must be an https URL."
     },
+    "addedDate": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:00:00Z$",
+      "description": "UTC hour when this entry was first checked into the registry."
+    },
     "featured": {
       "type": "boolean",
       "description": "Curated recommendation; featured entries are surfaced first in Discover."

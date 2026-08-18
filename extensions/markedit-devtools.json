@@ -5,6 +5,7 @@
   "description": "Base64, UUID, hashing, and other developer utilities.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-devtools",
+  "addedDate": "2026-07-09T11:00:00Z",
   "versions": [
     {
       "version": "1.0.0",

@@ -5,6 +5,7 @@
   "description": "Only two hues, with emphasis on what matters.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-duotone",
+  "addedDate": "2026-07-09T14:00:00Z",
   "colorScheme": "both",
   "colorPatterns": [
     "#faf8f5,#b29762,#2d2006,#063289,#1659df,#b6ad9a",

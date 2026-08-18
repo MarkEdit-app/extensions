@@ -4,9 +4,15 @@ export function registryDate(date = new Date()) {
   return date.toISOString().replace('.000Z', 'Z');
 }
 
-export function stampRegistryMetadata(versions, date) {
+export function stampRegistryMetadata(entry, date) {
+  const { versions } = entry;
   const isInitialSubmission = versions.every((version) => version.date === undefined);
   let changed = false;
+
+  if (entry.addedDate === undefined) {
+    entry.addedDate = date;
+    changed = true;
+  }
 
   for (const version of versions) {
     if (version.date === undefined) {

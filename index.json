@@ -7,6 +7,7 @@
       "description": "Writing assistant based on Apple Foundation Models.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-ai-writer",
+      "addedDate": "2026-07-09T11:00:00Z",
       "featured": true,
       "category": "extension",
       "latest": {
@@ -23,6 +24,7 @@
       "description": "Marks AI-written text with a rainbow gradient, iA Writer style.",
       "author": "cinkoman",
       "homepage": "https://github.com/cinkoman/MarkEdit-authorship",
+      "addedDate": "2026-07-09T11:00:00Z",
       "category": "extension",
       "latest": {
         "version": "1.0.0",
@@ -38,6 +40,7 @@
       "description": "Keeps the scroll position of MarkEdit's editor and preview panes synced in both directions.",
       "author": "Nigelw",
       "homepage": "https://github.com/Nigelw/MarkEdit-bidirectional-preview-sync",
+      "addedDate": "2026-08-08T01:00:00Z",
       "category": "extension",
       "latest": {
         "version": "1.1.3",
@@ -53,6 +56,7 @@
       "description": "Base64, UUID, hashing, and other developer utilities.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-devtools",
+      "addedDate": "2026-07-09T11:00:00Z",
       "category": "extension",
       "latest": {
         "version": "1.0.0",
@@ -68,6 +72,7 @@
       "description": "Adds a one-click Edit and Preview toggle to Preview Mode.",
       "author": "Squarelight-ai",
       "homepage": "https://github.com/Squarelight-ai/markedit-direct-preview",
+      "addedDate": "2026-07-09T11:00:00Z",
       "category": "extension",
       "latest": {
         "version": "0.1.0",
@@ -83,6 +88,7 @@
       "description": "Converts pasted HTML and other content to Markdown.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-enhanced-paste",
+      "addedDate": "2026-07-09T11:00:00Z",
       "featured": true,
       "category": "extension",
       "latest": {
@@ -99,6 +105,7 @@
       "description": "Adds ==highlight== syntax for marking text.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-highlight",
+      "addedDate": "2026-07-09T11:00:00Z",
       "category": "extension",
       "latest": {
         "version": "1.0.0",
@@ -114,6 +121,7 @@
       "description": "Human-in-the-loop review with multi-reviewer attribution.",
       "author": "beauzone",
       "homepage": "https://github.com/beauzone/MarkEdit-hitl-review",
+      "addedDate": "2026-07-09T11:00:00Z",
       "category": "extension",
       "latest": {
         "version": "0.0.0",
@@ -129,6 +137,7 @@
       "description": "Inline HTML support and code block highlighting for programming languages.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-language-data",
+      "addedDate": "2026-07-27T06:00:00Z",
       "featured": true,
       "category": "extension",
       "latest": {
@@ -145,6 +154,7 @@
       "description": "Find broken links, anchors, and file references in the current document.",
       "author": "akurach",
       "homepage": "https://github.com/akurach/markedit-link-checker",
+      "addedDate": "2026-08-18T01:00:00Z",
       "category": "extension",
       "latest": {
         "version": "0.1.0",
@@ -160,6 +170,7 @@
       "description": "Interactive mind maps for Markdown documents.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-mindmap",
+      "addedDate": "2026-08-11T13:00:00Z",
       "category": "extension",
       "latest": {
         "version": "1.0.0",
@@ -175,6 +186,7 @@
       "description": "Formats and navigates Markdown tables while you type.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-mte",
+      "addedDate": "2026-07-09T11:00:00Z",
       "category": "extension",
       "latest": {
         "version": "1.0.0",
@@ -190,6 +202,7 @@
       "description": "Makes MarkEdit’s Option+Arrow Key text navigation behave like native macOS text fields.",
       "author": "Nigelw",
       "homepage": "https://github.com/Nigelw/MarkEdit-native-text-shortcuts",
+      "addedDate": "2026-08-08T01:00:00Z",
       "category": "extension",
       "latest": {
         "version": "1.1.2",
@@ -205,6 +218,7 @@
       "description": "A table-of-contents / outline sidebar for MarkEdit, usable in both edit and preview modes.",
       "author": "Nigelw",
       "homepage": "https://github.com/Nigelw/MarkEdit-outline-sidebar",
+      "addedDate": "2026-08-08T01:00:00Z",
       "category": "extension",
       "latest": {
         "version": "1.3.2",
@@ -220,6 +234,7 @@
       "description": "Export the current document as a nicely rendered PDF.",
       "author": "akurach",
       "homepage": "https://github.com/akurach/markedit-pdf-export-pretty",
+      "addedDate": "2026-08-18T01:00:00Z",
       "category": "extension",
       "latest": {
         "version": "0.1.0",
@@ -235,6 +250,7 @@
       "description": "Formats Markdown documents with a consistent style.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-prettier",
+      "addedDate": "2026-07-09T11:00:00Z",
       "category": "extension",
       "latest": {
         "version": "1.1.0",
@@ -251,6 +267,7 @@
       "description": "Preview Markdown as HTML side by side or in an overlay, with Quick Look support.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-preview",
+      "addedDate": "2026-07-09T11:00:00Z",
       "featured": true,
       "category": "extension",
       "latest": {
@@ -267,6 +284,7 @@
       "description": "On-device grammar checker based on Harper.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-proofreading",
+      "addedDate": "2026-07-09T11:00:00Z",
       "category": "extension",
       "latest": {
         "version": "1.0.0",
@@ -282,6 +300,7 @@
       "description": "Converts emoticons into emoji as you type.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-quick-emoji",
+      "addedDate": "2026-08-10T09:00:00Z",
       "category": "extension",
       "latest": {
         "version": "1.0.0",
@@ -297,6 +316,7 @@
       "description": "Quick insertion of reference-style links.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-reference-style-links",
+      "addedDate": "2026-07-09T11:00:00Z",
       "category": "extension",
       "latest": {
         "version": "1.0.0",
@@ -312,6 +332,7 @@
       "description": "Render math inline using mathjax.",
       "author": "lewallen",
       "homepage": "https://github.com/lewallen/markedit-rendered-math",
+      "addedDate": "2026-08-08T01:00:00Z",
       "category": "extension",
       "latest": {
         "version": "1.0.0",
@@ -327,6 +348,7 @@
       "description": "Minimal colors with soft accents.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-basic",
+      "addedDate": "2026-07-09T14:00:00Z",
       "colorScheme": "both",
       "colorPatterns": [
         "#ffffff,#2e3440,#5e81ac,#8fbcbb,#d08770,#434c5e",
@@ -347,6 +369,7 @@
       "description": "Soothing pastel colors from the Catppuccin community.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-catppuccin",
+      "addedDate": "2026-07-09T14:00:00Z",
       "featured": true,
       "colorScheme": "both",
       "colorPatterns": [
@@ -368,6 +391,7 @@
       "description": "Only two hues, with emphasis on what matters.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-duotone",
+      "addedDate": "2026-07-09T14:00:00Z",
       "colorScheme": "both",
       "colorPatterns": [
         "#faf8f5,#b29762,#2d2006,#063289,#1659df,#b6ad9a",
@@ -388,6 +412,7 @@
       "description": "A retro groove color scheme, warm and high-contrast.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-gruvbox",
+      "addedDate": "2026-07-09T14:00:00Z",
       "featured": true,
       "colorScheme": "both",
       "colorPatterns": [
@@ -409,6 +434,7 @@
       "description": "A light theme with a lilac background, from the Noctis family.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-noctis-lilac",
+      "addedDate": "2026-07-09T14:00:00Z",
       "colorScheme": "light",
       "colorPatterns": [
         "#f2f1f8,#0c006b,#fa8900,#ff5792,#00b368,#9995b7"
@@ -428,6 +454,7 @@
       "description": "An arctic, north-bluish color palette.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-nord",
+      "addedDate": "2026-07-09T14:00:00Z",
       "colorScheme": "dark",
       "colorPatterns": [
         "#2e3440,#d8dee9,#5e81ac,#8fbcbb,#a3be8c,#4c566a"
@@ -447,6 +474,7 @@
       "description": "The iconic dark theme from Atom.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-one-dark",
+      "addedDate": "2026-07-09T14:00:00Z",
       "colorScheme": "dark",
       "colorPatterns": [
         "#282c34,#abb2bf,#e06c75,#c678dd,#98c379,#7d8799"
@@ -466,6 +494,7 @@
       "description": "Light and low-contrast, easy on the eyes.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-quietlight",
+      "addedDate": "2026-07-09T14:00:00Z",
       "colorScheme": "light",
       "colorPatterns": [
         "#f5f5f5,#333333,#aa3731,#4b69c6,#448c27,#aaaaaa"
@@ -485,6 +514,7 @@
       "description": "Celebrates the lights of downtown Tokyo at night.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-tokyo-night",
+      "addedDate": "2026-07-09T14:00:00Z",
       "colorScheme": "both",
       "colorPatterns": [
         "#e1e2e7,#3760bf,#b15c00,#007197,#587539,#848cb5",
@@ -505,6 +535,7 @@
       "description": "Default light and dark colors from Visual Studio Code.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-vscode",
+      "addedDate": "2026-07-09T14:00:00Z",
       "colorScheme": "both",
       "colorPatterns": [
         "#ffffff,#383a42,#0070c1,#0000ff,#a31515,#008000",
@@ -525,6 +556,7 @@
       "description": "A blank theme to start building your own colors.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-zero",
+      "addedDate": "2026-07-09T14:00:00Z",
       "category": "extension",
       "latest": {
         "version": "1.1.0",
@@ -540,6 +572,7 @@
       "description": "Vim-style editing with modes and motions.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-vim",
+      "addedDate": "2026-07-09T11:00:00Z",
       "category": "extension",
       "latest": {
         "version": "1.0.0",
@@ -555,6 +588,7 @@
       "description": "Adds [[wikilinks]] syntax for linking notes.",
       "author": "nuc",
       "homepage": "https://github.com/nuc/MarkEdit-wikilinks",
+      "addedDate": "2026-07-09T11:00:00Z",
       "category": "extension",
       "latest": {
         "version": "0.1.3",

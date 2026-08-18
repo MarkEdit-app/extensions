@@ -5,6 +5,7 @@
   "description": "Find broken links, anchors, and file references in the current document.",
   "author": "akurach",
   "homepage": "https://github.com/akurach/markedit-link-checker",
+  "addedDate": "2026-08-18T01:00:00Z",
   "versions": [
     {
       "version": "0.1.0",

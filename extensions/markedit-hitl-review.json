@@ -5,6 +5,7 @@
   "description": "Human-in-the-loop review with multi-reviewer attribution.",
   "author": "beauzone",
   "homepage": "https://github.com/beauzone/MarkEdit-hitl-review",
+  "addedDate": "2026-07-09T11:00:00Z",
   "versions": [
     {
       "version": "0.0.0",

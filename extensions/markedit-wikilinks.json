@@ -5,6 +5,7 @@
   "description": "Adds [[wikilinks]] syntax for linking notes.",
   "author": "nuc",
   "homepage": "https://github.com/nuc/MarkEdit-wikilinks",
+  "addedDate": "2026-07-09T11:00:00Z",
   "versions": [
     {
       "version": "0.1.3",

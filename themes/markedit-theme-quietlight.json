@@ -5,6 +5,7 @@
   "description": "Light and low-contrast, easy on the eyes.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-quietlight",
+  "addedDate": "2026-07-09T14:00:00Z",
   "colorScheme": "light",
   "colorPatterns": [
     "#f5f5f5,#333333,#aa3731,#4b69c6,#448c27,#aaaaaa"
