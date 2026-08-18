@@ -5,6 +5,7 @@
   "description": "Makes MarkEdit’s Option+Arrow Key text navigation behave like native macOS text fields.",
   "author": "Nigelw",
   "homepage": "https://github.com/Nigelw/MarkEdit-native-text-shortcuts",
+  "addedDate": "2026-08-08T01:00:00Z",
   "versions": [
     {
       "version": "1.1.2",

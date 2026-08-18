@@ -22,6 +22,7 @@ The folder an entry lives in determines its kind, so an entry's `category` (`ext
   "description": "A live preview pane for the current document.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-preview",
+  "addedDate": "2026-07-09T11:00:00Z",
   "versions": [
     {
       "version": "1.8.1",
@@ -35,6 +36,7 @@ The folder an entry lives in determines its kind, so an entry's `category` (`ext
 ```
 
 - `id` is kebab-case and must equal the filename.
+- `addedDate` is the UTC hour when the entry was first checked into the registry. The publish workflow adds it after merge.
 - `versions` lists builds newest-first; the newest becomes `latest` in `index.json`. Only the newest 5 are kept, every listed build is hash-checked.
 - `date` is the UTC hour when the version was checked into the registry, carried into `latest`. The publish workflow adds it after merge.
 - `url` points at the `.js` file committed at a release tag (an immutable ref, served raw from GitHub).
@@ -57,6 +59,7 @@ A theme is an extension that only restyles the editor, via the [MarkEdit-theming
   "description": "Soothing pastel theme for MarkEdit.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-catppuccin",
+  "addedDate": "2026-07-09T14:00:00Z",
   "colorScheme": "both",
   "screenshots": [
     "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-catppuccin/main/screenshots/light.png",

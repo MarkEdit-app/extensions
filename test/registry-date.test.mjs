@@ -7,40 +7,51 @@ test('registryDate truncates to the UTC hour', () => {
 });
 
 test('initial submissions receive a date and default notes', () => {
-  const versions = [{ version: '1.0.0' }];
+  const entry = { versions: [{ version: '1.0.0' }] };
 
-  assert.equal(stampRegistryMetadata(versions, '2026-08-12T02:00:00Z'), true);
-  assert.deepEqual(versions, [{
-    version: '1.0.0',
-    date: '2026-08-12T02:00:00Z',
-    notes: 'Initial release.',
-  }]);
+  assert.equal(stampRegistryMetadata(entry, '2026-08-12T02:00:00Z'), true);
+  assert.deepEqual(entry, {
+    versions: [{
+      version: '1.0.0',
+      date: '2026-08-12T02:00:00Z',
+      notes: 'Initial release.',
+    }],
+    addedDate: '2026-08-12T02:00:00Z',
+  });
 });
 
 test('initial submissions preserve provided notes', () => {
-  const versions = [{ version: '1.0.0', notes: 'A tailored introduction.' }];
+  const entry = { versions: [{ version: '1.0.0', notes: 'A tailored introduction.' }] };
 
-  stampRegistryMetadata(versions, '2026-08-12T02:00:00Z');
-  assert.equal(versions[0].notes, 'A tailored introduction.');
+  stampRegistryMetadata(entry, '2026-08-12T02:00:00Z');
+  assert.equal(entry.versions[0].notes, 'A tailored introduction.');
 });
 
 test('updates receive a date without default notes', () => {
-  const versions = [
-    { version: '1.1.0' },
-    { version: '1.0.0', date: '2026-08-01T00:00:00Z', notes: 'Initial release.' },
-  ];
+  const entry = {
+    addedDate: '2026-08-01T00:00:00Z',
+    versions: [
+      { version: '1.1.0' },
+      { version: '1.0.0', date: '2026-08-01T00:00:00Z', notes: 'Initial release.' },
+    ],
+  };
 
-  assert.equal(stampRegistryMetadata(versions, '2026-08-12T02:00:00Z'), true);
-  assert.equal(versions[0].date, '2026-08-12T02:00:00Z');
-  assert.equal(versions[0].notes, undefined);
+  assert.equal(stampRegistryMetadata(entry, '2026-08-12T02:00:00Z'), true);
+  assert.equal(entry.addedDate, '2026-08-01T00:00:00Z');
+  assert.equal(entry.versions[0].date, '2026-08-12T02:00:00Z');
+  assert.equal(entry.versions[0].notes, undefined);
 });
 
 test('existing dates are preserved', () => {
-  const versions = [{ version: '1.0.0', date: '2000-01-01T00:00:00Z' }];
+  const entry = {
+    addedDate: '2000-01-01T00:00:00Z',
+    versions: [{ version: '1.0.0', date: '2000-01-01T00:00:00Z' }],
+  };
 
-  assert.equal(stampRegistryMetadata(versions, '2026-08-12T02:00:00Z'), false);
-  assert.equal(versions[0].date, '2000-01-01T00:00:00Z');
-  assert.equal(versions[0].notes, undefined);
+  assert.equal(stampRegistryMetadata(entry, '2026-08-12T02:00:00Z'), false);
+  assert.equal(entry.addedDate, '2000-01-01T00:00:00Z');
+  assert.equal(entry.versions[0].date, '2000-01-01T00:00:00Z');
+  assert.equal(entry.versions[0].notes, undefined);
 });
 
 test('release fields use canonical order', () => {

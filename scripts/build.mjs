@@ -94,7 +94,12 @@ for (const { category, dir, validate } of sources) {
 
     // Keep the history short, releases older than the newest few are dropped from the source file.
     let versions = [...data.versions].sort((a, b) => compareSemver(b.version, a.version));
-    let sourceChanged = checkInDate !== undefined && stampRegistryMetadata(versions, checkInDate);
+    let sourceChanged = JSON.stringify(data.versions) !== JSON.stringify(versions);
+    data.versions = versions;
+    if (checkInDate !== undefined && stampRegistryMetadata(data, checkInDate)) {
+      sourceChanged = true;
+    }
+
     if (versions.length > maxVersions) {
       versions.length = maxVersions;
       sourceChanged = true;

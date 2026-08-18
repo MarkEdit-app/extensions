@@ -5,6 +5,7 @@
   "description": "Default light and dark colors from Visual Studio Code.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-vscode",
+  "addedDate": "2026-07-09T14:00:00Z",
   "colorScheme": "both",
   "colorPatterns": [
     "#ffffff,#383a42,#0070c1,#0000ff,#a31515,#008000",

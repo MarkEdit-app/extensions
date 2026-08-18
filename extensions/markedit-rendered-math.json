@@ -5,6 +5,7 @@
   "description": "Render math inline using mathjax.",
   "author": "lewallen",
   "homepage": "https://github.com/lewallen/markedit-rendered-math",
+  "addedDate": "2026-08-08T01:00:00Z",
   "versions": [
     {
       "version": "1.0.0",
