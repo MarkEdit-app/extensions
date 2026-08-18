@@ -8,6 +8,7 @@
   "versions": [
     {
       "version": "0.1.0",
+      "date": "2026-08-18T01:00:00Z",
       "url": "https://raw.githubusercontent.com/akurach/markedit-link-checker/v0.1.0/dist/markedit-link-checker.js",
       "sha256": "45b34e12658964acbbaa045474d21808568910dcf0ddf8f252c66a41012cf18d",
       "notes": "Initial release."
