@@ -12,6 +12,7 @@ const SHELL = readTemplate('gallery.html');
 const CARD = readTemplate('card.html');
 const HTML_ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' };
 const SCHEME_LABELS = { light: 'Light', dark: 'Dark', both: 'Light & Dark' };
+const NAME_COLLATOR = new Intl.Collator('en-US', { numeric: true, sensitivity: 'accent' });
 
 // GitHub-style alerts (https://docs.github.com/get-started/writing-on-github). Octicon paths.
 const ALERTS = {
@@ -223,13 +224,35 @@ function renderNav(populated) {
   return `<nav class="jump">${links}</nav>`;
 }
 
+function compareEntries(lhs, rhs) {
+  const featuredOrder = Number(rhs.featured === true) - Number(lhs.featured === true);
+  if (featuredOrder !== 0) {
+    return featuredOrder;
+  }
+
+  const dateValue = (entry) => {
+    const value = Date.parse(entry.latest.date ?? entry.addedDate ?? '');
+    return Number.isNaN(value) ? Number.NEGATIVE_INFINITY : value;
+  };
+
+  const lhsDate = dateValue(lhs);
+  const rhsDate = dateValue(rhs);
+  if (lhsDate !== rhsDate) {
+    return rhsDate - lhsDate;
+  }
+
+  const nameOrder = NAME_COLLATOR.compare(lhs.name, rhs.name);
+  if (nameOrder !== 0) {
+    return nameOrder;
+  }
+
+  return lhs.id < rhs.id ? -1 : Number(lhs.id > rhs.id);
+}
+
 export function renderGallery(index) {
   const groups = SECTIONS.map((section) => ({
     section,
-    items: index.extensions.filter(section.isMatch).sort((lhs, rhs) => {
-      // Featured entries float to the top, then sort alphabetically
-      return ((rhs.featured === true) - (lhs.featured === true)) || lhs.id.localeCompare(rhs.id);
-    }),
+    items: index.extensions.filter(section.isMatch).sort(compareEntries),
   }));
 
   const populated = groups.filter(({ items }) => items.length > 0);
