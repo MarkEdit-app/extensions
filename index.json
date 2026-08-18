@@ -200,6 +200,21 @@
       }
     },
     {
+      "id": "markedit-pdf-export-pretty",
+      "name": "PDF Export (Pretty)",
+      "description": "Export the current document as a nicely rendered PDF.",
+      "author": "akurach",
+      "homepage": "https://github.com/akurach/markedit-pdf-export-pretty",
+      "category": "extension",
+      "latest": {
+        "version": "0.1.0",
+        "date": "2026-08-18T01:00:00Z",
+        "url": "https://raw.githubusercontent.com/akurach/markedit-pdf-export-pretty/v0.1.0/dist/markedit-pdf-export-pretty.js",
+        "sha256": "be090a7ccb1286babb216c986dae979bde81953ee8d401c7f96acca1935da46f",
+        "notes": "Initial release."
+      }
+    },
+    {
       "id": "markedit-prettier",
       "name": "Prettier Formatter",
       "description": "Formats Markdown documents with a consistent style.",
