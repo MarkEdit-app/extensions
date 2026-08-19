@@ -303,11 +303,11 @@
       "addedDate": "2026-08-10T09:00:00Z",
       "category": "extension",
       "latest": {
-        "version": "1.0.0",
-        "date": "2026-08-10T09:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-quick-emoji/v1.0.0/dist/markedit-quick-emoji.js",
-        "sha256": "a7520d347ee8ffc5ced4767402a3d58205b13f06aa3cfd4e0fd2b5707119b146",
-        "notes": "Initial release."
+        "version": "1.1.0",
+        "date": "2026-08-19T11:00:00Z",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-quick-emoji/v1.1.0/dist/markedit-quick-emoji.js",
+        "sha256": "3dcb1d0b0ab1626ccc19dd917088303097973e8b688b6319bd166ffc83dd0136",
+        "notes": "Fix Markdown syntax conflicts."
       }
     },
     {
