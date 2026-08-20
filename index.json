@@ -263,19 +263,19 @@
     },
     {
       "id": "markedit-preview",
-      "name": "Preview Mode",
-      "description": "Preview Markdown as HTML side by side or in an overlay, with Quick Look support.",
+      "name": "Markdown View Modes",
+      "description": "Edit with hidden syntax or preview Markdown side by side or as an overlay.",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-preview",
       "addedDate": "2026-07-09T11:00:00Z",
       "featured": true,
       "category": "extension",
       "latest": {
-        "version": "1.9.0",
-        "date": "2026-08-07T01:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-preview/v1.9.0/dist/markedit-preview.js",
-        "sha256": "2cca98ee432ea0f7f3a33fb65b329ab83d0e7f3e3573d1863bb780167becd530",
-        "notes": "Bug fixes and get ready for the new MarkEdit release."
+        "version": "1.10.0",
+        "date": "2026-08-20T11:00:00Z",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-preview/v1.10.0/dist/markedit-preview.js",
+        "sha256": "5432a7d21737eb022aaa1a930fe7427b07d605a05840791eba1fbc8f26f2921c",
+        "notes": "Add \"Mixed (Syntax Hidden)\" mode."
       }
     },
     {

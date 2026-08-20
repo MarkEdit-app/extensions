@@ -10,6 +10,7 @@
   "versions": [
     {
       "version": "1.10.0",
+      "date": "2026-08-20T11:00:00Z",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-preview/v1.10.0/dist/markedit-preview.js",
       "sha256": "5432a7d21737eb022aaa1a930fe7427b07d605a05840791eba1fbc8f26f2921c",
       "notes": "Add \"Mixed (Syntax Hidden)\" mode."
