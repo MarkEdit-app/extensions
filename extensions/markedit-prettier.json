@@ -9,6 +9,7 @@
   "versions": [
     {
       "version": "1.2.0",
+      "date": "2026-08-21T09:00:00Z",
       "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-prettier/v1.2.0/dist/markedit-prettier.js",
       "sha256": "c9d7602c7e70f3b42ab57eb90114a13760630700ae2123a4b0f83b088db16321",
       "minAppVersion": "1.24.0",
