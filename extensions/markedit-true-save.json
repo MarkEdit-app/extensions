@@ -2,15 +2,15 @@
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-true-save",
   "name": "TrueSave",
-  "description": "Saves new untitled notes to a folder automatically, a few seconds after you stop typing.",
+  "description": "Mirrors new untitled notes to a folder automatically, a few seconds after you stop typing.",
   "author": "pandas9",
   "homepage": "https://github.com/pandas9/MarkEdit-TrueSave",
   "versions": [
     {
-      "version": "1.0.0",
-      "url": "https://raw.githubusercontent.com/pandas9/MarkEdit-TrueSave/v1.0.0/true-save.js",
-      "sha256": "fb5fd98d7c841ec9205c0ada1b822df96ece9a8b36057b200fb70da1b29dd5da",
-      "minAppVersion": "1.32.1",
+      "version": "1.1.0",
+      "url": "https://raw.githubusercontent.com/pandas9/MarkEdit-TrueSave/v1.1.0/true-save.js",
+      "sha256": "d4ed4404e58faed61b7c37fe7f460c77619e48676b926db1c79241722c2df094",
+      "minAppVersion": "1.29.0",
       "notes": "Initial release."
     }
   ]
