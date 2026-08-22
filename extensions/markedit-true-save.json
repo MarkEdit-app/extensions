@@ -7,9 +7,9 @@
   "homepage": "https://github.com/pandas9/MarkEdit-TrueSave",
   "versions": [
     {
-      "version": "1.2.0",
-      "url": "https://raw.githubusercontent.com/pandas9/MarkEdit-TrueSave/v1.2.0/true-save.js",
-      "sha256": "c96f7551a10c0ade0c0f80abf9c70a66cf0cdb00ba7c1d60f8a5a96fe815dcc5",
+      "version": "1.3.0",
+      "url": "https://raw.githubusercontent.com/pandas9/MarkEdit-TrueSave/v1.3.0/true-save.js",
+      "sha256": "79f8d036138f2c9e9a22a77adfc7cf1ed18972281b8a81c00f361d6db7ef41fe",
       "minAppVersion": "1.29.0",
       "notes": "Initial release."
     }
