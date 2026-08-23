@@ -173,11 +173,11 @@
       "addedDate": "2026-08-11T13:00:00Z",
       "category": "extension",
       "latest": {
-        "version": "1.0.0",
-        "date": "2026-08-11T13:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-mindmap/v1.0.0/dist/markedit-mindmap.js",
-        "sha256": "48246f5a2e56f582078b02bd3a1a32b3fe6f6349a27b2e6c78d581f37c4e36cb",
-        "notes": "Initial release."
+        "version": "1.0.1",
+        "date": "2026-08-23T14:00:00Z",
+        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-mindmap/v1.0.1/dist/markedit-mindmap.js",
+        "sha256": "b3b0c6201a3111778045327fe16c318c4e5033c46d75a39ee142199b6b495eae",
+        "notes": "Remove mindmap.prepare for better performance."
       }
     },
     {
