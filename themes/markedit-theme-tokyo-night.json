@@ -15,14 +15,14 @@
     {
       "version": "1.1.0",
       "date": "2026-07-31T05:00:00Z",
-      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-tokyo-night/v1.1.0/dist/markedit-theme-tokyo-night.js",
+      "url": "https://github.com/MarkEdit-app/MarkEdit-theme-tokyo-night/releases/download/v1.1.0/markedit-theme-tokyo-night.js",
       "sha256": "329ca79666cc6dddf5ef7c9def49919758d4f280c6bb968033dd105c3a5220bc",
       "notes": "Upgrade markedit-theming to latest."
     },
     {
       "version": "1.0.0",
       "date": "2026-07-09T14:00:00Z",
-      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-tokyo-night/v1.0.0/dist/markedit-theme-tokyo-night.js",
+      "url": "https://github.com/MarkEdit-app/MarkEdit-theme-tokyo-night/releases/download/v1.0.0/markedit-theme-tokyo-night.js",
       "sha256": "82f4b0724c654d9aa5270f444a5e39cf887da3f7c1d18d45db69bd31c5496de6",
       "notes": "Initial release."
     }

@@ -6,7 +6,7 @@ import { basename, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { compare as compareSemver, valid as validSemver } from 'semver';
 import { releaseNotes } from './github-release.mjs';
-import { updateRawReleaseURL } from './release-url.mjs';
+import { releaseAssetURL, updateRawReleaseURL } from './release-url.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const organization = 'MarkEdit-app';
@@ -133,17 +133,14 @@ function releaseURL(entry, currentRelease, repository, release) {
     throw new Error(`${entry.id}: release URL does not match its official repository`);
   }
 
+  const assetURL = releaseAssetURL(release.assets, basename(currentURL.pathname));
+  if (assetURL !== undefined) {
+    return assetURL;
+  }
+
   const rawReleaseURL = updateRawReleaseURL(currentURL, release.tag_name);
   if (rawReleaseURL !== undefined) {
     return rawReleaseURL;
-  }
-
-  if (currentURL.hostname === 'github.com' && parts[2] === 'releases' && parts[3] === 'download') {
-    const assetName = basename(currentURL.pathname);
-    const asset = release.assets?.find((item) => item.name === assetName);
-    if (asset !== undefined) {
-      return asset.browser_download_url;
-    }
   }
 
   throw new Error(`${entry.id}: unsupported release URL: ${currentURL}`);

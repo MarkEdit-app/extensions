@@ -1,3 +1,7 @@
+export function releaseAssetURL(assets, assetName) {
+  return assets?.find((asset) => asset.name === assetName)?.browser_download_url;
+}
+
 export function updateRawReleaseURL(currentURL, tag) {
   if (currentURL.hostname !== 'raw.githubusercontent.com') {
     return undefined;

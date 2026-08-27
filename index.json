@@ -13,7 +13,7 @@
       "latest": {
         "version": "1.1.0",
         "date": "2026-07-09T11:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-ai-writer/v1.1.0/dist/markedit-ai-writer.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-ai-writer/releases/download/v1.1.0/markedit-ai-writer.js",
         "sha256": "94115461fdd053fceffd15033f26490a48ab214546dca43fc389d51367b87ec3",
         "notes": "General bug fixes and performance improvements."
       }
@@ -61,7 +61,7 @@
       "latest": {
         "version": "1.1.0",
         "date": "2026-08-19T01:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-devtools/v1.1.0/dist/markedit-devtools.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-devtools/releases/download/v1.1.0/markedit-devtools.js",
         "sha256": "f64e4d34702c528339271f66165bf30d58316aa92e9a1c62a6b4743e9b8e445c",
         "notes": "Upgrade dependencies."
       }
@@ -94,7 +94,7 @@
       "latest": {
         "version": "1.3.0",
         "date": "2026-08-26T14:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-enhanced-paste/v1.3.0/dist/markedit-enhanced-paste.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-enhanced-paste/releases/download/v1.3.0/markedit-enhanced-paste.js",
         "sha256": "dc3e83b79a7880198b8a2e0adc03d45cc88144729ae68e6d6bda17abe60fe9b6",
         "notes": "Disable markdown escaping by default."
       }
@@ -110,7 +110,7 @@
       "latest": {
         "version": "1.0.0",
         "date": "2026-07-09T11:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-highlight/v1.0.0/dist/markedit-highlight.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-highlight/releases/download/v1.0.0/markedit-highlight.js",
         "sha256": "3c8d443dda9bc8dffe3ec08e16cebb484d3c5c771274c981b6747fceac950aca",
         "notes": "Initial release."
       }
@@ -143,7 +143,7 @@
       "latest": {
         "version": "1.1.0",
         "date": "2026-07-30T15:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-language-data/v1.1.0/dist/markedit-language-data.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-language-data/releases/download/v1.1.0/markedit-language-data.js",
         "sha256": "c3a0448531dc2f039db745e03ec8caecad8d04aed9159222234b75e7f4855f43",
         "notes": "Integrate full html language support."
       }
@@ -175,7 +175,7 @@
       "latest": {
         "version": "1.0.1",
         "date": "2026-08-23T14:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-mindmap/v1.0.1/dist/markedit-mindmap.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-mindmap/releases/download/v1.0.1/markedit-mindmap.js",
         "sha256": "b3b0c6201a3111778045327fe16c318c4e5033c46d75a39ee142199b6b495eae",
         "notes": "Remove mindmap.prepare for better performance."
       }
@@ -191,7 +191,7 @@
       "latest": {
         "version": "1.0.0",
         "date": "2026-07-09T11:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-mte/v1.0.0/dist/markedit-mte.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-mte/releases/download/v1.0.0/markedit-mte.js",
         "sha256": "1b08ad0dac94a423915416a57ad45b95bc5f3d70d29b77b00cdb02e34ce01700",
         "notes": "Initial release."
       }
@@ -255,7 +255,7 @@
       "latest": {
         "version": "1.2.0",
         "date": "2026-08-21T09:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-prettier/v1.2.0/dist/markedit-prettier.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-prettier/releases/download/v1.2.0/markedit-prettier.js",
         "sha256": "c9d7602c7e70f3b42ab57eb90114a13760630700ae2123a4b0f83b088db16321",
         "minAppVersion": "1.24.0",
         "notes": "Review diff before applying changes."
@@ -273,7 +273,7 @@
       "latest": {
         "version": "1.10.0",
         "date": "2026-08-20T11:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-preview/v1.10.0/dist/markedit-preview.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-preview/releases/download/v1.10.0/markedit-preview.js",
         "sha256": "5432a7d21737eb022aaa1a930fe7427b07d605a05840791eba1fbc8f26f2921c",
         "notes": "Add \"Mixed (Syntax Hidden)\" mode."
       }
@@ -305,7 +305,7 @@
       "latest": {
         "version": "1.1.0",
         "date": "2026-08-19T11:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-quick-emoji/v1.1.0/dist/markedit-quick-emoji.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-quick-emoji/releases/download/v1.1.0/markedit-quick-emoji.js",
         "sha256": "3dcb1d0b0ab1626ccc19dd917088303097973e8b688b6319bd166ffc83dd0136",
         "notes": "Fix Markdown syntax conflicts."
       }
@@ -321,7 +321,7 @@
       "latest": {
         "version": "1.0.0",
         "date": "2026-07-09T11:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-reference-style-links/v1.0.0/dist/markedit-reference-style-links.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-reference-style-links/releases/download/v1.0.0/markedit-reference-style-links.js",
         "sha256": "9231d97135d9157cbba16e1cd0b17d80a787c7aaf6a1b9e3861eda1baa766707",
         "notes": "Initial release."
       }
@@ -358,7 +358,7 @@
       "latest": {
         "version": "1.1.0",
         "date": "2026-07-31T05:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-basic/v1.1.0/dist/markedit-theme-basic.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-theme-basic/releases/download/v1.1.0/markedit-theme-basic.js",
         "sha256": "fcc16b6c5aab8cbb82934ea023fa064d409e7950fbd9d24c3086f14d21836c53",
         "notes": "Upgrade markedit-theming to latest."
       }
@@ -380,7 +380,7 @@
       "latest": {
         "version": "1.1.0",
         "date": "2026-07-31T05:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-catppuccin/v1.1.0/dist/markedit-theme-catppuccin.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-theme-catppuccin/releases/download/v1.1.0/markedit-theme-catppuccin.js",
         "sha256": "684d828ca10f74a500a1ad1b8b500331ae63d4a0e4a0d4059108bdb2655f5630",
         "notes": "Upgrade markedit-theming to latest."
       }
@@ -401,7 +401,7 @@
       "latest": {
         "version": "1.1.0",
         "date": "2026-07-31T05:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-duotone/v1.1.0/dist/markedit-theme-duotone.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-theme-duotone/releases/download/v1.1.0/markedit-theme-duotone.js",
         "sha256": "74c777e5873edfee6d2e526289d1ce0876078d8fb943e8420fc43357f134d9e3",
         "notes": "Upgrade markedit-theming to latest."
       }
@@ -423,7 +423,7 @@
       "latest": {
         "version": "1.1.0",
         "date": "2026-07-31T05:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-gruvbox/v1.1.0/dist/markedit-theme-gruvbox.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-theme-gruvbox/releases/download/v1.1.0/markedit-theme-gruvbox.js",
         "sha256": "a4ec67d8828caa049b9a9ea6016d8307a1c81ade0ad82eb3dbb16ccb15e2769a",
         "notes": "Upgrade markedit-theming to latest."
       }
@@ -443,7 +443,7 @@
       "latest": {
         "version": "1.1.0",
         "date": "2026-07-31T05:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-noctis-lilac/v1.1.0/dist/markedit-theme-noctis-lilac.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-theme-noctis-lilac/releases/download/v1.1.0/markedit-theme-noctis-lilac.js",
         "sha256": "684fe5830f715820f125dc06f851cde2ef7eacb58c1de3cd5e0bd5030a9d576f",
         "notes": "Upgrade markedit-theming to latest."
       }
@@ -463,7 +463,7 @@
       "latest": {
         "version": "1.1.0",
         "date": "2026-07-31T05:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-nord/v1.1.0/dist/markedit-theme-nord.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-theme-nord/releases/download/v1.1.0/markedit-theme-nord.js",
         "sha256": "6030e533a0bcce69b49c4862d38dfc93e3e58d5f10c52ebb92f0916997543f52",
         "notes": "Upgrade markedit-theming to latest."
       }
@@ -483,7 +483,7 @@
       "latest": {
         "version": "1.1.0",
         "date": "2026-07-31T05:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-one-dark/v1.1.0/dist/markedit-theme-one-dark.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-theme-one-dark/releases/download/v1.1.0/markedit-theme-one-dark.js",
         "sha256": "54dcad1c6a1594592efeaeb6c2a0e95eaf09a3333238de911a88972e0279e6bf",
         "notes": "Upgrade markedit-theming to latest."
       }
@@ -503,7 +503,7 @@
       "latest": {
         "version": "1.1.0",
         "date": "2026-07-31T05:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-quietlight/v1.1.0/dist/markedit-theme-quietlight.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-theme-quietlight/releases/download/v1.1.0/markedit-theme-quietlight.js",
         "sha256": "2ce3a603f31f268945e71493bbb1a65abe7783d59c3a0a3d994a538919b0633e",
         "notes": "Upgrade markedit-theming to latest."
       }
@@ -524,7 +524,7 @@
       "latest": {
         "version": "1.1.0",
         "date": "2026-07-31T05:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-tokyo-night/v1.1.0/dist/markedit-theme-tokyo-night.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-theme-tokyo-night/releases/download/v1.1.0/markedit-theme-tokyo-night.js",
         "sha256": "329ca79666cc6dddf5ef7c9def49919758d4f280c6bb968033dd105c3a5220bc",
         "notes": "Upgrade markedit-theming to latest."
       }
@@ -545,7 +545,7 @@
       "latest": {
         "version": "1.2.0",
         "date": "2026-07-29T12:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-vscode/v1.2.0/dist/markedit-theme-vscode.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-theme-vscode/releases/download/v1.2.0/markedit-theme-vscode.js",
         "sha256": "f563fa0dfcf010bc90253271fda5bf3040ccf28063ebe53d34d341a51ce78c69",
         "notes": "Upgrade dependency and fix selection color."
       }
@@ -561,7 +561,7 @@
       "latest": {
         "version": "1.1.0",
         "date": "2026-08-07T11:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-zero/v1.1.0/dist/markedit-theme-zero.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-theme-zero/releases/download/v1.1.0/markedit-theme-zero.js",
         "sha256": "70b6d8eda20c3a4bfa7527f8052d7fb3ebcdab8b45261065527861a5efafb4b3",
         "notes": "Upgrade markedit-theming to latest."
       }
@@ -577,7 +577,7 @@
       "latest": {
         "version": "1.0.0",
         "date": "2026-07-09T11:00:00Z",
-        "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-vim/v1.0.0/dist/markedit-vim.js",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-vim/releases/download/v1.0.0/markedit-vim.js",
         "sha256": "6b2bd014c98d307d502a7a8857514c3f74c2457dde9907ac300d97cae1facdac",
         "notes": "Initial release."
       }

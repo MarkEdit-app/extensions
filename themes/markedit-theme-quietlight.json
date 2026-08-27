@@ -14,14 +14,14 @@
     {
       "version": "1.1.0",
       "date": "2026-07-31T05:00:00Z",
-      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-quietlight/v1.1.0/dist/markedit-theme-quietlight.js",
+      "url": "https://github.com/MarkEdit-app/MarkEdit-theme-quietlight/releases/download/v1.1.0/markedit-theme-quietlight.js",
       "sha256": "2ce3a603f31f268945e71493bbb1a65abe7783d59c3a0a3d994a538919b0633e",
       "notes": "Upgrade markedit-theming to latest."
     },
     {
       "version": "1.0.0",
       "date": "2026-07-09T14:00:00Z",
-      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-quietlight/v1.0.0/dist/markedit-theme-quietlight.js",
+      "url": "https://github.com/MarkEdit-app/MarkEdit-theme-quietlight/releases/download/v1.0.0/markedit-theme-quietlight.js",
       "sha256": "f121285a5de1b5ffa281a9077aab287715bf88ec1cdc70bedf8f80a64a701f4f",
       "notes": "Initial release."
     }
