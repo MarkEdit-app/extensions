@@ -16,14 +16,14 @@
     {
       "version": "1.1.0",
       "date": "2026-07-31T05:00:00Z",
-      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-gruvbox/v1.1.0/dist/markedit-theme-gruvbox.js",
+      "url": "https://github.com/MarkEdit-app/MarkEdit-theme-gruvbox/releases/download/v1.1.0/markedit-theme-gruvbox.js",
       "sha256": "a4ec67d8828caa049b9a9ea6016d8307a1c81ade0ad82eb3dbb16ccb15e2769a",
       "notes": "Upgrade markedit-theming to latest."
     },
     {
       "version": "1.0.0",
       "date": "2026-07-09T14:00:00Z",
-      "url": "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-gruvbox/v1.0.0/dist/markedit-theme-gruvbox.js",
+      "url": "https://github.com/MarkEdit-app/MarkEdit-theme-gruvbox/releases/download/v1.0.0/markedit-theme-gruvbox.js",
       "sha256": "d2abe83583370c16d47d4cc27f61ec96fc65fce7c093b5913f72b2a1bcc8cdd4",
       "notes": "Initial release."
     }
