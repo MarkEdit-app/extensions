@@ -253,12 +253,12 @@
       "addedDate": "2026-07-09T11:00:00Z",
       "category": "extension",
       "latest": {
-        "version": "1.2.0",
-        "date": "2026-08-21T09:00:00Z",
-        "url": "https://github.com/MarkEdit-app/MarkEdit-prettier/releases/download/v1.2.0/markedit-prettier.js",
-        "sha256": "c9d7602c7e70f3b42ab57eb90114a13760630700ae2123a4b0f83b088db16321",
+        "version": "1.2.1",
+        "date": "2026-08-28T11:00:00Z",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-prettier/releases/download/v1.2.1/markedit-prettier.js",
+        "sha256": "b19f249bfef1a3c13e332bad94ebed1a30bc9f361c90c432a17df27685e292d0",
         "minAppVersion": "1.24.0",
-        "notes": "Review diff before applying changes."
+        "notes": "Reduce bundle size of diff reviewer."
       }
     },
     {
