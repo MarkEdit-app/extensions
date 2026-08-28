@@ -8,8 +8,11 @@
   "versions": [
     {
       "version": "1.0.0",
+      "date": "2026-08-28T14:00:00Z",
       "url": "https://github.com/MarkEdit-app/MarkEdit-readable-width/releases/download/v1.0.0/markedit-readable-width.js",
-      "sha256": "c294ae3dd4de07e636f98d5dc4a6c943b8a5c99165afe102fd551361a67cae4f"
+      "sha256": "c294ae3dd4de07e636f98d5dc4a6c943b8a5c99165afe102fd551361a67cae4f",
+      "notes": "Initial release."
     }
-  ]
+  ],
+  "addedDate": "2026-08-28T14:00:00Z"
 }
