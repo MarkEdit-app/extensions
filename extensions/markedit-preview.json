@@ -9,6 +9,12 @@
   "featured": true,
   "versions": [
     {
+      "version": "1.11.0",
+      "url": "https://github.com/MarkEdit-app/MarkEdit-preview/releases/download/v1.11.0/markedit-preview.js",
+      "sha256": "6d9cbe61f036a5fb764fcf770d81523ecbc417cda603bbf603519124e2fc7389",
+      "notes": "Bug fixes and continued improvements to Syntax Hidden Mode."
+    },
+    {
       "version": "1.10.0",
       "date": "2026-08-20T11:00:00Z",
       "url": "https://github.com/MarkEdit-app/MarkEdit-preview/releases/download/v1.10.0/markedit-preview.js",
