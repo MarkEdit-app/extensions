@@ -1,0 +1,17 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-version-browser",
+  "name": "Version Browser",
+  "description": "Browse version history with nicely rendered diffs.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-version-browser",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://github.com/MarkEdit-app/MarkEdit-version-browser/releases/download/v1.0.0/markedit-version-browser.js",
+      "sha256": "42f6713eaf40bcafe94d5881d510983b82f722f1e8d05fdee8a97d238e0e0b1c",
+      "minAppVersion": "1.35.0",
+      "notes": "Initial release."
+    }
+  ]
+}
