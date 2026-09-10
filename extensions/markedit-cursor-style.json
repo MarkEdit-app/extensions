@@ -8,9 +8,11 @@
   "versions": [
     {
       "version": "1.0.0",
+      "date": "2026-09-10T14:00:00Z",
       "url": "https://github.com/MarkEdit-app/MarkEdit-cursor-style/releases/download/v1.0.0/markedit-cursor-style.js",
       "sha256": "cff08b94e90d836541be0a219d2578efdf08888fbc0efb89a160d4c95cc8d903",
       "notes": "Initial release."
     }
-  ]
+  ],
+  "addedDate": "2026-09-10T14:00:00Z"
 }
