@@ -6,6 +6,24 @@
   "author": "edwardcallow",
   "homepage": "https://github.com/edwardcallow/markedit-theme-base16-eighties",
   "colorScheme": "both",
+  "colorPatterns": {
+    "light": [
+      "#F2F0EC",
+      "#A09F93",
+      "#5787B6",
+      "#875C87",
+      "#515151",
+      "#5B9C5C"
+    ],
+    "dark": [
+      "#2D2D2D",
+      "#A09F93",
+      "#66CCCC",
+      "#CC99CC",
+      "#D3D0C8",
+      "#99CC99"
+    ]
+  },
   "screenshots": [
     "https://raw.githubusercontent.com/edwardcallow/markedit-theme-base16-eighties/master/screenshots/light.png",
     "https://raw.githubusercontent.com/edwardcallow/markedit-theme-base16-eighties/master/screenshots/dark.png"
