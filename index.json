@@ -197,22 +197,6 @@
       }
     },
     {
-      "id": "markedit-mixed-mode-tables",
-      "name": "Mixed Mode Tables",
-      "description": "Renders GFM tables in MarkEdit-preview's Mixed (syntax-hidden) mode; click or use ←/→ to edit the source.",
-      "author": "BlaisedEstais",
-      "homepage": "https://github.com/BlaisedEstais/MarkEdit-mixed-mode-tables",
-      "addedDate": "2026-09-18T01:00:00Z",
-      "category": "extension",
-      "latest": {
-        "version": "1.1.0",
-        "date": "2026-09-18T01:00:00Z",
-        "url": "https://github.com/BlaisedEstais/MarkEdit-mixed-mode-tables/releases/download/v1.1.0/markedit-mixed-mode-tables.js",
-        "sha256": "4d6c669e7dd9a32f1392b168f4734733c2c7773266c6e5e05d5a7757a0839fc0",
-        "notes": "Initial release."
-      }
-    },
-    {
       "id": "markedit-mte",
       "name": "Table Editor",
       "description": "Formats and navigates Markdown tables while you type.",
