@@ -49,7 +49,7 @@ The folder an entry lives in determines its kind, so an entry's `category` (`ext
 A theme is an extension that only restyles the editor, via the [MarkEdit-theming](https://github.com/MarkEdit-app/MarkEdit-theming) mechanism. Put its entry under [themes/](/themes/) (which marks it as a theme) and use `theme.schema.json`. Themes require two extra fields:
 
 - `colorScheme` is `light`, `dark`, or `both`, the schemes the theme supports.
-- `screenshots` is a non-empty list of HTTPS image URLs, shown in the gallery and the Extension Manager.
+- `colorPatterns` is a list of one or two palettes used for the illustrated preview in the gallery and Extension Manager. Each palette is a comma-separated list of up to six hex colors in this order: background, text, accent, keyword, string, and comment. Use one palette for `light` or `dark`; for `both`, provide the light palette first and the dark palette second.
 
 ```json
 {
@@ -61,9 +61,9 @@ A theme is an extension that only restyles the editor, via the [MarkEdit-theming
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-theme-catppuccin",
   "addedDate": "2026-07-09T14:00:00Z",
   "colorScheme": "both",
-  "screenshots": [
-    "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-catppuccin/main/screenshots/light.png",
-    "https://raw.githubusercontent.com/MarkEdit-app/MarkEdit-theme-catppuccin/main/screenshots/dark.png"
+  "colorPatterns": [
+    "#eff1f5,#4c4f69,#1e66f5,#8839ef,#40a02b,#7c7f93",
+    "#1e1e2e,#cdd6f4,#89b4fa,#cba6f7,#a6e3a1,#9399b2"
   ],
   "versions": [
     {
