@@ -13,9 +13,11 @@
   "versions": [
     {
       "version": "1.0.0",
+      "date": "2026-09-19T03:00:00Z",
       "url": "https://github.com/edwardcallow/markedit-theme-base16-eighties/releases/download/v1.0.0/markedit-theme-base16-eighties.js",
       "sha256": "6e9766a2dcedafb8e4edca6a4caa8e50784ac730601399d0b42d4deb82fa9000",
       "notes": "Initial release."
     }
-  ]
+  ],
+  "addedDate": "2026-09-19T03:00:00Z"
 }

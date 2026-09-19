@@ -375,6 +375,27 @@
       }
     },
     {
+      "id": "markedit-theme-base16-eighties",
+      "name": "Base16 Eighties",
+      "description": "Base16 Eighties light and dark themes for MarkEdit.",
+      "author": "edwardcallow",
+      "homepage": "https://github.com/edwardcallow/markedit-theme-base16-eighties",
+      "colorScheme": "both",
+      "colorPatterns": [
+        "#f2f0ec,#515151,#5787b6,#875c87,#5b9c5c,#a09f93",
+        "#2d2d2d,#d3d0c8,#66cccc,#cc99cc,#99cc99,#747369"
+      ],
+      "addedDate": "2026-09-19T03:00:00Z",
+      "category": "theme",
+      "latest": {
+        "version": "1.0.0",
+        "date": "2026-09-19T03:00:00Z",
+        "url": "https://github.com/edwardcallow/markedit-theme-base16-eighties/releases/download/v1.0.0/markedit-theme-base16-eighties.js",
+        "sha256": "6e9766a2dcedafb8e4edca6a4caa8e50784ac730601399d0b42d4deb82fa9000",
+        "notes": "Initial release."
+      }
+    },
+    {
       "id": "markedit-theme-basic",
       "name": "Basic Theme",
       "description": "Minimal colors with soft accents.",
