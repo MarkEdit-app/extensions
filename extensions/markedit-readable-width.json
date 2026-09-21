@@ -7,6 +7,12 @@
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-readable-width",
   "versions": [
     {
+      "version": "1.1.0",
+      "url": "https://github.com/MarkEdit-app/MarkEdit-readable-width/releases/download/v1.1.0/markedit-readable-width.js",
+      "sha256": "8beb28b73d83780de2d5b28fbf018b4a0dcf7a38d87f01de8cc0cd4fee1e5df1",
+      "notes": "Apply readable width to preview pane."
+    },
+    {
       "version": "1.0.0",
       "date": "2026-08-28T14:00:00Z",
       "url": "https://github.com/MarkEdit-app/MarkEdit-readable-width/releases/download/v1.0.0/markedit-readable-width.js",
