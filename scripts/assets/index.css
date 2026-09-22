@@ -45,7 +45,7 @@ a {
 
 /* Header */
 header {
-  max-width: 920px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 48px 24px 8px;
 }
@@ -148,7 +148,7 @@ header p {
 
 /* GitHub-style alerts, mimicking > [!NOTE] / [!TIP] callouts. */
 .alert-region {
-  max-width: 920px;
+  max-width: 800px;
   margin: 20px auto 0;
   padding: 0 24px;
 }
@@ -198,7 +198,7 @@ header p {
 
 /* Card grid */
 main {
-  max-width: 920px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 24px;
 }
@@ -411,7 +411,7 @@ main {
 
 /* Footer */
 footer {
-  max-width: 920px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 32px 24px 48px;
   font-size: 13px;
