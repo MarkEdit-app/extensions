@@ -287,11 +287,11 @@
       "featured": true,
       "category": "extension",
       "latest": {
-        "version": "1.11.0",
-        "date": "2026-09-03T23:00:00Z",
-        "url": "https://github.com/MarkEdit-app/MarkEdit-preview/releases/download/v1.11.0/markedit-preview.js",
-        "sha256": "6d9cbe61f036a5fb764fcf770d81523ecbc417cda603bbf603519124e2fc7389",
-        "notes": "Bug fixes and continued improvements to Syntax Hidden Mode."
+        "version": "1.12.0",
+        "date": "2026-09-22T00:00:00Z",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-preview/releases/download/v1.12.0/markedit-preview.js",
+        "sha256": "f82844d7efec537b8a7dd55710e55eefbaaa1fd9140d460ea7f4e1c6763b726f",
+        "notes": "Expand syntax support and fix bugs in Syntax Hidden Mode."
       }
     },
     {
