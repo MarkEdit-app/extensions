@@ -124,32 +124,3 @@ const formatLocalDate = (isoString, options) => {
     }
   });
 })();
-
-// Follow the browser color scheme for Light/Dark previews until the user picks one
-(() => {
-  const query = matchMedia('(prefers-color-scheme: dark)');
-  const groups = new Map();
-
-  document.querySelectorAll('.preview .tab-input').forEach((input) => {
-    const group = groups.get(input.name) ?? {};
-    group[input.classList.contains('dark') ? 'dark' : 'light'] = input;
-    groups.set(input.name, group);
-    input.addEventListener('change', () => { group.touched = true; });
-  });
-
-  const apply = () => {
-    groups.forEach((group) => {
-      if (group.touched) {
-        return;
-      }
-
-      const target = query.matches ? group.dark : group.light;
-      if (target && !target.checked) {
-        target.checked = true;
-      }
-    });
-  };
-
-  apply();
-  query.addEventListener('change', apply);
-})();

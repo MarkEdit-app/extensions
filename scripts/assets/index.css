@@ -232,7 +232,7 @@ main {
 .grid {
   display: grid;
   gap: 14px;
-  grid-template-columns: repeat(auto-fill, minmax(min(290px, 100%), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
 }
 
 .card {
@@ -316,87 +316,21 @@ main {
   text-decoration: underline;
 }
 
-.scheme {
-  margin-left: auto;
-  align-self: center;
-  font-size: 11px;
-  font-weight: 500;
-  color: var(--muted);
-  cursor: default;
-  user-select: none;
-  -webkit-user-select: none;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  padding: 1px 8px;
-}
-
 .preview {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 12px;
   margin: 0 0 16px;
 }
 
-/* Radios drive the tab state; kept accessible but visually hidden. */
-.preview .tab-input {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  opacity: 0;
-  pointer-events: none;
-}
-
-/* Compact Light/Dark switch pinned to the card's top-right, opposite the name. */
-.tabs {
-  position: absolute;
-  top: 16px;
-  right: 18px;
-  z-index: 1;
-  display: inline-flex;
-  gap: 2px;
-  padding: 2px;
-  border: 1px solid var(--line);
-  border-radius: 7px;
-  background: var(--card);
-}
-
-.tabs label {
-  cursor: default;
-  user-select: none;
-  -webkit-user-select: none;
-  padding: 1px 8px;
-  border-radius: 5px;
-  font-size: 11px;
-  font-weight: 500;
-  color: var(--muted);
-}
-
-.tab-input.light:checked ~ .tabs label[for$="-light"],
-.tab-input.dark:checked ~ .tabs label[for$="-dark"] {
-  color: var(--fg);
-  background: var(--hover);
-}
-
-.tab-input:focus-visible ~ .tabs label {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-}
-
-.frames {
+.frame {
+  display: block;
+  flex: none;
   width: 120px;
+  height: auto;
   border: 1px solid var(--line);
   border-radius: 8px;
   overflow: hidden;
-}
-
-.frame {
-  display: none;
-  width: 100%;
-  height: auto;
-  vertical-align: top;
-}
-
-.preview.single .frame,
-.tab-input.light:checked ~ .frames .frame.light,
-.tab-input.dark:checked ~ .frames .frame.dark {
-  display: block;
 }
 
 .desc {
