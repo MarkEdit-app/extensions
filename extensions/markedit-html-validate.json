@@ -1,0 +1,16 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-html-validate",
+  "name": "HTML Validate",
+  "description": "Finds raw HTML that silently breaks rendering, and reports where the rendered output stops.",
+  "author": "johnhegs",
+  "homepage": "https://github.com/johnhegs/markedit-html-validate",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://github.com/johnhegs/markedit-html-validate/releases/download/v1.0.0/markedit-html-validate.js",
+      "sha256": "2085a4043a82680a425e6b61431492a9a72b8150c34b3b0dbe419013ddf0f134",
+      "notes": "Initial release."
+    }
+  ]
+}
