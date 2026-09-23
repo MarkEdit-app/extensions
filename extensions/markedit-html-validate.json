@@ -8,9 +8,11 @@
   "versions": [
     {
       "version": "1.0.0",
+      "date": "2026-09-23T12:00:00Z",
       "url": "https://github.com/johnhegs/markedit-html-validate/releases/download/v1.0.0/markedit-html-validate.js",
       "sha256": "2085a4043a82680a425e6b61431492a9a72b8150c34b3b0dbe419013ddf0f134",
       "notes": "Initial release."
     }
-  ]
+  ],
+  "addedDate": "2026-09-23T12:00:00Z"
 }
