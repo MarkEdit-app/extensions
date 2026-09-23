@@ -99,6 +99,22 @@
       }
     },
     {
+      "id": "markedit-dot-fountain",
+      "name": "Dot Fountain",
+      "description": "Fountain screenplay support: live Slugline-style formatting, a print-accurate preview pane, scene navigation, and document stats.",
+      "author": "dyiapanis",
+      "homepage": "https://github.com/dyiapanis/dot-fountain",
+      "addedDate": "2026-09-23T12:00:00Z",
+      "category": "extension",
+      "latest": {
+        "version": "0.1.0",
+        "date": "2026-09-23T11:00:00Z",
+        "url": "https://github.com/dyiapanis/dot-fountain/releases/download/v0.1.0/dot-fountain.js",
+        "sha256": "c69dc8bee7dbc9a7a122f30b891bee9cf3cbfac44f4510c980bb17a88532330f",
+        "notes": "Initial release."
+      }
+    },
+    {
       "id": "markedit-enhanced-paste",
       "name": "Enhanced Paste",
       "description": "Converts pasted HTML and other content to Markdown.",
