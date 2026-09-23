@@ -2,7 +2,7 @@
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-dot-fountain",
   "name": "Dot Fountain",
-  "description": "Fountain screenplay support for MarkEdit: live Slugline-style formatting, a print-accurate preview pane, scene navigation, and document stats.",
+  "description": "Fountain screenplay support: live Slugline-style formatting, a print-accurate preview pane, scene navigation, and document stats.",
   "author": "dyiapanis",
   "homepage": "https://github.com/dyiapanis/dot-fountain",
   "versions": [
