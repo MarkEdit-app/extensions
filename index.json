@@ -101,7 +101,7 @@
     {
       "id": "markedit-dot-fountain",
       "name": "Dot Fountain",
-      "description": "Fountain screenplay support: live Slugline-style formatting, a print-accurate preview pane, scene navigation, and document stats.",
+      "description": "Fountain screenplay support: live screenplay formatting, a print-accurate preview pane, scene navigation, and document stats.",
       "author": "dyiapanis",
       "homepage": "https://github.com/dyiapanis/dot-fountain",
       "addedDate": "2026-09-23T12:00:00Z",
