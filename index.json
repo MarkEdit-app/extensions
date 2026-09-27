@@ -677,11 +677,11 @@
       "addedDate": "2026-07-09T11:00:00Z",
       "category": "extension",
       "latest": {
-        "version": "1.0.0",
-        "date": "2026-07-09T11:00:00Z",
-        "url": "https://github.com/MarkEdit-app/MarkEdit-vim/releases/download/v1.0.0/markedit-vim.js",
-        "sha256": "6b2bd014c98d307d502a7a8857514c3f74c2457dde9907ac300d97cae1facdac",
-        "notes": "Initial release."
+        "version": "1.1.0",
+        "date": "2026-09-27T07:00:00Z",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-vim/releases/download/v1.1.0/markedit-vim.js",
+        "sha256": "a1a12fa1fca5052b42b8100e2ebd50ae34f024056e223106f1b9b62858fbb254",
+        "notes": "Upgrade dependencies and add more key bindings."
       }
     },
     {

@@ -9,6 +9,7 @@
   "versions": [
     {
       "version": "1.1.0",
+      "date": "2026-09-27T07:00:00Z",
       "url": "https://github.com/MarkEdit-app/MarkEdit-vim/releases/download/v1.1.0/markedit-vim.js",
       "sha256": "a1a12fa1fca5052b42b8100e2ebd50ae34f024056e223106f1b9b62858fbb254",
       "notes": "Upgrade dependencies and add more key bindings."
