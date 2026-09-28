@@ -11,11 +11,11 @@
       "featured": true,
       "category": "extension",
       "latest": {
-        "version": "1.1.0",
-        "date": "2026-07-09T11:00:00Z",
-        "url": "https://github.com/MarkEdit-app/MarkEdit-ai-writer/releases/download/v1.1.0/markedit-ai-writer.js",
-        "sha256": "94115461fdd053fceffd15033f26490a48ab214546dca43fc389d51367b87ec3",
-        "notes": "General bug fixes and performance improvements."
+        "version": "1.2.0",
+        "date": "2026-09-28T11:00:00Z",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-ai-writer/releases/download/v1.2.0/markedit-ai-writer.js",
+        "sha256": "eee938de8afc9dcfe46334e603ef5ad9652b7941afa57eb848b2075a9d57f4a6",
+        "notes": "Fix edit focus stealing issue."
       }
     },
     {
