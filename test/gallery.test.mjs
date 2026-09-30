@@ -2,6 +2,19 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import { renderGallery } from '../scripts/lib/gallery.mjs';
 
+test('gallery includes search metadata in the document head', () => {
+  const html = renderGallery({
+    generatedAt: '2026-08-12T02:00:00Z',
+    extensions: [],
+  });
+
+  const head = html.match(/<head>([\s\S]*?)<\/head>/)?.[1];
+  assert.ok(head);
+  assert.match(head, /<title>MarkEdit Extensions<\/title>/);
+  assert.match(head, /<meta name="description" content="Browse and install curated extensions and themes for MarkEdit, the Markdown editor for macOS\. Customize your editor with plugins, previews, and color themes\.">/);
+  assert.match(head, /<link rel="canonical" href="https:\/\/markedit-app\.github\.io\/extensions\/">/);
+});
+
 test('version label tooltip combines release date and notes', () => {
   const html = renderGallery({
     generatedAt: '2026-08-12T02:00:00Z',
