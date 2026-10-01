@@ -7,6 +7,13 @@
   "homepage": "https://github.com/haohailong/MarkEdit-textpack",
   "versions": [
     {
+      "version": "0.2.0",
+      "url": "https://github.com/haohailong/MarkEdit-textpack/releases/download/v0.2.0/markedit-textpack.js",
+      "sha256": "72cde797c4ee71870569a143335dd57be7aa3c75800a67d68c8b9bf0460b8635",
+      "minAppVersion": "1.36.0",
+      "notes": "Fix asset filename escaping, HTML attribute matching, and URL fragments; add Traditional Chinese messages."
+    },
+    {
       "version": "0.1.0",
       "date": "2026-10-01T08:00:00Z",
       "url": "https://github.com/haohailong/MarkEdit-textpack/releases/download/v0.1.0/markedit-textpack.js",
