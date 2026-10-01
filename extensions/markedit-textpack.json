@@ -8,10 +8,12 @@
   "versions": [
     {
       "version": "0.1.0",
+      "date": "2026-10-01T08:00:00Z",
       "url": "https://github.com/haohailong/MarkEdit-textpack/releases/download/v0.1.0/markedit-textpack.js",
       "sha256": "6d95ff670d1e84246cf7464e2c594a0a8a1f5ad14fcce0ba7fd82e055c6eacdd",
       "minAppVersion": "1.36.0",
       "notes": "Initial release with English and Simplified Chinese interface messages."
     }
-  ]
+  ],
+  "addedDate": "2026-10-01T08:00:00Z"
 }
