@@ -247,8 +247,8 @@
     },
     {
       "id": "markedit-mte",
-      "name": "Table Editor",
-      "description": "Formats and navigates Markdown tables while you type.",
+      "name": "Table Formatter",
+      "description": "Formats and navigates Markdown tables (use \"Interactive Tables\" for richer table editing features).",
       "author": "MarkEdit-app",
       "homepage": "https://github.com/MarkEdit-app/MarkEdit-mte",
       "addedDate": "2026-07-09T11:00:00Z",
