@@ -1,7 +1,7 @@
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-textpack",
-  "name": "MarkEdit Textpack Export",
+  "name": "Textpack Export",
   "description": "Export Markdown as a TextBundle v2 .textpack archive with local assets.",
   "author": "haohailong",
   "homepage": "https://github.com/haohailong/MarkEdit-textpack",

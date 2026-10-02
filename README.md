@@ -18,8 +18,8 @@ The folder an entry lives in determines its kind, so an entry's `category` (`ext
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-preview",
-  "name": "MarkEdit Preview",
-  "description": "A live preview pane for the current document.",
+  "name": "Markdown View Modes",
+  "description": "Edit with hidden syntax or preview Markdown side by side or as an overlay.",
   "author": "MarkEdit-app",
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-preview",
   "addedDate": "2026-07-09T11:00:00Z",
