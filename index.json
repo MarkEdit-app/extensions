@@ -262,6 +262,20 @@
       }
     },
     {
+      "id": "markedit-native-selection",
+      "name": "Native Selection",
+      "description": "macOS-style text selections.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-native-selection",
+      "category": "extension",
+      "latest": {
+        "version": "1.0.0",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-native-selection/releases/download/v1.0.0/markedit-native-selection.js",
+        "sha256": "257738800202a618b41dbcee61e4093515e99d246d9e41f53e19d9d498b31298",
+        "notes": "Initial release."
+      }
+    },
+    {
       "id": "markedit-native-text-shortcuts",
       "name": "Native Text Shortcuts",
       "description": "Makes MarkEdit’s Option+Arrow Key text navigation behave like native macOS text fields.",
