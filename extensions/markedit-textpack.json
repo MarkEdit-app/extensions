@@ -7,6 +7,13 @@
   "homepage": "https://github.com/haohailong/MarkEdit-textpack",
   "versions": [
     {
+      "version": "0.2.1",
+      "url": "https://github.com/haohailong/MarkEdit-textpack/releases/download/v0.2.1/markedit-textpack.js",
+      "sha256": "3524b70a4e3e44221c7a5e96a8c8b110916c22387e3502f5dcd75ffff40cb95f",
+      "minAppVersion": "1.36.0",
+      "notes": "Add a native document-with-zipper icon to the Textpack export menu."
+    },
+    {
       "version": "0.2.0",
       "date": "2026-10-01T14:00:00Z",
       "url": "https://github.com/haohailong/MarkEdit-textpack/releases/download/v0.2.0/markedit-textpack.js",
