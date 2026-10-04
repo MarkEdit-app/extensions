@@ -1,0 +1,17 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-typlog",
+  "name": "Typlog Publisher",
+  "description": "Create and update Typlog drafts from Markdown, with local image uploads, captions, tags, and author selection.",
+  "author": "haohailong",
+  "homepage": "https://github.com/haohailong/markedit-typlog",
+  "versions": [
+    {
+      "version": "0.3.7",
+      "url": "https://github.com/haohailong/markedit-typlog/releases/download/v0.3.7/markedit-typlog.js",
+      "sha256": "a9f6590a36164b7085adb99388d69238b8b2baae6bd44a59c2a3b156c1eebc4f",
+      "minAppVersion": "1.36.0",
+      "notes": "Initial registry release with direct local image uploads, reusable draft associations, localized settings, and optional local Token encryption."
+    }
+  ]
+}
