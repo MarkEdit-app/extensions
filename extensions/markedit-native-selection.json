@@ -8,9 +8,11 @@
   "versions": [
     {
       "version": "1.0.0",
+      "date": "2026-10-04T08:00:00Z",
       "url": "https://github.com/MarkEdit-app/MarkEdit-native-selection/releases/download/v1.0.0/markedit-native-selection.js",
       "sha256": "257738800202a618b41dbcee61e4093515e99d246d9e41f53e19d9d498b31298",
       "notes": "Initial release."
     }
-  ]
+  ],
+  "addedDate": "2026-10-04T08:00:00Z"
 }
