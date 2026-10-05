@@ -8,6 +8,7 @@
   "versions": [
     {
       "version": "1.0.1",
+      "date": "2026-10-05T11:00:00Z",
       "url": "https://github.com/MarkEdit-app/MarkEdit-native-selection/releases/download/v1.0.1/markedit-native-selection.js",
       "sha256": "6165426ba22dc3055c28c80a9c61eefdd407cf6fd8208c63c2ef8edb8ff2ef33",
       "notes": "Fix issue working with interactive tables."
