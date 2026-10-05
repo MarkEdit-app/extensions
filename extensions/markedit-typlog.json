@@ -8,10 +8,12 @@
   "versions": [
     {
       "version": "0.3.8",
+      "date": "2026-10-05T11:00:00Z",
       "url": "https://github.com/haohailong/markedit-typlog/releases/download/v0.3.8/markedit-typlog.js",
       "sha256": "38583ed0ece837e97a4ca062e1bba67bec87baa27136e3fa72f877bd9989126d",
       "minAppVersion": "1.36.0",
       "notes": "Initial registry release with direct image uploads, reusable draft associations, confirmed recovery for missing drafts, and optional local Token encryption."
     }
-  ]
+  ],
+  "addedDate": "2026-10-05T11:00:00Z"
 }
