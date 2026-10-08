@@ -8,10 +8,12 @@
   "versions": [
     {
       "version": "0.1.3",
+      "date": "2026-10-08T07:00:00Z",
       "url": "https://github.com/dorkusprime/MarkEdit-FileExplorer/releases/download/v0.1.3/markedit-file-explorer.js",
       "sha256": "612cf2f2fab515eefd30e4a9cceadd05af6a010e78498ebf38a07f791d08e3d2",
       "minAppVersion": "1.36.0",
       "notes": "Initial release."
     }
-  ]
+  ],
+  "addedDate": "2026-10-08T07:00:00Z"
 }
