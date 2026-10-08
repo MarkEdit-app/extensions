@@ -10,6 +10,7 @@
   "versions": [
     {
       "version": "1.13.0",
+      "date": "2026-10-08T12:00:00Z",
       "url": "https://github.com/MarkEdit-app/MarkEdit-preview/releases/download/v1.13.0/markedit-preview.js",
       "sha256": "1b2a40ca3c050b8b1cb81d3cadd23e675ad6b3618112ceaa502eab85abb9e7f3",
       "notes": "Dependency updates, syntax hidden mode for HTML, and general quality improvements."
