@@ -8,6 +8,12 @@
   "featured": true,
   "versions": [
     {
+      "version": "1.1.1",
+      "url": "https://github.com/MarkEdit-app/MarkEdit-interactive-tables/releases/download/v1.1.1/markedit-interactive-tables.js",
+      "sha256": "bf532803759517f883b97b7a87ad74c585204690b355aea41e361dd85947ade3",
+      "notes": "Fix issues working with touch devices."
+    },
+    {
       "version": "1.1.0",
       "date": "2026-10-07T06:00:00Z",
       "url": "https://github.com/MarkEdit-app/MarkEdit-interactive-tables/releases/download/v1.1.0/markedit-interactive-tables.js",
