@@ -1,0 +1,16 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-paste-markdown",
+  "name": "Paste Markdown",
+  "description": "Converts rich text on the clipboard to Markdown on paste, keeping lists, inline code, links, and GFM tables, while code copied from editors stays plain text.",
+  "author": "lbwork5388",
+  "homepage": "https://github.com/lbwork5388/markedit-paste-markdown",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "url": "https://github.com/lbwork5388/markedit-paste-markdown/releases/download/v0.1.0/markedit-paste-markdown.js",
+      "sha256": "9c2b57139cd5a94b3f7cb08e00f32cd80151d05316ec29303654a1074974c0fc",
+      "notes": "Initial release."
+    }
+  ]
+}
