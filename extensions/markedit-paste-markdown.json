@@ -3,7 +3,7 @@
   "id": "markedit-paste-markdown",
   "name": "Paste Markdown",
   "description": "Converts rich text on the clipboard to Markdown on paste, keeping lists, inline code, links, and GFM tables, while code copied from editors stays plain text.",
-  "author": "lbwork5388",
+  "author": "Bo Li",
   "homepage": "https://github.com/lbwork5388/markedit-paste-markdown",
   "versions": [
     {
