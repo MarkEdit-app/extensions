@@ -8,6 +8,12 @@
   "addedDate": "2026-08-10T09:00:00Z",
   "versions": [
     {
+      "version": "1.2.0",
+      "url": "https://github.com/MarkEdit-app/MarkEdit-quick-emoji/releases/download/v1.2.0/markedit-quick-emoji.js",
+      "sha256": "76e22ff1cf207bb21c9c942e07f668c62381effc0eff106c3f393f50f2fe2afb",
+      "notes": "Add emoji autocomplete in 1.2.0."
+    },
+    {
       "version": "1.1.0",
       "date": "2026-08-19T11:00:00Z",
       "url": "https://github.com/MarkEdit-app/MarkEdit-quick-emoji/releases/download/v1.1.0/markedit-quick-emoji.js",
