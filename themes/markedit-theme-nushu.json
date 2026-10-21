@@ -1,0 +1,33 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/theme.schema.json",
+  "id": "markedit-theme-nushu",
+  "name": "Nushu Theme",
+  "description": "Warm, low-contrast light and dark themes built on GitHub's Primer colors.",
+  "author": "wheredoesyourmindgo",
+  "homepage": "https://github.com/wheredoesyourmindgo/markedit-theme-nushu",
+  "colorScheme": "both",
+  "colorPatterns": [
+    "#f8f6f1,#2b2822,#0969da,#99286e,#0a3069,#1a7f37",
+    "#25211d,#d7cfc7,#2f81f7,#db61a2,#a5d6ff,#2ea043"
+  ],
+  "versions": [
+    {
+      "version": "1.1.1",
+      "url": "https://github.com/wheredoesyourmindgo/markedit-theme-nushu/releases/download/v1.1.1/markedit-theme-nushu.js",
+      "sha256": "54e5b692459daf5cb1a379e208a19bd35c37b828701a3cea9d0dbea62ec022ca",
+      "notes": "Use the faint line-number gray for table pipes and divider rows."
+    },
+    {
+      "version": "1.1.0",
+      "url": "https://github.com/wheredoesyourmindgo/markedit-theme-nushu/releases/download/v1.1.0/markedit-theme-nushu.js",
+      "sha256": "8fc6ebe24edef6732058db732839175d2f5624a295a4a87358baf4dcfcf7cb1f",
+      "notes": "Color code blocks to match Nushu for VS Code."
+    },
+    {
+      "version": "1.0.0",
+      "url": "https://github.com/wheredoesyourmindgo/markedit-theme-nushu/releases/download/v1.0.0/markedit-theme-nushu.js",
+      "sha256": "f6f7c5248ae1533a7fe2e464ce94cb23ca03b61002cbe9eb4d83a3620ee1664b",
+      "notes": "Initial release."
+    }
+  ]
+}
