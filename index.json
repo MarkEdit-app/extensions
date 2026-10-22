@@ -621,6 +621,27 @@
       }
     },
     {
+      "id": "markedit-theme-nushu",
+      "name": "Nushu Theme",
+      "description": "Warm, low-contrast light and dark themes built on GitHub's Primer colors.",
+      "author": "wheredoesyourmindgo",
+      "homepage": "https://github.com/wheredoesyourmindgo/markedit-theme-nushu",
+      "colorScheme": "both",
+      "colorPatterns": [
+        "#f8f6f1,#2b2822,#0969da,#99286e,#0a3069,#1a7f37",
+        "#25211d,#d7cfc7,#2f81f7,#db61a2,#a5d6ff,#2ea043"
+      ],
+      "addedDate": "2026-10-22T02:00:00Z",
+      "category": "theme",
+      "latest": {
+        "version": "1.1.1",
+        "date": "2026-10-22T02:00:00Z",
+        "url": "https://github.com/wheredoesyourmindgo/markedit-theme-nushu/releases/download/v1.1.1/markedit-theme-nushu.js",
+        "sha256": "54e5b692459daf5cb1a379e208a19bd35c37b828701a3cea9d0dbea62ec022ca",
+        "notes": "Use the faint line-number gray for table pipes and divider rows."
+      }
+    },
+    {
       "id": "markedit-theme-one-dark",
       "name": "One Dark Theme",
       "description": "The iconic dark theme from Atom.",
