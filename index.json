@@ -369,11 +369,11 @@
       "featured": true,
       "category": "extension",
       "latest": {
-        "version": "1.13.0",
-        "date": "2026-10-08T12:00:00Z",
-        "url": "https://github.com/MarkEdit-app/MarkEdit-preview/releases/download/v1.13.0/markedit-preview.js",
-        "sha256": "1b2a40ca3c050b8b1cb81d3cadd23e675ad6b3618112ceaa502eab85abb9e7f3",
-        "notes": "Dependency updates, syntax hidden mode for HTML, and general quality improvements."
+        "version": "1.14.0",
+        "date": "2026-10-26T02:00:00Z",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-preview/releases/download/v1.14.0/markedit-preview.js",
+        "sha256": "c128859a5781500a302a5907583ac15789a4f2de12f6923cc0ec5802cd71b330",
+        "notes": "Upgrade mermaid to v12 and markdown-it to v15."
       }
     },
     {

@@ -10,6 +10,7 @@
   "versions": [
     {
       "version": "1.14.0",
+      "date": "2026-10-26T02:00:00Z",
       "url": "https://github.com/MarkEdit-app/MarkEdit-preview/releases/download/v1.14.0/markedit-preview.js",
       "sha256": "c128859a5781500a302a5907583ac15789a4f2de12f6923cc0ec5802cd71b330",
       "notes": "Upgrade mermaid to v12 and markdown-it to v15."
