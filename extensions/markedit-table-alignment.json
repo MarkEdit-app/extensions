@@ -1,0 +1,17 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-table-alignment",
+  "name": "Table Alignment",
+  "description": "Aligns editable Markdown and tab-separated table columns without changing document text.",
+  "author": "andrewbazley",
+  "homepage": "https://github.com/andrewbazley/markedit-table-alignment",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://github.com/andrewbazley/markedit-table-alignment/releases/download/v1.0.0/markedit-table-alignment.js",
+      "sha256": "fa14e5fdfe32dd6fba60c2c632ec6f0186581100d283a97fd40fc2a6cbf00b1c",
+      "minAppVersion": "1.26.2",
+      "notes": "Initial release. Tested on MarkEdit 1.26.2 / Intel macOS 14.6.1; compatibility with newer versions remains unverified."
+    }
+  ]
+}
