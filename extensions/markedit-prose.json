@@ -7,6 +7,18 @@
   "homepage": "https://github.com/alexsereno/markedit-prose",
   "versions": [
     {
+      "version": "0.1.2",
+      "url": "https://github.com/alexsereno/markedit-prose/releases/download/v0.1.2/markedit-prose.js",
+      "sha256": "5f68d143e81b67b5a3c9460c892fc5d1f89630669742feeefda9d8e805390b05",
+      "notes": "Fix MarkEdit Markdown exclusions and preserve short footnote prose. Keep Inline Predictions disabled."
+    },
+    {
+      "version": "0.1.1",
+      "url": "https://github.com/alexsereno/markedit-prose/releases/download/v0.1.1/markedit-prose.js",
+      "sha256": "47e70eaeb0473eb101632f445a31d8aedc10978d0289b0bd1b2e36c6b6933ab0",
+      "notes": "Fix reference metadata, YAML, math, HTML comments, table boundaries, and footnote prose mapping. Keep Inline Predictions disabled."
+    },
+    {
       "version": "0.1.0",
       "url": "https://github.com/alexsereno/markedit-prose/releases/download/v0.1.0/markedit-prose.js",
       "sha256": "2a643f2fb8a94c92668a9eeb491ec41cc942ed4827a9cf245899a2e5f76ec98e",
