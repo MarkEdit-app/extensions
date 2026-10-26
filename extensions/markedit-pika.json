@@ -1,0 +1,17 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-pika",
+  "name": "Pika",
+  "description": "Sync Markdown drafts to Pika and publish with automatic image uploads.",
+  "author": "alexsereno",
+  "homepage": "https://github.com/alexsereno/markedit-pika",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "url": "https://github.com/alexsereno/markedit-pika/releases/download/v0.1.0/markedit-pika.js",
+      "sha256": "bc51a907dd1fab549cf62d4923ada97b37e95453e0dc1f3709a333222e06fbcd",
+      "minAppVersion": "1.37.0",
+      "notes": "Initial release: draft syncing, automatic images, confirmed publishing, trash/restore, and Keychain app tokens."
+    }
+  ]
+}
