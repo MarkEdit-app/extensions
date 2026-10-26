@@ -1,0 +1,16 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-prose",
+  "name": "Prose",
+  "description": "Local English parts-of-speech highlighting and style suggestions. Turn off Inline Predictions before use.",
+  "author": "alexsereno",
+  "homepage": "https://github.com/alexsereno/markedit-prose",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "url": "https://github.com/alexsereno/markedit-prose/releases/download/v0.1.0/markedit-prose.js",
+      "sha256": "2a643f2fb8a94c92668a9eeb491ec41cc942ed4827a9cf245899a2e5f76ec98e",
+      "notes": "Initial release. Disable MarkEdit’s Inline Predictions to avoid misplaced grey completion text."
+    }
+  ]
+}
