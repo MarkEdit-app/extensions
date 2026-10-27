@@ -343,6 +343,23 @@
       }
     },
     {
+      "id": "markedit-pika",
+      "name": "Pika",
+      "description": "Sync Markdown drafts to Pika and publish with automatic image uploads.",
+      "author": "alexsereno",
+      "homepage": "https://github.com/alexsereno/markedit-pika",
+      "addedDate": "2026-10-27T03:00:00Z",
+      "category": "extension",
+      "latest": {
+        "version": "0.1.1",
+        "date": "2026-10-27T03:00:00Z",
+        "url": "https://github.com/alexsereno/markedit-pika/releases/download/v0.1.1/markedit-pika.js",
+        "sha256": "37c10377b51cce7f50cb1b9532fbd5e002162122f13d9acfa98eb2b5d21f0c02",
+        "minAppVersion": "1.37.0",
+        "notes": "Fix the Pika menu missing from document windows opened after startup."
+      }
+    },
+    {
       "id": "markedit-prettier",
       "name": "Prettier Formatter",
       "description": "Formats Markdown documents with a consistent style.",
