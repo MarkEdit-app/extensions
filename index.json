@@ -393,6 +393,22 @@
       }
     },
     {
+      "id": "markedit-prose",
+      "name": "Prose",
+      "description": "Local English parts-of-speech highlighting and style suggestions. Turn off Inline Predictions before use.",
+      "author": "alexsereno",
+      "homepage": "https://github.com/alexsereno/markedit-prose",
+      "addedDate": "2026-10-27T03:00:00Z",
+      "category": "extension",
+      "latest": {
+        "version": "0.1.2",
+        "date": "2026-10-27T03:00:00Z",
+        "url": "https://github.com/alexsereno/markedit-prose/releases/download/v0.1.2/markedit-prose.js",
+        "sha256": "5f68d143e81b67b5a3c9460c892fc5d1f89630669742feeefda9d8e805390b05",
+        "notes": "Fix MarkEdit Markdown exclusions and preserve short footnote prose. Keep Inline Predictions disabled."
+      }
+    },
+    {
       "id": "markedit-quick-emoji",
       "name": "Quick Emoji",
       "description": "Converts emoticons into emoji as you type.",
