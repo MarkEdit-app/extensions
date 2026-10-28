@@ -12,6 +12,12 @@
   ],
   "versions": [
     {
+      "version": "1.5.0",
+      "url": "https://github.com/wheredoesyourmindgo/markedit-theme-nushu/releases/download/v1.5.0/markedit-theme-nushu.js",
+      "sha256": "3a4df2e922e65303e60f55d4d8838522bacd8057f1d456987c12fdc4fee49093",
+      "notes": "Style the MarkEdit Preview pane with Nushu colors, and match Nushu for VS Code's shell, CSS, SQL, and Markdown colors."
+    },
+    {
       "version": "1.1.1",
       "date": "2026-10-22T02:00:00Z",
       "url": "https://github.com/wheredoesyourmindgo/markedit-theme-nushu/releases/download/v1.1.1/markedit-theme-nushu.js",
