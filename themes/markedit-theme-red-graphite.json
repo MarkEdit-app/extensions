@@ -12,10 +12,12 @@
   "versions": [
     {
       "version": "1.0.0",
+      "date": "2026-10-31T05:00:00Z",
       "url": "https://github.com/unsnruu/markedit-red-graphite/releases/download/v1.0.0/markedit-theme-red-graphite.js",
       "sha256": "a4fc0671fa306a3178e14efb39aed7d7df1a1469b1e8fe38b9c2f413e44d387a",
       "minAppVersion": "1.37.0",
       "notes": "Initial light theme release."
     }
-  ]
+  ],
+  "addedDate": "2026-10-31T05:00:00Z"
 }
