@@ -11,6 +11,14 @@
   ],
   "versions": [
     {
+      "version": "1.0.1",
+      "date": "2026-11-01T06:00:00Z",
+      "url": "https://github.com/unsnruu/markedit-red-graphite/releases/download/v1.0.1/markedit-theme-red-graphite.js",
+      "sha256": "f670bf37fbea022d397e4349842a8d5e5923ab891d0778d7a5ff73f1e9a44ddd",
+      "minAppVersion": "1.37.0",
+      "notes": "Fix heading markers remaining visible in Mixed mode."
+    },
+    {
       "version": "1.0.0",
       "date": "2026-10-31T05:00:00Z",
       "url": "https://github.com/unsnruu/markedit-red-graphite/releases/download/v1.0.0/markedit-theme-red-graphite.js",
