@@ -9,6 +9,12 @@
   "featured": true,
   "versions": [
     {
+      "version": "1.14.1",
+      "url": "https://github.com/MarkEdit-app/MarkEdit-preview/releases/download/v1.14.1/markedit-preview.js",
+      "sha256": "0ecbfc3a3be7c21c861aab0663cb6f92e4df45d85683f9e1a6415fe7b687820a",
+      "notes": "Hide text highlight marks in Mixed mode."
+    },
+    {
       "version": "1.14.0",
       "date": "2026-10-26T02:00:00Z",
       "url": "https://github.com/MarkEdit-app/MarkEdit-preview/releases/download/v1.14.0/markedit-preview.js",
@@ -35,13 +41,6 @@
       "url": "https://github.com/MarkEdit-app/MarkEdit-preview/releases/download/v1.11.0/markedit-preview.js",
       "sha256": "6d9cbe61f036a5fb764fcf770d81523ecbc417cda603bbf603519124e2fc7389",
       "notes": "Bug fixes and continued improvements to Syntax Hidden Mode."
-    },
-    {
-      "version": "1.10.0",
-      "date": "2026-08-20T11:00:00Z",
-      "url": "https://github.com/MarkEdit-app/MarkEdit-preview/releases/download/v1.10.0/markedit-preview.js",
-      "sha256": "5432a7d21737eb022aaa1a930fe7427b07d605a05840791eba1fbc8f26f2921c",
-      "notes": "Add \"Mixed (Syntax Hidden)\" mode."
     }
   ]
 }
