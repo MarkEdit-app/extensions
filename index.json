@@ -802,12 +802,12 @@
       "addedDate": "2026-10-05T11:00:00Z",
       "category": "extension",
       "latest": {
-        "version": "0.3.8",
-        "date": "2026-10-05T11:00:00Z",
-        "url": "https://github.com/haohailong/markedit-typlog/releases/download/v0.3.8/markedit-typlog.js",
-        "sha256": "38583ed0ece837e97a4ca062e1bba67bec87baa27136e3fa72f877bd9989126d",
-        "minAppVersion": "1.36.0",
-        "notes": "Initial registry release with direct image uploads, reusable draft associations, confirmed recovery for missing drafts, and optional local Token encryption."
+        "version": "0.4.0",
+        "date": "2026-11-04T14:00:00Z",
+        "url": "https://raw.githubusercontent.com/haohailong/markedit-typlog/595c4fa26cae4f51acaf4c95b72d0f9f30fecd31/dist/markedit-typlog.js",
+        "sha256": "09f1013d98c47782033a9795ee97a8eae28969af933d694702645db9e916e290",
+        "minAppVersion": "1.37.0",
+        "notes": "Use native Keychain storage, migrate previous Tokens, and combine publishing confirmation with metadata editing. Includes approved-read caching and image upload recovery."
       }
     },
     {

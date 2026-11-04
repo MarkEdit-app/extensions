@@ -8,6 +8,7 @@
   "versions": [
     {
       "version": "0.4.0",
+      "date": "2026-11-04T14:00:00Z",
       "url": "https://raw.githubusercontent.com/haohailong/markedit-typlog/595c4fa26cae4f51acaf4c95b72d0f9f30fecd31/dist/markedit-typlog.js",
       "sha256": "09f1013d98c47782033a9795ee97a8eae28969af933d694702645db9e916e290",
       "minAppVersion": "1.37.0",
@@ -15,6 +16,7 @@
     },
     {
       "version": "0.3.9",
+      "date": "2026-11-04T14:00:00Z",
       "url": "https://raw.githubusercontent.com/haohailong/markedit-typlog/595c4fa26cae4f51acaf4c95b72d0f9f30fecd31/dist/legacy/markedit-typlog.js",
       "sha256": "1095d6931e8d968321a4d30c5ae89e1125fc61d11dbe37f28ac942bb4e1a7b94",
       "minAppVersion": "1.36.0",
