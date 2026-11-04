@@ -7,6 +7,20 @@
   "homepage": "https://github.com/haohailong/markedit-typlog",
   "versions": [
     {
+      "version": "0.4.0",
+      "url": "https://raw.githubusercontent.com/haohailong/markedit-typlog/595c4fa26cae4f51acaf4c95b72d0f9f30fecd31/dist/markedit-typlog.js",
+      "sha256": "09f1013d98c47782033a9795ee97a8eae28969af933d694702645db9e916e290",
+      "minAppVersion": "1.37.0",
+      "notes": "Use native Keychain storage, migrate previous Tokens, and combine publishing confirmation with metadata editing. Includes approved-read caching and image upload recovery."
+    },
+    {
+      "version": "0.3.9",
+      "url": "https://raw.githubusercontent.com/haohailong/markedit-typlog/595c4fa26cae4f51acaf4c95b72d0f9f30fecd31/dist/legacy/markedit-typlog.js",
+      "sha256": "1095d6931e8d968321a4d30c5ae89e1125fc61d11dbe37f28ac942bb4e1a7b94",
+      "minAppVersion": "1.36.0",
+      "notes": "Legacy build for MarkEdit 1.36.x only, with runtime guards and the updated publishing flow. Retains optional password encryption; newer hosts must use 0.4.0."
+    },
+    {
       "version": "0.3.8",
       "date": "2026-10-05T11:00:00Z",
       "url": "https://github.com/haohailong/markedit-typlog/releases/download/v0.3.8/markedit-typlog.js",
