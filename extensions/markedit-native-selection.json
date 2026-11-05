@@ -7,6 +7,12 @@
   "homepage": "https://github.com/MarkEdit-app/MarkEdit-native-selection",
   "versions": [
     {
+      "version": "1.0.2",
+      "url": "https://github.com/MarkEdit-app/MarkEdit-native-selection/releases/download/v1.0.2/markedit-native-selection.js",
+      "sha256": "6195fe811a35a46f70b0b312bb9ef4c22f76389149beeb397bbff3c5467b297d",
+      "notes": "Improve line geometry calculation."
+    },
+    {
       "version": "1.0.1",
       "date": "2026-10-05T11:00:00Z",
       "url": "https://github.com/MarkEdit-app/MarkEdit-native-selection/releases/download/v1.0.1/markedit-native-selection.js",

@@ -8,6 +8,13 @@
   "addedDate": "2026-07-09T11:00:00Z",
   "versions": [
     {
+      "version": "1.2.2",
+      "url": "https://github.com/MarkEdit-app/MarkEdit-prettier/releases/download/v1.2.2/markedit-prettier.js",
+      "sha256": "0a51a89b353125b96ce5bf721b0ade0d18e602289cf2b25101461057404f6fec",
+      "minAppVersion": "1.24.0",
+      "notes": "Bug fixes and performance improvements."
+    },
+    {
       "version": "1.2.1",
       "date": "2026-08-28T11:00:00Z",
       "url": "https://github.com/MarkEdit-app/MarkEdit-prettier/releases/download/v1.2.1/markedit-prettier.js",
