@@ -287,11 +287,11 @@
       "addedDate": "2026-10-04T08:00:00Z",
       "category": "extension",
       "latest": {
-        "version": "1.0.1",
-        "date": "2026-10-05T11:00:00Z",
-        "url": "https://github.com/MarkEdit-app/MarkEdit-native-selection/releases/download/v1.0.1/markedit-native-selection.js",
-        "sha256": "6165426ba22dc3055c28c80a9c61eefdd407cf6fd8208c63c2ef8edb8ff2ef33",
-        "notes": "Fix issue working with interactive tables."
+        "version": "1.0.2",
+        "date": "2026-11-05T23:00:00Z",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-native-selection/releases/download/v1.0.2/markedit-native-selection.js",
+        "sha256": "6195fe811a35a46f70b0b312bb9ef4c22f76389149beeb397bbff3c5467b297d",
+        "notes": "Improve line geometry calculation."
       }
     },
     {
@@ -368,12 +368,12 @@
       "addedDate": "2026-07-09T11:00:00Z",
       "category": "extension",
       "latest": {
-        "version": "1.2.1",
-        "date": "2026-08-28T11:00:00Z",
-        "url": "https://github.com/MarkEdit-app/MarkEdit-prettier/releases/download/v1.2.1/markedit-prettier.js",
-        "sha256": "b19f249bfef1a3c13e332bad94ebed1a30bc9f361c90c432a17df27685e292d0",
+        "version": "1.2.2",
+        "date": "2026-11-05T23:00:00Z",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-prettier/releases/download/v1.2.2/markedit-prettier.js",
+        "sha256": "0a51a89b353125b96ce5bf721b0ade0d18e602289cf2b25101461057404f6fec",
         "minAppVersion": "1.24.0",
-        "notes": "Reduce bundle size of diff reviewer."
+        "notes": "Bug fixes and performance improvements."
       }
     },
     {
