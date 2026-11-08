@@ -1,0 +1,16 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-preview-obsidian",
+  "name": "Markdown View Modes (Obsidian)",
+  "description": "Markdown View Modes with Obsidian syntax: callouts, highlights, comments, tags, embeds, and Quick Look wikilinks. Replaces Markdown View Modes, don't install both.",
+  "author": "astrawrld",
+  "homepage": "https://github.com/astrawrld/MarkEdit-preview-obsidian",
+  "versions": [
+    {
+      "version": "1.14.1-obsidian.1",
+      "url": "https://github.com/astrawrld/MarkEdit-preview-obsidian/releases/download/v1.14.1-obsidian.1/markedit-preview-obsidian.js",
+      "sha256": "1049524be253bf4f22b0a9499b07bc6bf980082b294bcaf30474613f0010a2dd",
+      "notes": "Initial release, based on MarkEdit-preview 1.14.1."
+    }
+  ]
+}
