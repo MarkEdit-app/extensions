@@ -7,6 +7,12 @@
   "homepage": "https://github.com/astrawrld/MarkEdit-preview-obsidian",
   "versions": [
     {
+      "version": "1.14.1-obsidian.4",
+      "url": "https://github.com/astrawrld/MarkEdit-preview-obsidian/releases/download/v1.14.1-obsidian.4/markedit-preview-obsidian.js",
+      "sha256": "e996d32bc3acc371aae5c0a5638fe57d310d6fd271298b8992cebf1f4544e9a2",
+      "notes": "Keep Mixed mode embeds working with upcoming MarkEdit-wikilinks versions."
+    },
+    {
       "version": "1.14.1-obsidian.3",
       "url": "https://github.com/astrawrld/MarkEdit-preview-obsidian/releases/download/v1.14.1-obsidian.3/markedit-preview-obsidian.js",
       "sha256": "9317e1fab7024955d64bbcc50004fe3bddc5f7fc1323aee61d5164c03e1898ff",
