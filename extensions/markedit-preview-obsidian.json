@@ -7,6 +7,12 @@
   "homepage": "https://github.com/astrawrld/MarkEdit-preview-obsidian",
   "versions": [
     {
+      "version": "1.14.1-obsidian.2",
+      "url": "https://github.com/astrawrld/MarkEdit-preview-obsidian/releases/download/v1.14.1-obsidian.2/markedit-preview-obsidian.js",
+      "sha256": "ee318f7a47c0fa7fcf7461d0e09743fee231429d1398ee49074ffa2a595a2b5c",
+      "notes": "Find image embeds anywhere in the vault and mark links to missing notes."
+    },
+    {
       "version": "1.14.1-obsidian.1",
       "url": "https://github.com/astrawrld/MarkEdit-preview-obsidian/releases/download/v1.14.1-obsidian.1/markedit-preview-obsidian.js",
       "sha256": "1049524be253bf4f22b0a9499b07bc6bf980082b294bcaf30474613f0010a2dd",
