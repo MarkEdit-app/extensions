@@ -7,6 +7,12 @@
   "homepage": "https://github.com/astrawrld/MarkEdit-preview-obsidian",
   "versions": [
     {
+      "version": "1.14.1-obsidian.3",
+      "url": "https://github.com/astrawrld/MarkEdit-preview-obsidian/releases/download/v1.14.1-obsidian.3/markedit-preview-obsidian.js",
+      "sha256": "9317e1fab7024955d64bbcc50004fe3bddc5f7fc1323aee61d5164c03e1898ff",
+      "notes": "Hide wikilink brackets in Mixed mode and show image embeds inline."
+    },
+    {
       "version": "1.14.1-obsidian.2",
       "url": "https://github.com/astrawrld/MarkEdit-preview-obsidian/releases/download/v1.14.1-obsidian.2/markedit-preview-obsidian.js",
       "sha256": "ee318f7a47c0fa7fcf7461d0e09743fee231429d1398ee49074ffa2a595a2b5c",
