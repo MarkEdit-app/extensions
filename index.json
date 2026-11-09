@@ -743,12 +743,12 @@
       "addedDate": "2026-10-31T05:00:00Z",
       "category": "theme",
       "latest": {
-        "version": "1.0.2",
-        "date": "2026-11-02T13:00:00Z",
-        "url": "https://github.com/unsnruu/markedit-red-graphite/releases/download/v1.0.2/markedit-theme-red-graphite.js",
-        "sha256": "646d4587e3c9e2a0b1046e0f1656aee3e882812cbbbac9068df86c46671501cf",
+        "version": "1.0.3",
+        "date": "2026-11-09T10:00:00Z",
+        "url": "https://github.com/unsnruu/markedit-red-graphite/releases/download/v1.0.3/markedit-theme-red-graphite.js",
+        "sha256": "b0dc983d5ea88d6d1c2bd08028fbe7e7eed2f5ebe9c9a72e5052e03c465c47bb",
         "minAppVersion": "1.37.0",
-        "notes": "Bring Preview spacing closer to Mixed mode and fix quote borders."
+        "notes": "Improve divider contrast and align spacing between Mixed and Preview modes."
       }
     },
     {
