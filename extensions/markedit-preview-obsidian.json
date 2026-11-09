@@ -1,0 +1,34 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-preview-obsidian",
+  "name": "Markdown View Modes (Obsidian)",
+  "description": "Markdown View Modes with Obsidian syntax: callouts, highlights, comments, tags, embeds, and Quick Look wikilinks. Replaces Markdown View Modes, don't install both.",
+  "author": "astrawrld",
+  "homepage": "https://github.com/astrawrld/MarkEdit-preview-obsidian",
+  "versions": [
+    {
+      "version": "1.14.1-obsidian.4",
+      "url": "https://github.com/astrawrld/MarkEdit-preview-obsidian/releases/download/v1.14.1-obsidian.4/markedit-preview-obsidian.js",
+      "sha256": "e996d32bc3acc371aae5c0a5638fe57d310d6fd271298b8992cebf1f4544e9a2",
+      "notes": "Keep Mixed mode embeds working with upcoming MarkEdit-wikilinks versions."
+    },
+    {
+      "version": "1.14.1-obsidian.3",
+      "url": "https://github.com/astrawrld/MarkEdit-preview-obsidian/releases/download/v1.14.1-obsidian.3/markedit-preview-obsidian.js",
+      "sha256": "9317e1fab7024955d64bbcc50004fe3bddc5f7fc1323aee61d5164c03e1898ff",
+      "notes": "Hide wikilink brackets in Mixed mode and show image embeds inline."
+    },
+    {
+      "version": "1.14.1-obsidian.2",
+      "url": "https://github.com/astrawrld/MarkEdit-preview-obsidian/releases/download/v1.14.1-obsidian.2/markedit-preview-obsidian.js",
+      "sha256": "ee318f7a47c0fa7fcf7461d0e09743fee231429d1398ee49074ffa2a595a2b5c",
+      "notes": "Find image embeds anywhere in the vault and mark links to missing notes."
+    },
+    {
+      "version": "1.14.1-obsidian.1",
+      "url": "https://github.com/astrawrld/MarkEdit-preview-obsidian/releases/download/v1.14.1-obsidian.1/markedit-preview-obsidian.js",
+      "sha256": "1049524be253bf4f22b0a9499b07bc6bf980082b294bcaf30474613f0010a2dd",
+      "notes": "Initial release, based on MarkEdit-preview 1.14.1."
+    }
+  ]
+}
