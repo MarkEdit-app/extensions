@@ -394,6 +394,22 @@
       }
     },
     {
+      "id": "markedit-preview-obsidian",
+      "name": "Markdown View Modes (Obsidian)",
+      "description": "Markdown View Modes with Obsidian syntax: callouts, highlights, comments, tags, embeds, and Quick Look wikilinks. Replaces Markdown View Modes, don't install both.",
+      "author": "astrawrld",
+      "homepage": "https://github.com/astrawrld/MarkEdit-preview-obsidian",
+      "addedDate": "2026-11-09T01:00:00Z",
+      "category": "extension",
+      "latest": {
+        "version": "1.14.1-obsidian.4",
+        "date": "2026-11-09T01:00:00Z",
+        "url": "https://github.com/astrawrld/MarkEdit-preview-obsidian/releases/download/v1.14.1-obsidian.4/markedit-preview-obsidian.js",
+        "sha256": "e996d32bc3acc371aae5c0a5638fe57d310d6fd271298b8992cebf1f4544e9a2",
+        "notes": "Keep Mixed mode embeds working with upcoming MarkEdit-wikilinks versions."
+      }
+    },
+    {
       "id": "markedit-proofreading",
       "name": "Proofreading",
       "description": "On-device grammar checker based on Harper.",
