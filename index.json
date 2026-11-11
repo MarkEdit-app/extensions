@@ -206,11 +206,11 @@
       "addedDate": "2026-09-30T02:00:00Z",
       "category": "extension",
       "latest": {
-        "version": "1.1.1",
-        "date": "2026-10-10T07:00:00Z",
-        "url": "https://github.com/MarkEdit-app/MarkEdit-interactive-tables/releases/download/v1.1.1/markedit-interactive-tables.js",
-        "sha256": "bf532803759517f883b97b7a87ad74c585204690b355aea41e361dd85947ade3",
-        "notes": "Fix issues working with touch devices."
+        "version": "1.2.0",
+        "date": "2026-11-11T05:00:00Z",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-interactive-tables/releases/download/v1.2.0/markedit-interactive-tables.js",
+        "sha256": "bce92ce845ecd413d0c0c37b7bec7d9df6f619f95cac9644cbc38b26851e8451",
+        "notes": "Fix table focus, unwanted formatting, oversized rows, and side-by-side resizing."
       }
     },
     {
