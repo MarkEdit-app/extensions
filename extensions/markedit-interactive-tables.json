@@ -8,6 +8,12 @@
   "featured": true,
   "versions": [
     {
+      "version": "1.2.0",
+      "url": "https://github.com/MarkEdit-app/MarkEdit-interactive-tables/releases/download/v1.2.0/markedit-interactive-tables.js",
+      "sha256": "bce92ce845ecd413d0c0c37b7bec7d9df6f619f95cac9644cbc38b26851e8451",
+      "notes": "Fix table focus, unwanted formatting, oversized rows, and side-by-side resizing."
+    },
+    {
       "version": "1.1.1",
       "date": "2026-10-10T07:00:00Z",
       "url": "https://github.com/MarkEdit-app/MarkEdit-interactive-tables/releases/download/v1.1.1/markedit-interactive-tables.js",
