@@ -1,0 +1,17 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-export",
+  "name": "PDF & HTML Export",
+  "description": "Export Markdown to offline math HTML or local XeLaTeX PDF. PDF requires the companion helper.",
+  "author": "chonngyi",
+  "homepage": "https://github.com/chonngyi/markedit-export",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "url": "https://github.com/chonngyi/markedit-export/releases/download/v0.1.0/markedit-export.js",
+      "sha256": "23512c5730408ac15f268ae78c4fbc987f6f34e022e9d8d8e06e3b9d67f7953b",
+      "minAppVersion": "1.37.1",
+      "notes": "Initial release. HTML uses Markdown View Modes. PDF requires the locally built helper, Pandoc and XeLaTeX."
+    }
+  ]
+}
