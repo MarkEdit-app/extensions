@@ -1,7 +1,7 @@
 {
   "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
   "id": "markedit-export",
-  "name": "Export",
+  "name": "PDF & HTML Export",
   "description": "Export Markdown to offline math HTML or local XeLaTeX PDF. PDF requires the companion helper.",
   "author": "chonngyi",
   "homepage": "https://github.com/chonngyi/markedit-export",
