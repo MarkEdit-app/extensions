@@ -8,9 +8,11 @@
   "versions": [
     {
       "version": "1.0.0",
+      "date": "2026-11-14T11:00:00Z",
       "url": "https://github.com/MarkEdit-app/MarkEdit-smart-list/releases/download/v1.0.0/markedit-smart-list.js",
       "sha256": "1f811b7e0658d47bf6aa79dbdffa04624544b4051f0bdeff7ee4383d24c4e005",
       "notes": "Initial release."
     }
-  ]
+  ],
+  "addedDate": "2026-11-14T11:00:00Z"
 }
