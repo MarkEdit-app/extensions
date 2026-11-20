@@ -1,0 +1,16 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-export-pdf-with-theme",
+  "name": "Export PDF with Theme",
+  "description": "Export the document as a PDF that keeps your editor theme, in light or dark. Requires Markdown View Modes.",
+  "author": "NikhilMank",
+  "homepage": "https://github.com/NikhilMank/markedit-export-pdf-with-theme",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "url": "https://github.com/NikhilMank/markedit-export-pdf-with-theme/releases/download/v0.1.0/markedit-export-pdf-with-theme.js",
+      "sha256": "2039853d57739b44659b94f25f50faec7a09664dda2b11590a3eba5f33a0bdb8",
+      "notes": "Initial release."
+    }
+  ]
+}
