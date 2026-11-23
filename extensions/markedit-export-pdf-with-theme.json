@@ -7,9 +7,9 @@
   "homepage": "https://github.com/NikhilMank/markedit-export-pdf-with-theme",
   "versions": [
     {
-      "version": "0.1.0",
-      "url": "https://github.com/NikhilMank/markedit-export-pdf-with-theme/releases/download/v0.1.0/markedit-export-pdf-with-theme.js",
-      "sha256": "2039853d57739b44659b94f25f50faec7a09664dda2b11590a3eba5f33a0bdb8",
+      "version": "0.1.1",
+      "url": "https://github.com/NikhilMank/markedit-export-pdf-with-theme/releases/download/v0.1.1/markedit-export-pdf-with-theme.js",
+      "sha256": "da25796229b0a4788740d34e1044c92c015f03f5f7ef81a626373c5882d39e2f",
       "notes": "Initial release."
     }
   ]
