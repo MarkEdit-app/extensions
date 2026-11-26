@@ -14,6 +14,12 @@
   ],
   "versions": [
     {
+      "version": "1.2.0",
+      "url": "https://github.com/MarkEdit-app/MarkEdit-theme-gruvbox/releases/download/v1.2.0/markedit-theme-gruvbox.js",
+      "sha256": "60e39ba46feff9a36b4b87d2ef0e6fca5ba73cfcbe60234003d948383d3e45f7",
+      "notes": "Improve color contrast ratio for inline code."
+    },
+    {
       "version": "1.1.0",
       "date": "2026-07-31T05:00:00Z",
       "url": "https://github.com/MarkEdit-app/MarkEdit-theme-gruvbox/releases/download/v1.1.0/markedit-theme-gruvbox.js",
