@@ -671,11 +671,11 @@
       ],
       "category": "theme",
       "latest": {
-        "version": "1.1.0",
-        "date": "2026-07-31T05:00:00Z",
-        "url": "https://github.com/MarkEdit-app/MarkEdit-theme-gruvbox/releases/download/v1.1.0/markedit-theme-gruvbox.js",
-        "sha256": "a4ec67d8828caa049b9a9ea6016d8307a1c81ade0ad82eb3dbb16ccb15e2769a",
-        "notes": "Upgrade markedit-theming to latest."
+        "version": "1.2.0",
+        "date": "2026-11-26T08:00:00Z",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-theme-gruvbox/releases/download/v1.2.0/markedit-theme-gruvbox.js",
+        "sha256": "60e39ba46feff9a36b4b87d2ef0e6fca5ba73cfcbe60234003d948383d3e45f7",
+        "notes": "Improve color contrast ratio for inline code."
       }
     },
     {
