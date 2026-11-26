@@ -51,6 +51,22 @@
       }
     },
     {
+      "id": "markedit-copy-sanitizer",
+      "name": "Copy Sanitizer",
+      "description": "Sanitizes copied content based on rules.",
+      "author": "MarkEdit-app",
+      "homepage": "https://github.com/MarkEdit-app/MarkEdit-copy-sanitizer",
+      "addedDate": "2026-11-26T09:00:00Z",
+      "category": "extension",
+      "latest": {
+        "version": "1.0.0",
+        "date": "2026-11-26T09:00:00Z",
+        "url": "https://github.com/MarkEdit-app/MarkEdit-copy-sanitizer/releases/download/v1.0.0/markedit-copy-sanitizer.js",
+        "sha256": "bd6faaa4dcd2b07d719989e5df31dd0987177d72f3f7f4118e5b5fa191b71bee",
+        "notes": "Initial release."
+      }
+    },
+    {
       "id": "markedit-cursor-style",
       "name": "Cursor Style",
       "description": "Customize the cursor with bar, underline, and block styles, colors, and blinking.",
