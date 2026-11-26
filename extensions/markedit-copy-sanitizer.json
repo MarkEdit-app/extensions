@@ -1,0 +1,16 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-copy-sanitizer",
+  "name": "Copy Sanitizer",
+  "description": "Sanitizes copied content based on rules.",
+  "author": "MarkEdit-app",
+  "homepage": "https://github.com/MarkEdit-app/MarkEdit-copy-sanitizer",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://github.com/MarkEdit-app/MarkEdit-copy-sanitizer/releases/download/v1.0.0/markedit-copy-sanitizer.js",
+      "sha256": "bd6faaa4dcd2b07d719989e5df31dd0987177d72f3f7f4118e5b5fa191b71bee",
+      "notes": "Initial release."
+    }
+  ]
+}
