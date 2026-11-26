@@ -7,6 +7,12 @@
   "homepage": "https://github.com/NikhilMank/markedit-export-pdf-with-theme",
   "versions": [
     {
+      "version": "0.1.2",
+      "url": "https://github.com/NikhilMank/markedit-export-pdf-with-theme/releases/download/v0.1.2/markedit-export-pdf-with-theme.js",
+      "sha256": "fafde51aaa20514b4baa271029f9139ab2dc31b38f951f15aa5eba903e17595c",
+      "notes": "Harden HTML sanitizing and fix extra spacing after nested lists."
+    },
+    {
       "version": "0.1.1",
       "date": "2026-11-23T11:00:00Z",
       "url": "https://github.com/NikhilMank/markedit-export-pdf-with-theme/releases/download/v0.1.1/markedit-export-pdf-with-theme.js",
