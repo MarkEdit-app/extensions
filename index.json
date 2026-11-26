@@ -157,11 +157,11 @@
       "addedDate": "2026-11-23T11:00:00Z",
       "category": "extension",
       "latest": {
-        "version": "0.1.1",
-        "date": "2026-11-23T11:00:00Z",
-        "url": "https://github.com/NikhilMank/markedit-export-pdf-with-theme/releases/download/v0.1.1/markedit-export-pdf-with-theme.js",
-        "sha256": "da25796229b0a4788740d34e1044c92c015f03f5f7ef81a626373c5882d39e2f",
-        "notes": "Initial release."
+        "version": "0.1.2",
+        "date": "2026-11-26T08:00:00Z",
+        "url": "https://github.com/NikhilMank/markedit-export-pdf-with-theme/releases/download/v0.1.2/markedit-export-pdf-with-theme.js",
+        "sha256": "fafde51aaa20514b4baa271029f9139ab2dc31b38f951f15aa5eba903e17595c",
+        "notes": "Harden HTML sanitizing and fix extra spacing after nested lists."
       }
     },
     {
