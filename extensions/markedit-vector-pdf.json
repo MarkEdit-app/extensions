@@ -1,0 +1,17 @@
+{
+  "$schema": "https://github.com/MarkEdit-app/extensions/raw/refs/heads/main/schemas/extension.schema.json",
+  "id": "markedit-vector-pdf",
+  "name": "Vector PDF Export",
+  "description": "Export to a vector PDF that matches the preview, with a live preview dialog: selectable text (incl. CJK), KaTeX math, Mermaid diagrams, images, bookmarks and links. Requires Markdown View Modes.",
+  "author": "RichardYi-SYSU",
+  "homepage": "https://github.com/RichardYi-SYSU/markedit-vector-pdf",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "url": "https://github.com/RichardYi-SYSU/markedit-vector-pdf/releases/download/v0.1.0/markedit-vector-pdf.js",
+      "sha256": "fd05f70fb8e78d7f74622052b2dcca34bdc42b9cac8c781227688c90ee4d0c8a",
+      "minAppVersion": "1.29.0",
+      "notes": "Initial release."
+    }
+  ]
+}
